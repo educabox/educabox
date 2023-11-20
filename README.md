@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://avatars.githubusercontent.com/u/143751506?v=4" width="250"></a>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png" width="250"></a>
   <br>
   EducaBox
   <br>
