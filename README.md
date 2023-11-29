@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <br>
   <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png" width="250"></a>
@@ -91,102 +90,64 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
 ## 🚀 Download e Documentação
 
-|         TV BOX |    Processador    | Memória | Armazenamento |              Placa Mãe              | Placa de Rede |
-|:----------------------:|:-----------------:|:-------:|:-------------:|:-----------------------------------:|:-------------:|
-| ID18                   |   Allwinner H3    |   1GB   |      8GB      |        H3-11 V1.0 2019-10-13        |     XR819     |
-| MXQ PRO 8K 5G          |   Allwinner H3    |   8GB   |     256GB     |        H3_17_SV6256P 2020-09        |     XR819     |
-| R69 8K                 |   Allwinner H3    |         |               |       H3-11 V.20 2020-12-2020       |     XR819     |
-| IPREMIUM               |    Amlogic S805   |   1GB   |      8GB      |          PRST-Z-S805XXv88-0         |   RTL8189ETV  |
-| HTV6                   |   Amlogic S905W   |   2GB   |      16GB     |                                     |   RTL8723BS   |
-| EXTREMO                |   Amlogic S905W   |   1GB   |      8GB      |       A95XA1W_V5.2 2018.03.12       |    SV6051P    |
-| IMOVE                  |   Amlogic S905W   |   1GB   |      8GB      |     S908X4 MINI_V3.0 2019.01.14     |    SV6051P    |
-| BTV B9                 |   Amlogic S905X   |   2GB   |      16GB     |      905X MINI_V4.0 2017.10.17      |     AP6181    |
-| TIGRE 2                |   Amlogic S905X   |   2GB   |      16GB     |         HD.1329.03 2018.11.8        |   RTL8723BS   |
-| M MY TV BOX            | Amlogic S905X0746 |   2GB   |      16GB     |            MYTVBOX BRAVE            |     AP6181    |
-| BTV EXPRESS            |   Amlogic S905X2  |   2GB   |      8GB      |    BTVE E10-LPDDR4 V.10 201-03-08   |   RTL8189FTV  |
-| BTV B11                |   Amlogic S905X3  |   2GB   |      16GB     |        X3BL46_V2.0 2020.03.21       |     AP6212    |
-| PLAY TV                |   Amlogic S905X3  |   2GB   |      16GB     |         Q5X3_141 V4.0 20112         |   RTL8189FTV  |
-| HTV7                   |   Amlogic S905X3  |   2GB   |      16GB     | HD.1330.03 2020.06.24 M-XPJ 197074E |   RTL89822CS  |
-| MEO FLIX               |     Cortex A53    |   1GB   |      16GB     |         HIP-1000 2019.10.25         |   RTL8188FTV  |
-| MXQ PRO [4K] 5G        |      RK3228A      |   1GB   |      8GB      |        MXQPRO_V72 2021-01-29        |    ESP8089    |
-| RPC MINI               |      RK3228A      |   16GB  |     128GB     |         X96-MINI RH-4 94V-0         |    SV6051P    |
-| SEM NOME               |      RK3228A      |   4GB   |      32GB     |            S905_MXQ_V1.0            |    SV6051P    |
-| MX9 5G                 |      RK3228A      |   1GB   |      8GB      |            MXQ-EP-2-V1.0            |    SV6152P    |
-| MXQ PRO 4K 5G (Cinza)  |      RK3228A      |   1GB   |      8GB      |        R329Q_V8.1 2020.06.15        |    SV6256P    |
-| R90 PLUS               |      RK3228A      |   1GB   |      8GB      |        R3229Q_V8.1 2020.06.15       |    SV6256P    |
-| RPC PLUS               |      RK3228A      |   1GB   |      8GB      |           R329MINI44_V6.0           |    SV6256P    |
-| SUNLIGHT 4K 5G         |      RK3228A      |   1GB   |      8GB      |        R32Q84_V5.0 2020.07.06       |    SV6256P    |
-| SUPERTV                |       RK3229      |         |               |        HRK291A0-B 20180731VO        |   RTL8189FTV  |
-| I5                     |       RK3229      |   2GB   |      16GB     |     MXQ-4K-3229X4-20170809-V1 6     |   RTL8703BS   |
-| MDT TV PRO+ 8K 5G      |       RK3229      |   1GB   |      8GB      |        R29_MXQ_LP3_V2.3_00908       |   RTL8723AS   |
-| MX9 PRO 5G 8K          |       RK3229      |   1GB   |      8GB      |            MXQ-EP-2-V1.0            |    SV6152P    |
-| MXQ PRO [4K] 5G (Fino) |       RK3229      |   1GB   |      8GB      |            MXQ-EP-2-V1.0            |    SV6152P    |
-| MXQ PRO 4K 5G          |       RK3229      |   8GB   |     128GB     |            MXQ-EP-2-V1.0            |    SV6152P    |
-| DC BOX 8K              |       RK3229      |   1GB   |      8GB      |             M-XLX 0-94V             |    SV6256P    |
-| AUDISAT PRO 4K         |       RK3229      |   2GB   |      16GB     |          Q44_V4.0_20200602          |    SV6256P    |
-| IN X PLUS              |       RK3229      |   2GB   |      8GB      |       HTT-RK-MINI-V7.0-2020.09      |    SV6256P    |
-| MXQPLUS 4K 5G          |       RK3229      |   1GB   |      8GB      |          Q44_V4.0_20200602          |    SV6256P    |
-| RPC 8K                 |                   |         |               |      S905_MXQ_5G_BT V1.0 200117     |    SV6051P    |
 
-## ☕ Usando <nome_do_projeto>
+| TV BOX | Processador   | Memória | Armazenamento | Placa Mãe                   | Placa de Rede | Instalação |
+|--------|---------------|---------|---------------|-----------------------------|---------------|------------|
+| IMOVE  | Amlogic S905W | 1GB     | 8GB           | S908X4 MINI_V3.0 2019.01.14 | SV6051P       |  [Link](https://github.com/educabox/educabox/blob/main/boxes/imove.md)    |
 
-Para usar <nome_do_projeto>, siga estas etapas:
-
-```
-<exemplo_de_uso>
-```
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Fornece uma referência de opções para pontos de bônus!
-
-## 📫 Contribuindo para <nome_do_projeto>
-
-Para contribuir com <nome_do_projeto>, siga estas etapas:
-
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
-
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## 🤝 Colaboradores
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
+Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
 
 <table>
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-computadores-inclusao.png?raw=true" width="105px;" alt="CRC"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b></b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://s2.glbimg.com/FUcw2usZfSTL6yCCGj3L3v3SpJ8=/smart/e.glbimg.com/og/ed/f/original/2019/04/25/zuckerberg_podcast.jpg" width="100px;" alt="Foto do Mark Zuckerberg"/><br>
+        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-crc.png?raw=true" width="100px;" alt="CRC DOURADOS"/><br>
         <sub>
-          <b>Mark Zuckerberg</b>
+          <b></b>
         </sub>
       </a>
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-rf.png?raw=true" width="105px;" alt="Receita Federal"/><br>
         <sub>
-          <b>Steve Jobs</b>
+          <b></b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-ifms.png?raw=true" width="300px;" alt="Receita Federal"/><br>
+        <sub>
+        <br>
+          <b></b>
         </sub>
       </a>
     </td>
   </tr>
 </table>
 
-## 😄 Seja um dos contribuidores
+### 👨🏽‍💻👩🏼‍💻 Professores
 
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
+## ⁉️ Dúvidas e Sugestões
 
-## 📝 Licença
+Quer fazer parte desse projeto? Entre em contato conosco:
+🖥️ www.ifms.edu.br
+✉️ eduboxifms@gmail.com
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+<p align="center">
+  <a href="#">
+    <img src="https://skillicons.dev/icons?i=github,linux" />
+  </a>
+</p>
