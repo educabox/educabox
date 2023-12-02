@@ -13,6 +13,12 @@
   <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/1.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
+<p float="center">
+	 <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/2.png?raw=true" width="245" />
+	 <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/3.png?raw=true" width="245" /> 
+	 <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/4.png?raw=true" width="245" />
+</p>
+
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
