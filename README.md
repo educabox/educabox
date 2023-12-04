@@ -1,3 +1,4 @@
+
 <h1 align="center">
   <br>
   <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png" width="250"></a>
@@ -18,6 +19,7 @@
 	 <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/3.png?raw=true" width="330" /> 
 	 <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/4.png?raw=true" width="330" />
 </p>
+
 
 ### Ajustes e melhorias
 
@@ -106,7 +108,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | IMOVE  | Amlogic S905W | 1GB     | 8GB           | S908X4 MINI_V3.0 2019.01.14 | SV6051P       |  [Link](https://github.com/educabox/educabox/blob/main/boxes/imove.md)    |
 
 
-## 🤝 Colaboradores
+## 🤝 Parceiros
 
 Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
 
@@ -148,7 +150,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-### 👨🏽‍💻👩🏼‍💻 Professores
+### 👨🏽‍💻👩🏼‍💻 Equipe de Desenvolvimento
 
 ## ⁉️ Dúvidas e Sugestões
 
