@@ -121,8 +121,8 @@ Obs: Para esta Box não é necessário editar o arquivo `u-boot` do Armbian. Por
 
 Basta copiar os arquivos anexados para a partição de `boot` da imagem Armbian após gravar a imagem em um disco USB:
 
-1.  Abra a partição legível do pendrive no Windows Explorer ou Finder (Ex: ``BOOT, armbian_boot``)
-2. Delete ou faça um Backup do arquivos [aml_autoscript] e [s905_autoscript] existentes na raiz do pendrive.
+1.  Abra a partição legível do Pendrive no Windows Explorer ou Finder (Ex: ``BOOT, armbian_boot``)
+2. Delete ou faça um Backup do arquivos [aml_autoscript] e [s905_autoscript] existentes na raiz do Pendrive.
 3. Copie os arquivos [[aml_autoscript]](https://drive.google.com/uc?export=download&id=11_2ED60PkU16qWI3BMhDq8P7ddh0XC52) e [[s905_autoscript]](https://drive.google.com/uc?export=download&id=10LiKlvmS6M29tFIWwuJT1Vy0eWQJEl0o) para raiz do Pendrive.
 4.  Crie um novo arquivo chamado ``armbianEnv.txt`` na raiz do Pendrive: 
 5. Copie o arquivo [.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) ``meson-sm1-sei610-ethfix.dtb`` para ``/dtb/amlogic/``        
@@ -149,8 +149,8 @@ APPEND root=LABEL=ROOT_EMMC rootflags=data=writeback rw console=ttyAML0,115200n8
 console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
 ```
 
-5. Altere ``rootdev=`` para o UUID do seu pendrive. Para isso acesse o arquivo no pendrive ```/extlinux/extlinux.conf``` e copie o UUID correto.
-6. Somente se sua caixa possuir um SOC GXBB (S905) ou GXL (S905X/W/L), remova o comentário da linha soc_fixup=gxl-
+5. Altere ``rootdev=`` para o UUID do seu Pendrive. Para isso acesse o arquivo no Pendrive ```/extlinux/extlinux.conf``` e copie o UUID correto.
+6. Somente se sua caixa possuir um SOC GXBB (S905) ou GXL (S905X/W/L), remova o comentário da linha `soc_fixup=gxl-`
 7. Remova o Pendrive com segurança
 8. Insira o Pendrive na TV Box
 
@@ -162,8 +162,8 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
  4. O sistema será reinicializado e deverá então começar a inicializar o Armbian a partir do Pendrive
  5. Você deverá ver o terminal Armbian executando scripts de inicialização
  6. Quando solicitado, faça login:
-`usuário: root` 
-`senha: 1234`
+ `usuário: root` 
+ `senha: 1234`
  7. Armbian irá inicializar no ambiente de desktop
  8. Siga para - Instalação Armbian Pendrive para EMMC
 
@@ -175,7 +175,9 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
 4. Selecione Atualizar
 5. O sistema será reinicializado duas vezes e deverá então começar a inicializar o Armbian a partir do Pendrive
 6. Você deverá ver o terminal Armbian executando scripts de inicialização
-7. Quando solicitado, faça login com nome de `usuário: senha` `root: 1234`
+7. Quando solicitado, faça login com nome de
+`usuário: root`
+`senha: 1234`
 8. Armbian irá inicializar no ambiente de desktop
 9. Siga para - Instalação Armbian Pendrive para EMMC
 
