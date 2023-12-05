@@ -15,9 +15,9 @@
 </p>
 
 <p float="center">
-	 <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/2.png?raw=true" width="330" />
-	 <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/3.png?raw=true" width="330" /> 
-	 <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/4.png?raw=true" width="330" />
+	 <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/2.png?raw=true" width="320" />
+	 <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/3.png?raw=true" width="320" /> 
+	 <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/4.png?raw=true" width="320" />
 </p>
 
 
