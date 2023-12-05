@@ -158,6 +158,7 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
  5. Você deverá ver o terminal Armbian executando scripts de inicialização
  6. Quando solicitado, faça login com nome de `usuário: senha` `root: 1234`
  7. Armbian irá inicializar no ambiente de desktop
+ 8. Siga para - Instalação Armbian Pendrive para EMMC
 
 ## #️⃣ Inicializando no Armbian pela primeira vez via c/ Script
 
@@ -169,6 +170,7 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
 6. Você deverá ver o terminal Armbian executando scripts de inicialização
 7. Quando solicitado, faça login com nome de `usuário: senha` `root: 1234`
 8. Armbian irá inicializar no ambiente de desktop
+9. Siga para - Instalação Armbian Pendrive para EMMC
 
 ## #️⃣ Instalação Armbian Pendrive para EMMC
 
