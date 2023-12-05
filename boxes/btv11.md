@@ -165,6 +165,7 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
 `usuário: root` 
 `senha: 1234`
  7. Armbian irá inicializar no ambiente de desktop
+ 8. Siga para - Instalação Armbian Pendrive para EMMC
 
 ## #️⃣ Inicializando no Armbian pela primeira vez via c/ Script
 
