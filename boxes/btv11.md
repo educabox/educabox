@@ -103,9 +103,9 @@ DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&
 
 ## 1️⃣ Pré-requisitos
 
- 1. Dispositivo USB (Pendrive) - ```Mínimo 8GB```
- 2. Software [balenaEtcher](https://etcher.balena.io/) , [Rufus](https://rufus.ie/pt_BR/) ou [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
- 3. Imagem Oficial S.O Armbian
+1. Dispositivo USB (Pendrive) - ```Mínimo 8GB```
+2. Software [balenaEtcher](https://etcher.balena.io/) , [Rufus](https://rufus.ie/pt_BR/) ou [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
+3. Imagem Oficial S.O Armbian
  
 ## 2️⃣ Gravação Imagem
  
@@ -157,10 +157,10 @@ APPEND root=LABEL=ROOT_EMMC rootflags=data=writeback rw console=ttyAML0,115200n8
 console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
 ```
 
-5. Altere ``rootdev=`` para o UUID do seu Pendrive. Para isso acesse o arquivo no Pendrive ```/extlinux/extlinux.conf``` e copie o UUID correto.
-6. Somente se sua caixa possuir um SOC GXBB (S905) ou GXL (S905X/W/L), remova o comentário da linha `soc_fixup=gxl-`
-7. Remova o Pendrive com segurança
-8. Insira o Pendrive na TV Box
+7. Altere ``rootdev=`` para o UUID do seu Pendrive. Para isso acesse o arquivo no Pendrive ```/extlinux/extlinux.conf``` e copie o UUID correto.
+8. Somente se sua caixa possuir um SOC GXBB (S905) ou GXL (S905X/W/L), remova o comentário da linha `soc_fixup=gxl-`
+9. Remova o Pendrive com segurança
+10. Insira o Pendrive na TV Box
 
 ## ▶️ Inicializando no Armbian pela primeira vez via Pendrive
 
