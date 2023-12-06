@@ -45,7 +45,7 @@ DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&
 
  - [x] CPU
  - [x] GPU/HDMI   
- - [x] USB 2.0
+ - [x] USB 2.0/3.0
  - [x] WIFI (AP6212)
  - [ ] ~~ETHERNET~~
  - [x] BLUETOOTH
