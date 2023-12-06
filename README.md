@@ -105,6 +105,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | TV BOX | Processador    | Memória | Armazenamento | Placa Mãe                   | Wifi          | Instalação |
 |--------|----------------|---------|---------------|-----------------------------|---------------|------------|
 | BTV11  | Amlogic S905X3 | 1GB     | 16GB          | X3BL46_V2.0 2020.03.21      | AP6212        |  [Link](https://github.com/educabox/educabox/blob/main/boxes/btv11.md)    |
+| BTVE10 | Amlogic S905X3 | 2GB     | 8GB          | X3BL46_V2.0 2020.03.21      | AP6212        |  [Link](https://github.com/educabox/educabox/blob/main/boxes/btve10.md)   |
 | IMOVE  | Amlogic S905W  | 1GB     | 8GB           | S908X4 MINI_V3.0 2019.01.14 | SV6051P       |  [Link](https://github.com/educabox/educabox/blob/main/boxes/imove.md)    |
 
 
