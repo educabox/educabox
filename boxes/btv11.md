@@ -37,7 +37,7 @@ S.O | Armbian 23.8.1
 Linux | Ubuntu
 Kernel | 6.1.50
 Arquivo | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.gz](https://imola.armbian.com/dl/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz)
-Imagem Educabox | [educabox_armbian_imove.img.gz](https://drive.google.com/file/d/1O6Xzlx-8S0DLrzNtspxkH4fDuruPiVn1/view?usp=drive_link)
+Imagem Educabox | [educabox_armbian_btv11.img.gz](https://drive.google.com/file/d/1O6Xzlx-8S0DLrzNtspxkH4fDuruPiVn1/view?usp=drive_link)
 DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) - Créditos [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
 
 # 📌 Serviços Ativos/Inativos 
