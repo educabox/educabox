@@ -119,6 +119,13 @@ DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&
 
 Obs: Para esta Box não é necessário editar o arquivo `u-boot` do Armbian. Portanto, eles não são necessários. Basta algumas modificações simples para inicializar o Armbian.
 
+Funciona para os seguintes processadore:
+-   S905x (GXL)
+-   S912 (GXM)
+-   S905x2 (G12A)
+-   S922X (G12B)
+-   S905X3 (SM1)
+
 Basta copiar os arquivos anexados para a partição de `boot` da imagem Armbian após gravar a imagem em um disco USB:
 
 1.  Abra a partição legível do Pendrive no Windows Explorer ou Finder (Ex: ``BOOT, armbian_boot``)
