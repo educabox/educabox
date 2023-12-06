@@ -35,8 +35,8 @@ S.O | Armbian 23.8.1
 Linux | Ubuntu
 Kernel | 6.1.50
 Arquivo | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.gz](https://imola.armbian.com/dl/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz)
-Imagem Educabox | [educabox_armbian_imove.img.gz](https://drive.google.com/file/d/1O6Xzlx-8S0DLrzNtspxkH4fDuruPiVn1/view?usp=drive_link)
-DTB | [meson-gxl-s905w-p281.dtb](https://drive.google.com/file/d/1sxFmf05YRUHH6osUPyVq6ZUMxfWzpNE9/view?usp=drive_link)
+Imagem Educabox | [educabox_armbian_imove.img.gz](https://drive.google.com/uc?export=download&id=1O6Xzlx-8S0DLrzNtspxkH4fDuruPiVn1)
+DTB | [meson-gxl-s905w-p281.dtb](https://drive.google.com/uc?export=download&id=1sxFmf05YRUHH6osUPyVq6ZUMxfWzpNE9)
 
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
@@ -94,8 +94,8 @@ Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o
 |Imagens | Download|
 ---------|:--:
 Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop](https://imola.armbian.com/dl/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz)
-Educabox | [educabox_armbian_imove.img.gz](https://drive.google.com/file/d/1O6Xzlx-8S0DLrzNtspxkH4fDuruPiVn1/view?usp=drive_link)
-DTB | [meson-gxl-s905w-p281.dtb](https://drive.google.com/file/d/1sxFmf05YRUHH6osUPyVq6ZUMxfWzpNE9/view?usp=drive_link)
+Educabox | [educabox_armbian_imove.img.gz](https://drive.google.com/uc?export=download&id=1O6Xzlx-8S0DLrzNtspxkH4fDuruPiVn1)
+DTB | [meson-gxl-s905w-p281.dtb](https://drive.google.com/uc?export=download&id=1sxFmf05YRUHH6osUPyVq6ZUMxfWzpNE9)
 
 [Como Instalar nossa Imagem Educabox?](#)
 
@@ -128,7 +128,7 @@ DTB | [meson-gxl-s905w-p281.dtb](https://drive.google.com/file/d/1sxFmf05YRUHH6o
     1.  Comente as linhas com inicio FDT adicionando #
     2.  Remova o comentário das linhas aml s9xx FDT removendo #
     3.  Atualize/Adicione a linha FDT para apontar para um arquivo .dtb funcional para o seu dispositivo e salve o arquivo
-    4. IMOVE -> ```/dtb/amlogic/meson-gxl-s905w-p281.dtb```
+    4. IMOVE -> ```/dtb/amlogic/meson-gxl-s905w-p281.dtb``` (*Remova #)
 ```
 LABEL Armbian
 LINUX /zImage
