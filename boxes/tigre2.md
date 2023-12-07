@@ -33,7 +33,7 @@ Codename | Bookworm
 S.O | Armbian 23.8.1
 Linux | Ubuntu
 Kernel | 6.1.50
-Imagem Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.gz](https://imola.armbian.com/dl/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz)
+Imagem Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://imola.armbian.com/dl/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz)
 Imagem Educabox | [educabox_armbian_tigre2.img.gz](https://drive.google.com/uc?export=download&id=1cUDDeGJ-UgXKvqUQjAnTVT9_ib6CINjv)
 DTB | [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=1DOmjTFgb4NfTOwKvHHMnvDDkN8xAMonf)
 
@@ -92,7 +92,7 @@ Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o
 
 |Imagens | Download|
 ---------|:--:
-Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.gz](https://imola.armbian.com/dl/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz)
+Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://imola.armbian.com/dl/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz)
 Educabox | [educabox_armbian_tigre2.img.gz](https://drive.google.com/uc?export=download&id=1cUDDeGJ-UgXKvqUQjAnTVT9_ib6CINjv)
 DTB | [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=1DOmjTFgb4NfTOwKvHHMnvDDkN8xAMonf)
 
