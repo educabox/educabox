@@ -42,11 +42,11 @@ DTB | [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=
 
  - [x] CPU
  - [x] GPU/HDMI   
- - [x] USB 2.0/3.0
+ - [x] USB 2.0
  - [x] WIFI (RTL8723BS)
  - [x] ETHERNET
  - [x] BLUETOOTH
- - [x] AUDIO
+ - [ ] ~~AUDIO~~
 
 # 📄 Geral
 
