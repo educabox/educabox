@@ -201,7 +201,7 @@ usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 4.  Remova o SD/CARD com segurança
 5.  Insira o SD/CARD na TV Box
 
-## 4️⃣ Inicializando no Armbian pela primeira vez via SD/CARD
+## 4️⃣ Inicializando o Armbian pela primeira vez via SD/CARD
 
  1. Conecte o SD/CARD na TV Box
  2. Conecte o adaptador de energia na TV Box 
@@ -252,7 +252,7 @@ usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
   <img src="https://github.com/educabox/educabox/blob/main/imagens/YY%20-%20INSTALACAO%20ARMBIAN/7.png?raw=true" alt="Size Limit CLI" width="738">
 </p>    
 
- 11. Ligue novamente a TV Box sem o SD/Card conectado para que inicialização do Armbian ocorre diretamente do dispositivo.
+ 11. Ligue novamente a TV Box sem o SD/Card conectado para que inicialização do Armbian ocorra diretamente da TV Box.
    ---
    <p align="center">
   <img src="https://github.com/educabox/educabox/blob/main/imagens/armbian.png?raw=true" alt="Size Limit CLI" width="738">
