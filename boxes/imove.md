@@ -16,7 +16,7 @@ Codename | IMOVE
 Fabricante | streambus
 Modelo | it01
 Placa Mãe | S908X4 MINI_V3.0 2019.01.14
-Placa DTB | glx_281_1g
+Placa DTB | glx_p281_1g
 CPU | Amlogic S905W
 Família | Cortex-A53
 Velocidade | 100 - 1200 MHz
