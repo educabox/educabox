@@ -86,7 +86,7 @@ DTB | [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=
 
 # ✅ Guia de Instalação
 
-O guia de instalação abaixo é para criação de uma imagem limpa com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [BTV BX].
+O guia de instalação abaixo é para criação de uma imagem limpa com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [TIGRE 2].
 
 Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox] do respectivo equipamento.
 
@@ -127,7 +127,7 @@ DTB | [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=
     1.  Comente as linhas com inicio FDT adicionando #
     2.  Remova o comentário das linhas aml s9xx FDT removendo #
     3.  Atualize/Adicione a linha FDT para apontar para um arquivo .dtb funcional para o seu dispositivo e salve o arquivo
-    4. BTV BX -> ```/dtb/amlogic/meson-gxl-s905x-p212.dtb``` (*Remova #)
+    4. TIGRE 2 -> ```/dtb/amlogic/meson-gxl-s905x-p212.dtb``` (*Remova #)
 ```
 LABEL Armbian
 LINUX /zImage
