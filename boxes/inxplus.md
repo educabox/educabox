@@ -1,4 +1,3 @@
-
 # 📦 TV BOX IN X PLUS 
 </p>
 <p align="center">
@@ -42,7 +41,7 @@ DTB | [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D
 
  - ✅ CPU
  - ✅ GPU/HDMI   
- - ✅ USB 2.0/3.0
+ - ✅ USB 2.0
  - ❌ WIFI (SV6256P)
  - ✅ ETHERNET
  - ✅ BLUETOOTH
