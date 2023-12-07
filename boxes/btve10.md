@@ -39,13 +39,13 @@ DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
 
- - [x] CPU
- - [x] GPU/HDMI   
- - [x] USB 2.0/3.0
- - [x] WIFI (RTL8189FTV)
- - [x] ETHERNET
- - [x] BLUETOOTH
- - [x] AUDIO
+ - ✅ CPU
+ - ✅ GPU/HDMI   
+ - ✅ USB 2.0/3.0
+ - ✅ WIFI (RTL8189FTV)
+ - ✅ ETHERNET
+ - ✅ BLUETOOTH
+ - ✅ AUDIO
 
 # 📄 Geral
 
