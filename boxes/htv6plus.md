@@ -1,6 +1,3 @@
-
-
-
 # 📦 TV BOX HTV6+
 </p>
 <p align="center">
@@ -11,7 +8,7 @@
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/S905W.png?raw=true" align="right" alt="" width="120" height="120">
 
-|Sumário | Info|
+|Sumário | Detalhes|
 ---------|:--:
 Codename | HTV6+
 Fabricante | HTV
@@ -29,7 +26,7 @@ Resolução | 1080x1920
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
 
-|Sumário | Info|
+|Sumário | Detalhes|
 ---------|:--:
 Codename | Bookworm
 S.O | Armbian 23.8.1
