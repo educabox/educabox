@@ -39,13 +39,13 @@ DTB | [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
 
- - [x] CPU
- - [x] GPU/HDMI   
- - [x] USB 2.0/3.0
- - [x] WIFI (AP6181)
- - [x] ETHERNET
- - [x] BLUETOOTH
- - [x] AUDIO
+- ✅ CPU
+- ✅ GPU/HDMI   
+- ✅ USB 2.0
+- ✅ WIFI (AP6181)
+- ✅ ETHERNET
+- ✅ BLUETOOTH
+- ❌ ~~AUDIO~~
 
 # 📄 Geral
 
