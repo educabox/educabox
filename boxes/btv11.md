@@ -39,13 +39,13 @@ DTB | [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17ao
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
 
- - [x] CPU
- - [x] GPU/HDMI   
- - [x] USB 2.0/3.0
- - [x] WIFI (AP6212)
- - [ ] ~~ETHERNET~~
- - [x] BLUETOOTH
- - [ ] ~~AUDIO~~
+ - ✅ CPU
+ - ✅ GPU/HDMI   
+ - ✅ USB 2.0/3.0
+ - ✅ WIFI (AP6212)
+ - ✅ ETHERNET
+ - ✅ BLUETOOTH
+ - ❌ ~~AUDIO~~
 
 # 📄 Geral
 
