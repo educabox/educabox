@@ -1,4 +1,3 @@
-
 # 📦 TV BOX TIGRE 2
 </p>
 <p align="center">
@@ -9,7 +8,7 @@
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/S905X.png?raw=true" align="right" alt="" width="120" height="120">
 
-|Sumário | Info|
+|Sumário | Detalhes|
 ---------|:--:
 Codename | TIGRE 2
 Fabricante | TIGRE
@@ -27,7 +26,7 @@ Resolução | 1080x1920
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
 
-|Sumário | Info|
+|Sumário | Detalhes|
 ---------|:--:
 Codename | Bookworm
 S.O | Armbian 23.8.1
