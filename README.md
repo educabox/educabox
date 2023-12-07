@@ -52,8 +52,8 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
 |Processador  | Modelo | Fabricante
 |--|:--:|--|
-| Amlogic | S805, S905X, S905X3, S905W | [Link](https://www.amlogic.com/)
-| Allwinner| H3 | [Link](https://www.allwinnertech.com/)
+| Amlogic | S805, S905X, S905X2, S905X3, S905W | [Link](https://www.amlogic.com/)
+| Allwinner| H3, H6 | [Link](https://www.allwinnertech.com/)
 | RockChip| RK3228A, RK3228B, RK3229 | [Link](https://www.rock-chips.com/)
   
  2. Faça um backup da sua ROM atual em caso de possíveis erros ou aparelhos brickados.
