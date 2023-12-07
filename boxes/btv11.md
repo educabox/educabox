@@ -34,7 +34,7 @@ Linux | Ubuntu
 Kernel | 6.1.50
 Imagem Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://imola.armbian.com/dl/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz)
 Imagem Educabox | [educabox_armbian_btv11.img.gz](https://drive.google.com/uc?export=download&id=1O6Xzlx-8S0DLrzNtspxkH4fDuruPiVn1)
-DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) - Créditos [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
+DTB | [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17aoHwUOW1su-vBiLBEOCE9eV0uP59Bfw)
 
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
@@ -45,7 +45,7 @@ DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&
  - [x] WIFI (AP6212)
  - [ ] ~~ETHERNET~~
  - [x] BLUETOOTH
- - [x] AUDIO
+ - [ ] ~~AUDIO~~
 
 # 📄 Geral
 
@@ -93,7 +93,7 @@ Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o
 ---------|:--:
 Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://imola.armbian.com/dl/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz)
 Educabox | [educabox_armbian_btv11.img.gz](https://drive.google.com/uc?export=download&id=1O6Xzlx-8S0DLrzNtspxkH4fDuruPiVn1)
-DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) - Créditos [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
+DTB | [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17aoHwUOW1su-vBiLBEOCE9eV0uP59Bfw)
 
 [Como Instalar nossa Imagem Educabox?](#)
 
@@ -128,9 +128,8 @@ Basta copiar os arquivos anexados para a partição de `boot` da imagem Armbian 
 1.  Abra a partição legível do Pendrive no Windows Explorer ou Finder (Ex: ``BOOT, armbian_boot``)
 2. Delete ou faça um Backup dos arquivos [aml_autoscript] e [s905_autoscript] existentes na raiz do Pendrive.
 3. Copie os arquivos [[aml_autoscript]](https://drive.google.com/uc?export=download&id=11_2ED60PkU16qWI3BMhDq8P7ddh0XC52) e [[s905_autoscript]](https://drive.google.com/uc?export=download&id=10LiKlvmS6M29tFIWwuJT1Vy0eWQJEl0o) para raiz do Pendrive.
-4.  Copie o arquivo [.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) ``meson-sm1-sei610-ethfix.dtb`` para ``/dtb/amlogic/``
-5. Crie um novo arquivo chamado ``armbianEnv.txt`` na raiz do Pendrive         
-6.  Edite o arquivo em um editor de texto e cole o código abaixo - Créditos [[Devmfc]](https://forum.armbian.com/topic/30245-cant-boot-with-2305-or-later-builds-on-s905x2-g12a-or-s905x3-sm1/?do=findComment&comment=171830):
+4. Crie um novo arquivo chamado ``armbianEnv.txt`` na raiz do Pendrive         
+5.  Edite o arquivo em um editor de texto e cole o código abaixo - Créditos [[Devmfc]](https://forum.armbian.com/topic/30245-cant-boot-with-2305-or-later-builds-on-s905x2-g12a-or-s905x3-sm1/?do=findComment&comment=171830):
         
 ```
 extraargs=earlycon rootflags=data=writeback rw no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
@@ -140,7 +139,7 @@ usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 console=both
 
 # DTB file for this tvbox
-fdtfile=amlogic/meson-sm1-sei610-ethfix.dtb
+fdtfile=amlogic/meson-sm1-sei610.dtb
 
 # set this to the UUID of the root partition (value can be found 
 # in /extlinux/extlinux.conf after APPEND root= or with blkid)
@@ -153,10 +152,10 @@ APPEND root=LABEL=ROOT_EMMC rootflags=data=writeback rw console=ttyAML0,115200n8
 console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
 ```
 
-7. Altere ``rootdev=`` para o UUID do seu Pendrive. Para isso acesse o arquivo no Pendrive ```/extlinux/extlinux.conf``` e copie o UUID correto.
-8. Somente se sua caixa possuir um SOC GXBB (S905) ou GXL (S905X/W/L), remova o comentário da linha `soc_fixup=gxl-`
-9. Remova o Pendrive com segurança
-10. Insira o Pendrive na TV Box
+6. Altere ``rootdev=`` para o UUID do seu Pendrive. Para isso acesse o arquivo no Pendrive ```/extlinux/extlinux.conf``` e copie o UUID correto.
+7. Somente se sua caixa possuir um SOC GXBB (S905) ou GXL (S905X/W/L), remova o comentário da linha `soc_fixup=gxl-`
+8. Remova o Pendrive com segurança
+9. Insira o Pendrive na TV Box
 
 ## ▶️ Inicializando no Armbian pela primeira vez via Pendrive
 
