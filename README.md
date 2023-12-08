@@ -33,15 +33,16 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 ## 🚀 Download e Documentação
 
 | TV BOX | Processador    | Memória | Armazenamento | Placa Mãe                         | Wifi          | Instalação |
-|--------|----------------|:-------:|:-------------:|-----------------------------------|---------------|------------|
-| BTV11  | Amlogic S905X3 | 1GB     | 16GB          | X3BL46_V2.0 2020.03.21            | AP6212        |  [Link](https://github.com/educabox/educabox/blob/main/boxes/btv11.md)    |
-| BTVBX  | Amlogic S905X  | 2GB     | 16GB          | 905X MINI_V4.0 2017.10.17   	| AP6212        |  [Link](https://github.com/educabox/educabox/blob/main/boxes/btvbx.md)    |
-| BTVE10 | Amlogic S905X3 | 2GB     | 8GB           | BTVE E10-LPDDR4 V.10 201-03-08    | AP6212        |  [Link](https://github.com/educabox/educabox/blob/main/boxes/btve10.md)   |
-| EXTREMO| Amlogic S905W  | 2GB     | 8GB           | A95XA1W_V5.2 2018.03.12    	| SV6051P       |  [Link](https://github.com/educabox/educabox/blob/main/boxes/extremo.md)  |
-| HTV6+  | Amlogic S905X  | 2GB     | 16GB          | HD.1326.05 2018.9.28              | RTL8723BS     |  [Link](https://github.com/educabox/educabox/blob/main/boxes/htv6plus.md) |
-| HTV7   | Amlogic S905X3 | 2GB     | 16GB          | HD.1330.03 2020.06.24             | RTL8822CS     |  [Link](https://github.com/educabox/educabox/blob/main/boxes/htv7.md)     |
-| IMOVE  | Amlogic S905W  | 1GB     | 8GB           | S908X4 MINI_V3.0 2019.01.14 	| SV6051P       |  [Link](https://github.com/educabox/educabox/blob/main/boxes/imove.md)    |
-| PLAY TV| Amlogic S905X3 | 2GB     | 16GB          | Q5X3_141 V4.0 20112               | RTL8189FTV    |  [Link](https://github.com/educabox/educabox/blob/main/boxes/playtv.md)   |
+|------------|----------------|:-------:|:-------------:|-----------------------------------|---------------|------------|
+| BTV11      | Amlogic S905X3 | 1GB     | 16GB          | X3BL46_V2.0 2020.03.21            | AP6212        |  [Link](https://github.com/educabox/educabox/blob/main/boxes/btv11.md)    |
+| BTVBX      | Amlogic S905X  | 2GB     | 16GB          | 905X MINI_V4.0 2017.10.17   	    | AP6212        |  [Link](https://github.com/educabox/educabox/blob/main/boxes/btvbx.md)    |
+| BTVE10     | Amlogic S905X3 | 2GB     | 8GB           | BTVE E10-LPDDR4 V.10 201-03-08    | AP6212        |  [Link](https://github.com/educabox/educabox/blob/main/boxes/btve10.md)   |
+| EXTREMO    | Amlogic S905W  | 2GB     | 8GB           | A95XA1W_V5.2 2018.03.12    	    | SV6051P       |  [Link](https://github.com/educabox/educabox/blob/main/boxes/extremo.md)  |
+| HTV6+      | Amlogic S905X  | 2GB     | 16GB          | HD.1326.05 2018.9.28              | RTL8723BS     |  [Link](https://github.com/educabox/educabox/blob/main/boxes/htv6plus.md) |
+| HTV7       | Amlogic S905X3 | 2GB     | 16GB          | HD.1330.03 2020.06.24             | RTL8822CS     |  [Link](https://github.com/educabox/educabox/blob/main/boxes/htv7.md)     |
+| IMOVE      | Amlogic S905W  | 1GB     | 8GB           | S908X4 MINI_V3.0 2019.01.14 	    | SV6051P       |  [Link](https://github.com/educabox/educabox/blob/main/boxes/imove.md)    |
+| IN X PLUS  | RockChip 3229  | 1GB     | 8GB           | HTT-RK-MINI-V7.0-2020.09 	    | SV6256P       |  [Link](https://github.com/educabox/educabox/blob/main/boxes/inxplus.md)  |
+| PLAY TV    | Amlogic S905X3 | 2GB     | 16GB          | Q5X3_141 V4.0 20112               | RTL8189FTV    |  [Link](https://github.com/educabox/educabox/blob/main/boxes/playtv.md)   |
 
 
 ## 💻 Pré-requisitos
