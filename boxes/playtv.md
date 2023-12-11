@@ -155,8 +155,8 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
 ## ▶️ Inicializando no Armbian pela primeira vez via Pendrive
 
  1. Conecte o Pendrive na `porta USB1 ou USB2`
- 2. Conecte o adaptador de energia na TV Box 
- 3. Com um clips acione o botão `reset` e depois por alguns segundos o botão `update` até a tela apagar e reiniciar o equipamento.
+ 2. Pressione com um clips/palito o botão oculto na entrada `AV`. 
+ 3. Conecte o adaptador de energia na TV Box até a tela apagar e reiniciar o equipamento
  4. O sistema será reinicializado e deverá então começar a inicializar o Armbian a partir do Pendrive
  5. Você deverá ver o terminal Armbian executando scripts de inicialização
  6. Quando solicitado, faça login:
