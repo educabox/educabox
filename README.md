@@ -14,10 +14,9 @@
   <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/1.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
-<p align="center">
-	 <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/2.png?raw=true" width="300" />
-	 <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/3.png?raw=true" width="300" /> 
-</p>
+| Educabox Armbian | Educabox Android |
+| ----------- | ----------- |
+|<img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/5.png?raw=true&image_size=auto"/>|<img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/7.png?raw=true&image_size=auto"/>|
 
 
 ### Ajustes e melhorias
