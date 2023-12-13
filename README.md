@@ -31,7 +31,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 ## 🚀 Download e Documentação
 
-| TV BOX     | Processador    | Mem     | HD            |`  Wifi/Armbian  `| Áudio/HDMI | Armbian | Android | Instalação                                                              |
+| TV BOX     | Processador    | Mem     | HD            |  Wifi/Armbian    | Áudio/HDMI | Armbian | Android | Instalação                                                              |
 |------------|----------------|:-------:|:-------------:|------------------|:----------:|:-------:|:-------:|:-----------------------------------------------------------------------:|
 | BTV11      | Amlogic S905X3 | 1GB     | 16GB          | ✅ AP6212        |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/btv11.md)    |
 | BTVBX      | Amlogic S905X  | 2GB     | 16GB          | ✅ AP6212        |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/btvbx.md)    |
