@@ -85,7 +85,7 @@ DTB | [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D
 
 # ✅ Guia de Instalação
 
-O guia de instalação abaixo é para criação de uma imagem limpa com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [IN X PLUS].
+O guia de instalação abaixo é para criação de uma imagem limpa com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [RPC MINI].
 
 Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox] do respectivo equipamento.
 
@@ -181,10 +181,10 @@ Obs: Esta etapa não é necessária para os Dispositivos Rockchip 3228, 3228a e 
 1.  Abra a partição legível do SD/CARD no Windows Explorer ou Finder (Ex: ```BOOT, armbian_boot```)
 2.  Edite o arquivo `armbianEnv.txt` em um editor de texto:
     
-    1.  Comente as linhas com inicio `fdtfile=` adicionando #
-    2.  Remova o comentário das linhas com inicio `fdtfile=` removendo #
-    3.  Atualize/Adicione a linha FDT para apontar para um arquivo .dtb funcional para o seu dispositivo e salve o arquivo
-    4. IN X PLUS -> `fdtfile=rk322x-box.dtb` (*Remova #)
+    1. Comente as linhas com inicio `fdtfile=` adicionando #
+    2. Remova o comentário das linhas com inicio `fdtfile=` removendo #
+    3. Atualize/Adicione a linha FDT para apontar para um arquivo .dtb funcional para o seu dispositivo e salve o arquivo
+    4. RPC MINI -> `fdtfile=rk322x-box.dtb` (*Remova #)
 ```
 verbosity=1
 extraargs=coherent_pool=2M
