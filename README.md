@@ -44,7 +44,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 | IN X PLUS  | RockChip 3229  | 1GB     | 8GB           | ❌ SV6256P       |✅          |✅       |✅       |[Link](https://github.com/educabox/educabox/blob/main/boxes/inxplus.md)  |
 | MY BOX TV  | Amlogic S905X  | 2GB     | 16GB          | ❌ AP6181        |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/mytvbox.md)  |
 | PLAY TV    | Amlogic S905X3 | 2GB     | 16GB          | ✅ RTL8189FTV    |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/playtv.md)   |
-| RPC MINI   | RockChip 3229  | 1GB     | 8GB           | ❌ SV6051P       |✅          |✅       |✅       |[Link](https://github.com/educabox/educabox/blob/main/boxes/rpcmini.md)  |
+| RPC MINI   | RockChip 3229  | 1GB     | 8GB           | ❌ SV6051P       |✅          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/rpcmini.md)  |
 | TIGRE 2    | Amlogic S905X  | 2GB     | 16GB          | ✅ RTL8723BS     |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/tigre2.md)   |
 
 ## 💻 Pré-requisitos
