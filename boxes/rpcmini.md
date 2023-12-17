@@ -22,7 +22,7 @@ GPU | Mali-400 MP
 Wifi | SV6051P 
 Memória | 1GB
 Armazenamento | 8GB
-Resolução | 720x1080
+Resolução | 720x1280
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
 
