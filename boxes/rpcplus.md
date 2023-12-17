@@ -20,7 +20,7 @@ CPU | Rockchip 3229
 Família | Cortex-A7
 Velocidade | 408 - 1200 MHz
 GPU | Mali-400 MP
-Wifi | SV6051P 
+Wifi | SV6256P 
 Memória | 1GB
 Armazenamento | 8GB
 Resolução | 720x1280
@@ -43,7 +43,7 @@ DTB | [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D
  - ✅ CPU
  - ✅ GPU/HDMI   
  - ✅ USB 2.0
- - ❌ WIFI (SV6051P)
+ - ❌ WIFI (SV6256P)
  - ✅ ETHERNET
  - ✅ BLUETOOTH
  - ✅ AUDIO
