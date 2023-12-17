@@ -30,9 +30,9 @@ Resolução | 720x1280
 |Sumário | Detalhes|
 ---------|:--:
 Codename | Bookworm
-S.O | Armbian 23.8.1
+S.O | Armbian 23.11.1
 Linux | Ubuntu
-Kernel | 6.1.50
+Kernel | 6.1.63
 Imagem Oficial | [Armbian_23.11.1_Rk322x-box_bookworm_current_6.1.63_xfce_desktop.img.xz](https://imola.armbian.com/dl/rk322x-box/archive/Armbian_23.11.1_Rk322x-box_bookworm_current_6.1.63_xfce_desktop.img.xz)
 Imagem Educabox | [educabox_armbian_rk322x.img.gz](https://drive.google.com/uc?export=download&id=1yrbGJaaH6ONd6Td5SeE_crzek8Ebmx6F)
 DTB | [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h)
