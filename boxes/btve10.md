@@ -34,7 +34,7 @@ Linux | Ubuntu
 Kernel | 6.1.50
 Imagem Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://imola.armbian.com/dl/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz)
 Imagem Educabox | [educabox_armbian_btve10.img.gz](https://drive.google.com/uc?export=download&id=1ESwTMdYciYZs3_Ehj0Ng0NTIohZupb5O)
-DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) - Créditos [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
+DTB | [meson-g12a-sei510.dtb](https://drive.google.com/uc?export=download&id=1aaxBDKcvh3FGpS1LabSoefU0TTAFl4Mt) - Créditos [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
 
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
@@ -93,7 +93,7 @@ Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o
 ---------|:--:
 Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://imola.armbian.com/dl/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz)
 Educabox | [educabox_armbian_btve10.img.gz](https://drive.google.com/uc?export=download&id=1ESwTMdYciYZs3_Ehj0Ng0NTIohZupb5O)
-DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) - Créditos [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
+DTB | [meson-g12a-sei510.dtb](https://drive.google.com/uc?export=download&id=1aaxBDKcvh3FGpS1LabSoefU0TTAFl4Mt) - Créditos [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
 
 [Como Instalar nossa Imagem Educabox?](#)
 
