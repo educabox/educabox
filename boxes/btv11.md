@@ -106,7 +106,7 @@ DTB | [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17ao
 ## 2️⃣ Gravação Imagem
  
 1.  Execute balenaEtcher (*Preferência)
-2.  Grave a imagem Armbian no cartão Pendrive USB
+2.  Grave a imagem Armbian no Pendrive USB
 3.  Remova com segurança o Pendrive e insira-o novamente
 4.  Ignore/Feche as caixas de diálogo do Windows/MacOS para formatar o Pendrive inserido
 
