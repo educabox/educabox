@@ -1,3 +1,4 @@
+![GitHub followers](https://img.shields.io/github/followers/educabox?style=social) ![GitHub User's stars](https://img.shields.io/github/stars/educabox?style=social) ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=educabox.repoName) <img src="https://komarev.com/ghpvc/?username=educabox" alt="educabox" />
 
 <h1 align="center">
   <br>
