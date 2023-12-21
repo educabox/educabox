@@ -3,34 +3,41 @@
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian.png?raw=true" align="right" width="120" height="178">
 
-Guia de Instalação
- 1. [Downloads Imagens](#heading-ids)
- 2. [Pré](#1️⃣-Pré-requisitos) 
+### 📝 Guia de Instalação 
+ 1. [Downloads Imagens](#downloads)
+ 2. [Pré-Requisitos](#requisitos)
+ 3. [Gravação Imagem](#gravacao)
+ 4. [Configurar SDCard ou Pendrive [RockChip RK322X]](#configurar-rk322x)
+ 5. [Configurar SDCard ou Pendrive [Amlogic S905X | S905W]](#configurar-s905xw)
+ 6. [Configurar SDCard ou Pendrive [Amlogic S905X2 | S905X3]](#configurar-s905x23)
+ 7. [Inicializando o Armbian pela primeira vez via Pendrive ou SD/Card](#init-pendrive-sdcard)
+ 8. [Instalação Armbian SD/Card para eMMC [RockChip RK322X]](#install-emmc-rk322x)
+ 9. [Instalação Armbian Pendrive para eMMC [S905X, S905W, S905X2, S905X3]](#install-emmc-s905)
 
-# ✅ Educabox [Armbian]
+#  ✅ <a id="downloads" />Educabox [Armbian]
 
 
-O guia de instalação abaixo é para instalação de uma imagem otimizada Armbian para todas as TVs Boxes mencionadas em nosso repositório, faça o download da [Imagem Educabox] do respectivo equipamento.
+O guia de instalação abaixo é para instalação de uma imagem live otimizada Armbian [Pendrive, SD/Card] para todas as TVs Boxes mencionadas em nosso repositório, faça o download da [Imagem Educabox] do respectivo equipamento.
 
-| TV BOX    | Processador    | Mem | HD   | Wifi/Armbian | Áudio/HDMI | Instalação                                                               |
+| TV Box    | Processador    | Mem | HD   | Wifi/Armbian | Áudio/HDMI | Instalação                                                               |
 |-----------|----------------|:---:|:----:|--------------|:----------:|--------------------------------------------------------------------------|
-| BTV11     | Amlogic S905X3 | 1GB | 16GB | ✅ AP6212     | ❌          | [Link](https://github.com/educabox/educabox/blob/main/boxes/btv11.md)    |
-| BTVBX     | Amlogic S905X  | 2GB | 16GB | ✅ AP6212     | ❌          | [Link](https://github.com/educabox/educabox/blob/main/boxes/btvbx.md)    |
-| BTVE10    | Amlogic S905X3 | 2GB | 8GB  | ✅ RTL8189FTV | ✅          | [Link](https://github.com/educabox/educabox/blob/main/boxes/btve10.md)   |
-| EXTREMO   | Amlogic S905W  | 2GB | 8GB  | ❌ SV6051P    | ✅          | [Link](https://github.com/educabox/educabox/blob/main/boxes/extremo.md)  |
-| HTV6+     | Amlogic S905X  | 2GB | 16GB | ✅ RTL8723BS  | ❌          | [Link](https://github.com/educabox/educabox/blob/main/boxes/htv6plus.md) |
-| HTV7      | Amlogic S905X3 | 2GB | 16GB | ❌ RTL8822CS  | ❌          | [Link](https://github.com/educabox/educabox/blob/main/boxes/htv7.md)     |
-| IMOVE     | Amlogic S905W  | 1GB | 8GB  | ❌ SV6051P    | ✅          | [Link](https://github.com/educabox/educabox/blob/main/boxes/imove.md)    |
-| IMOVE PRO | Amlogic S905W  | 1GB | 8GB  | ❌ SV6051P    | ✅          | [Link](https://github.com/educabox/educabox/blob/main/boxes/imovepro.md) |
+| BTV11     | Amlogic S905X3 | 1GB | 16GB | ✅ AP6212     | ❌          | [Link](https://drive.google.com/uc?export=download&id=1NBBBppCY2jRHmdrbth_sYhdPPsxNqpSK)    |
+| BTVBX     | Amlogic S905X  | 2GB | 16GB | ✅ AP6212     | ❌          | [Link](https://drive.google.com/uc?export=download&id=10-eMK8_k46XwqoifNkgO4pEwPa7H6adm)    |
+| BTVE10    | Amlogic S905X3 | 2GB | 8GB  | ✅ RTL8189FTV | ✅          | [Link](https://drive.google.com/uc?export=download&id=1_y00AeCC85XuR6s7da3A3YwlgaeQVZxj)   |
+| EXTREMO   | Amlogic S905W  | 2GB | 8GB  | ❌ SV6051P    | ✅          | [Link](https://drive.google.com/uc?export=download&id=1Pyjx83Z513lyEly3imZW4mID6BDLVCmU)  |
+| HTV6+     | Amlogic S905X  | 2GB | 16GB | ✅ RTL8723BS  | ❌          | [Link](https://drive.google.com/uc?export=download&id=1NXFM43v1dssx45li3AG_zvNhGeHJcf19) |
+| HTV7      | Amlogic S905X3 | 2GB | 16GB | ❌ RTL8822CS  | ❌          | [Link](https://drive.google.com/uc?export=download&id=1Q0LOpTapjLeA3leLJTieEueSH5gOsTvq)     |
+| IMOVE     | Amlogic S905W  | 1GB | 8GB  | ❌ SV6051P    | ✅          | [Link](https://drive.google.com/uc?export=download&id=139n46MwJiSRzgsyW-cCqNiH0SNn4U5C4)    |
+| IMOVE PRO | Amlogic S905W  | 1GB | 8GB  | ❌ SV6051P    | ✅          | [Link](https://drive.google.com/uc?export=download&id=16EeBueX84sZLZ_8uKO4NDqdgPlEt1enF) |
 | IN X PLUS | RockChip 3229  | 1GB | 8GB  | ❌ SV6256P    | ✅          | [Link](https://github.com/educabox/educabox/blob/main/boxes/inxplus.md)  |
-| MY BOX TV | Amlogic S905X  | 2GB | 16GB | ❌ AP6181     | ❌          | [Link](https://github.com/educabox/educabox/blob/main/boxes/mytvbox.md)  |
-| PLAY TV   | Amlogic S905X3 | 2GB | 16GB | ✅ RTL8189FTV | ❌          | [Link](https://github.com/educabox/educabox/blob/main/boxes/playtv.md)   |
+| MY Box TV | Amlogic S905X  | 2GB | 16GB | ❌ AP6181     | ❌          | [Link](https://drive.google.com/uc?export=download&id=1tCxQVz8sTPzgN-wBPw2MB1c9RXRSJdvn)  |
+| PLAY TV   | Amlogic S905X3 | 2GB | 16GB | ✅ RTL8189FTV | ❌          | [Link](https://drive.google.com/uc?export=download&id=1UGsFNtppBWEpPeg7Q7-ywvd3S5eLW9uu)   |
 | RPC 8K    | RockChip 3229  | 1GB | 8GB  | ❌ SV6051P    | ✅          | [Link](https://github.com/educabox/educabox/blob/main/boxes/rpc8k.md)    |
 | RPC MINI  | RockChip 3229  | 1GB | 8GB  | ❌ SV6051P    | ✅          | [Link](https://github.com/educabox/educabox/blob/main/boxes/rpcmini.md)  |
 | RPC PLUS  | RockChip 3229  | 1GB | 8GB  | ❌ SV6256P    | ✅          | [Link](https://github.com/educabox/educabox/blob/main/boxes/rpcplus.md)  |
-| TIGRE 2   | Amlogic S905X  | 2GB | 16GB | ✅ RTL8723BS  | ❌          | [Link](https://github.com/educabox/educabox/blob/main/boxes/tigre2.md)   |
+| TIGRE 2   | Amlogic S905X  | 2GB | 16GB | ✅ RTL8723BS  | ❌          | [Link](https://drive.google.com/uc?export=download&id=1FBiyUgDHFMlu5NQXtGfuUzRXVVz1KXR9)   |
 
-## 1️⃣ Pré-requisitos
+## 1️⃣ <a id="requisitos" />Pré-requisitos
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/pendrive.png?raw=true" align="right" width="80" height="80">
 
@@ -38,7 +45,7 @@ O guia de instalação abaixo é para instalação de uma imagem otimizada Armbi
 2. Software [balenaEtcher](https://etcher.balena.io/) , [Rufus](https://rufus.ie/pt_BR/) ou [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
 3. Imagem Oficial S.O Armbian
  
-## 2️⃣ Gravação Imagem
+## 2️⃣ <a id="gravacao"/>Gravação Imagem
  
 1.  Execute balenaEtcher (*Preferência).
 <p align="center">
@@ -67,7 +74,7 @@ O guia de instalação abaixo é para instalação de uma imagem otimizada Armbi
 7. Remova com segurança o Pendrive e insira-o novamente.
 8.  Ignore/Feche as caixas de diálogo do Windows/MacOS para formatar o Pendrive inserido.
 
-## 3️⃣ Configurar SDCard ou Pendrive [RockChip RK322X]
+## 3️⃣ <a id="configurar-rk322x"/>Configurar SDCard ou Pendrive [RockChip RK322X]
 
 1. Para esses processadores nenhuma configuração adicional é necessária [Rockchip 3228, 3228a e 3229], no entanto caso seu dispositivo não seja compatível com o .dtb padrão [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h), faça a modificação para o .dtb da sua TV Box. Os arquivos .dtb podem ser encontrados na pasta `/dtb/` na raiz do SD/Card ou Pendrive.
  
@@ -106,7 +113,7 @@ $sudo blkid
 7. Insira o SD/Card ou Pendrive na TV Box.
 8. Siga para - Inicializando no Armbian pela primeira vez via Pendrive ou SD/Card.
 
-## 4️⃣ Configurar SDCard ou Pendrive [Amlogic S905X | S905W]
+## 4️⃣ <a id="configurar-s905xw"/>Configurar SDCard ou Pendrive [Amlogic S905X | S905W]
 
 1. Para esses processadores nenhuma configuração adicional é necessária.
 2. Apenas antes de inserir o Pendrive na TV Box, abra a partição legível do SD/Card ou Pendrive no Windows Explorer ou Finder (Ex: ```BOOT_EMMC, armbian_boot```).
@@ -143,7 +150,7 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
 7.  Insira o Pendrive na TV Box.
 8. Siga para - Inicializando no Armbian pela primeira vez via Pendrive ou SD/Card.
 
-## 5️⃣ Configurar SDCard ou Pendrive [Amlogic S905X2 | S905X3]
+## 5️⃣ <a id="configurar-s905x23"/>Configurar SDCard ou Pendrive [Amlogic S905X2 | S905X3]
 
 1. Antes de inserir o Pendrive na TV Box, abra a partição legível do SD/Card ou Pendrive no Windows Explorer ou Finder (Ex: ```BOOT_EMMC, armbian_boot```).
 2. Abra o arquivo ``armbianEnv.txt`` na raiz do Pendrive.         
@@ -186,7 +193,7 @@ $sudo blkid
 7. Insira o Pendrive na TV Box.
 8. Siga para - Inicializando no Armbian pela primeira vez via Pendrive ou SD/Card.
 
-## ▶️ Inicializando no Armbian pela primeira vez via Pendrive ou SD/Card
+## ▶️ <a id="init-pendrive-sdcard"/>Inicializando o Armbian pela primeira vez via Pendrive ou SD/Card
 
 1. Conecte o Pendrive na `porta USB1 ou USB2` ou SD/Card.
 2.  Para TVs Boxes com botão oculto na entrada `AV`:
@@ -201,11 +208,11 @@ $sudo blkid
 7.  Quando solicitado, faça login:  `usuário: educabox`  `senha: educabox`
 8.  Armbian irá inicializar no ambiente de desktop.
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/2.png?raw=true" width="720">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABox/2.png?raw=true" width="720">
 </p>
 10.  Siga para - Instalação Armbian Pendrive para eMMC.
 
-## 🔁 Instalação Armbian SD/CARD para eMMC [RockChip RK322X]
+## 🔁 <a id="install-emmc-rk322x"/>Instalação Armbian SD/Card para eMMC [RockChip RK322X]
 
 1. Depois que o ambiente desktop for inicializado abra o terminal de comando `Terminator`. 
 2. No terminal digite: `sudo armbian-config`. 
@@ -249,7 +256,7 @@ $sudo blkid
  11. Ligue novamente a TV Box sem o SD/Card conectado para que inicialização do Armbian ocorra diretamente da TV Box.
 
 
-## 🔁 Instalação Armbian Pendrive para eMMC [S905X, S905W, S905X2, S905X3]
+## 🔁 <a id="install-emmc-s905"/>Instalação Armbian Pendrive para eMMC [S905X, S905W, S905X2, S905X3]
 
  1. Depois que o ambiente desktop for inicializado abra o terminal de comando `Terminator`. 
  2. No terminal digite: `/boot/install-aml.sh`. 
@@ -292,4 +299,10 @@ $sudo blkid
 
 6. Copie o UUID da partição `LABEL="ROOT_EMMC"` e edite o `rootdev=` em ``\BOOT_EMMC\armbianEnv.txt``.
 7. Remova o Pendrive com segurança.
-8. Reinicie a TV BOX.
+8. Reinicie a TV Box.
+
+## Dúvidas e Erros
+
+1. Encontrou algum erro em nossa documentação ou imagens, abra um solicitação de problema/erro:
+	- [Solicitação](https://github.com/educabox/educabox/issues)
+	- E-mail: educabox@ifms.edu.br	
