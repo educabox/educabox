@@ -167,7 +167,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
 Quer fazer parte desse projeto? Entre em contato conosco:
 
 🖥️ www.ifms.edu.br
-✉️ eduboxifms@gmail.com
+✉️ educabox@ifms.edu.br
 
 <p align="center">
   <a href="#">
