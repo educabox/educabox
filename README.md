@@ -1,3 +1,4 @@
+
 ![GitHub followers](https://img.shields.io/github/followers/educabox?style=social) ![GitHub User's stars](https://img.shields.io/github/stars/educabox?style=social) ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=educabox.repoName) <img src="https://komarev.com/ghpvc/?username=educabox" alt="educabox" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=social&logo=linux&logoColor=black" alt="educabox" />
 
 <h1 align="center">
@@ -15,7 +16,7 @@
   <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/1.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
-| Educabox Armbian | Educabox Android |
+| EducaBox Armbian | EducaBox Android |
 | ----------- | ----------- |
 |<img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/5.png?raw=true&image_size=auto"/>|<img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/7.png?raw=true&image_size=auto"/>|
 
@@ -30,7 +31,28 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Criação de uma ROM própria pelo projeto EducaBox
 - [ ] Desenvolvimento de processos e repositório completo para comunidade.
 
-## 🚀 Download e Documentação
+## 📗 Sumário
+
+ 1. 📝 [Tutorial Instalação Imagem EducaBox](#tutorial)
+ 2. 🛜 [Download e Documentação](#download)
+ 3. ☑️ [Pré-Requisito](#pre-requisito)
+ 4. ⚙️ [Utilitários](#utilitario)
+ 5. 🔁 [Recuperação TWRP](#recuperacao)
+ 6. 🤝 [Parceiros](#parceiros)
+ 7. 👨🏽‍💻 [Equipe de Desenvolvimento](#equipe)
+ 8. ❓ [Dúvidas e Sugestões](#duvidas)
+ 
+## 💾 <a id="tutorial"/>Tutorial Instalação Imagem EducaBox
+
+<p align="center">
+<a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/botao_armbian.png?raw=true&image_size=auto"/> <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-android.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/botao_android.png?raw=true&image_size=auto"/>
+</p>
+
+## 🚀 <a id="download"/>Download e Documentação
+
+>Este é o repositório com todas as TVs Boxes que já foram descaracterizadas por nossa equipe. O link de instalação descreve passo-a-passo como instalar uma imagem Armbian Oficial em cada dispositivo! Caso deseje faça a instalação customizada do nosso projeto EducaBox já com todas as ferramentas e scripts para instalação.
+
+
 
 | TV BOX     | Processador    | Mem     | HD            |  Wifi/Armbian    | Áudio/HDMI | Armbian | Android | Instalação                                                              |
 |------------|----------------|:-------:|:-------------:|------------------|:----------:|:-------:|:-------:|:-----------------------------------------------------------------------:|
@@ -50,12 +72,12 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 | RPC PLUS   | RockChip 3229  | 1GB     | 8GB           | ❌ SV6256P       |✅          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/rpcplus.md)  |
 | TIGRE 2    | Amlogic S905X  | 2GB     | 16GB          | ✅ RTL8723BS     |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/tigre2.md)   |
 
-## 💻 Pré-requisitos
+## 💻 <a id="pre-requisito"/>Pré-requisitos
 
 Antes de começar, verifique se o seu dispositivo atende aos seguintes requisitos:
 
- 1. Verifique a compatibilidade da sua TV Box com os processadores e dispositivos disponíveis em nosso repositório
-
+ 1. Verifique a compatibilidade da sua TV Box com os processadores e dispositivos disponíveis em nosso repositório.
+ 
 |Processador  | Modelo | Fabricante
 |--|:--:|--|
 | Amlogic | S805, S905X, S905X2, S905X3, S905W | [Link](https://www.amlogic.com/)
@@ -64,7 +86,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
   
  2. Faça um backup da sua ROM atual em caso de possíveis erros ou aparelhos brickados.
 
-## 💾 Utilitários 
+## 💾 <a id="utilitario"/>Utilitários 
 
 ### Amlogic
 |Processador  | Função | Utilitário| Versão | Link
@@ -103,7 +125,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | RockChip| Drives | Rockchip Driver Assistant | `4.8.0` |[Link](https://chinagadgetsreviews.com/download-rockchip-driver-assistant-v4-8.html)
 | RockChip| Drives | Rockchip Driver Assistant | `5.1.1` |[Link](https://chinagadgetsreviews.com/download-rockchip-driver-assistant-v5-1-1.html)
 
-## 💾 Recuperação TWRP
+## 💾 <a id="recuperacao"/>Recuperação TWRP
 
 |Processador  | Modelo | Versão TWRP| Android | Link
 |--|:--:|:--:|:--:|--|
@@ -119,7 +141,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | Allwinner | H3 MXQ-4K | `-`|`-` |[.img](https://drive.google.com/file/d/1oRIa-e7O0zuLEBhTFHQ9F9wN2YC0Jd5V/view?usp=drive_link)
 | RockChip| RK3399 | `3.2.3`|`-` |[.img](https://drive.google.com/file/d/1rZuSeMsHrFnCqi394zCgKOPfb18Z-rDT/view?usp=drive_link)
 
-## 🤝 Parceiros
+## 🤝 <a id="parceiros"/>Parceiros
 
 Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
 
@@ -161,9 +183,9 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-### 👨🏽‍💻👩🏼‍💻 Equipe de Desenvolvimento
+### 👨🏽‍💻👩🏼‍💻 <a id="equipe"/>Equipe de Desenvolvimento
 
-## ⁉️ Dúvidas e Sugestões
+## ⁉️ <a id="duvidas"/>Dúvidas e Sugestões
 
 Quer fazer parte desse projeto? Entre em contato conosco:
 
