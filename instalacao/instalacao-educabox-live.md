@@ -19,7 +19,7 @@
 
 O guia de instalação abaixo é para instalação de uma imagem live otimizada Armbian [Pendrive, SD/Card] para todas as TVs Boxes mencionadas em nosso repositório, faça o download da [Imagem Educabox] do respectivo equipamento.
 
-| TV Box    | Processador    | Mem | HD   | Wifi/Armbian | Áudio/HDMI | Instalação                                                               |
+| TV Box    | Processador    | Mem | HD   | Wifi/Armbian | Áudio/HDMI | Download                                                                 |
 |-----------|----------------|:---:|:----:|--------------|:----------:|:------------------------------------------------------------------------:|
 | BTV11     | Amlogic S905X3 | 1GB | 16GB | ✅ AP6212     | ❌          | [Link](https://drive.google.com/uc?export=download&id=1NBBBppCY2jRHmdrbth_sYhdPPsxNqpSK)    |
 | BTVBX     | Amlogic S905X  | 2GB | 16GB | ✅ AP6212     | ❌          | [Link](https://drive.google.com/uc?export=download&id=10-eMK8_k46XwqoifNkgO4pEwPa7H6adm)    |
