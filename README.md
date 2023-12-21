@@ -35,7 +35,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
  1. 📝 [Tutorial Instalação Imagem EducaBox](#tutorial)
  2. 🛜 [Download e Documentação](#download)
- 3. ☑️ [Pré-Requisito](#pre-requisito)
+ 3. 🔍 [Pré-Requisito](#pre-requisito)
  4. ⚙️ [Utilitários](#utilitario)
  5. 🔁 [Recuperação TWRP](#recuperacao)
  6. 🤝 [Parceiros](#parceiros)
