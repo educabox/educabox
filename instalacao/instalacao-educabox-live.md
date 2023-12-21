@@ -32,7 +32,7 @@ O guia de instalação abaixo é para instalação de uma imagem otimizada Armbi
 
 ## 1️⃣ Pré-requisitos
 
-<img src="https://github.com/educabox/educabox/blob/main/imagens/pendrive.png?raw=true" align="right" alt="Size Limit logo by Anton Lovchikov" width="70" height="80">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/pendrive.png?raw=true" align="right" width="80" height="80">
 
 1. Dispositivo USB (Pendrive) - ```Mínimo 8GB```
 2. Software [balenaEtcher](https://etcher.balena.io/) , [Rufus](https://rufus.ie/pt_BR/) ou [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
@@ -42,33 +42,27 @@ O guia de instalação abaixo é para instalação de uma imagem otimizada Armbi
  
 1.  Execute balenaEtcher (*Preferência).
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/SS%20-%20BALENAETCHER/1.png?raw=true" width="720">
-</p>
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/SS%20-%20BALENAETCHER/1.png?raw=true" width="720"></p>
 
 2.  Selecione a opção ``Flash from file`` e procure a imagem do seu respectivo aparelho no explorador de arquivos (Windows Explorer, Finder).
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/SS%20-%20BALENAETCHER/3.png?raw=true" width="720">
-</p>
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/SS%20-%20BALENAETCHER/3.png?raw=true" width="720"></p>
 
 3.  Em seguida clique na opção ``Select target`` e selecione o pendrive/SDCard para gravar a imagem. Para TVs Boxes com capacidade de armazenamento (16GB ou maior) é recomendável um dispositivo com no mínimo 32GB, pois depois da descompactação as imagens podem variar entre 12GB a 18GB.
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/SS%20-%20BALENAETCHER/4.png?raw=true" width="720">
-</p>
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/SS%20-%20BALENAETCHER/4.png?raw=true" width="720"></p>
 
 4.  Inicie o processo de gravação clicando na opção ``Flash``.
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/SS%20-%20BALENAETCHER/5.png?raw=true" width="720">
-</p>
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/SS%20-%20BALENAETCHER/5.png?raw=true" width="720"></p>
 
 5.  Processo será iniciado, aguarde enquanto a imagem é descompactada na unidade removível.
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/SS%20-%20BALENAETCHER/6.png?raw=true" width="720">
-</p>
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/SS%20-%20BALENAETCHER/6.png?raw=true" width="720"></p>
 
 6.  Ao final uma mensagem de gravação completa será exibida, caso não tenha ocorrido erros com a gravação.
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/SS%20-%20BALENAETCHER/7.png?raw=true" width="720">
-</p>
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/SS%20-%20BALENAETCHER/7.png?raw=true" width="720"></p>
 
 7. Remova com segurança o Pendrive e insira-o novamente.
 8.  Ignore/Feche as caixas de diálogo do Windows/MacOS para formatar o Pendrive inserido.
@@ -258,7 +252,7 @@ $sudo blkid
 ## 🔁 Instalação Armbian Pendrive para eMMC [S905X, S905W, S905X2, S905X3]
 
  1. Depois que o ambiente desktop for inicializado abra o terminal de comando `Terminator` 
- 2. No terminal digite: `\boot\install-aml.sh` 
+ 2. No terminal digite: `/boot/install-aml.sh` 
  <p align="center">
   <img src="https://github.com/educabox/educabox/blob/main/imagens/YY%20-%20INSTALACAO%20ARMBIAN/8.png?raw=true" alt="Size Limit CLI" width="738">
 </p> 
