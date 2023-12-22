@@ -14,7 +14,7 @@
  8. ⚙️ [Instalação Armbian SD/Card para eMMC [RockChip RK322X]](#install-emmc-rk322x)
  9. ⚙️ [Instalação Armbian Pendrive para eMMC [S905X, S905W, S905X2, S905X3]](#install-emmc-s905)
 
-#  ✅ <a id="downloads" />Educabox [Armbian]
+#  ✅ <a id="downloads" />Download Educabox [Armbian]
 
 
 O guia de instalação abaixo é para instalação de uma imagem live otimizada Armbian [Pendrive, SD/Card] para todas as TVs Boxes mencionadas em nosso repositório, faça o download da [Imagem Educabox] do respectivo equipamento.
