@@ -208,7 +208,7 @@ $sudo blkid
 7.  Quando solicitado, faça login:  `usuário: educabox`  `senha: educabox`
 8.  Armbian irá inicializar no ambiente de desktop.
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABox/2.png?raw=true" width="720">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/2.png?raw=true" width="720">
 </p>
 10.  Siga para - Instalação Armbian Pendrive para eMMC.
 
