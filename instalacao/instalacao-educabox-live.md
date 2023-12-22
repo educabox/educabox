@@ -4,15 +4,15 @@
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian.png?raw=true" align="right" width="120" height="178">
 
 ### 📝 Guia de Instalação 
- 1. [Downloads Imagens](#downloads)
- 2. [Pré-Requisitos](#requisitos)
- 3. [Gravação Imagem](#gravacao)
- 4. [Configurar SDCard ou Pendrive [RockChip RK322X]](#configurar-rk322x)
- 5. [Configurar SDCard ou Pendrive [Amlogic S905X | S905W]](#configurar-s905xw)
- 6. [Configurar SDCard ou Pendrive [Amlogic S905X2 | S905X3]](#configurar-s905x23)
- 7. [Inicializando o Armbian pela primeira vez via Pendrive ou SD/Card](#init-pendrive-sdcard)
- 8. [Instalação Armbian SD/Card para eMMC [RockChip RK322X]](#install-emmc-rk322x)
- 9. [Instalação Armbian Pendrive para eMMC [S905X, S905W, S905X2, S905X3]](#install-emmc-s905)
+ 1. 🛜 [Downloads Imagens](#downloads)
+ 2. 🔍 [Pré-Requisitos](#requisitos)
+ 3. 💾 [Gravação Imagem](#gravacao)
+ 4. 📕 [Configurar SDCard ou Pendrive [RockChip RK322X]](#configurar-rk322x)
+ 5. 📗 [Configurar SDCard ou Pendrive [Amlogic S905X | S905W]](#configurar-s905xw)
+ 6. 📘 [Configurar SDCard ou Pendrive [Amlogic S905X2 | S905X3]](#configurar-s905x23)
+ 7. 📲 [Inicializando o Armbian pela primeira vez via Pendrive ou SD/Card](#init-pendrive-sdcard)
+ 8. ⚙️ [Instalação Armbian SD/Card para eMMC [RockChip RK322X]](#install-emmc-rk322x)
+ 9. ⚙️ [Instalação Armbian Pendrive para eMMC [S905X, S905W, S905X2, S905X3]](#install-emmc-s905)
 
 #  ✅ <a id="downloads" />Educabox [Armbian]
 
