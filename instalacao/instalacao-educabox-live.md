@@ -55,7 +55,7 @@ O guia de instalação abaixo é para instalação de uma imagem live otimizada 
 <p align="center">
   <img src="https://github.com/educabox/educabox/blob/main/imagens/SS%20-%20BALENAETCHER/3.png?raw=true" width="720"></p>
 
-3.  Em seguida clique na opção ``Select target`` e selecione o pendrive/SDCard para gravar a imagem. Para TVs Boxes com capacidade de armazenamento (16GB ou maior) é recomendável um dispositivo com no mínimo 32GB, pois depois da descompactação as imagens podem variar entre 12GB a 18GB.
+3.  Em seguida clique na opção ``Select target`` e selecione o Pendrive/SDCard para gravar a imagem. Para TVs Boxes com capacidade de armazenamento (16GB ou maior) é recomendável um dispositivo com no mínimo 32GB, pois depois da descompactação as imagens podem variar entre 12GB a 18GB.
 <p align="center">
   <img src="https://github.com/educabox/educabox/blob/main/imagens/SS%20-%20BALENAETCHER/4.png?raw=true" width="720"></p>
 
