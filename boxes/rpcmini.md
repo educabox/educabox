@@ -97,21 +97,21 @@ DTB | [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D
 
 [Como Instalar nossa Imagem Educabox?](#)
 
-## 0️⃣ Pré-requisitos instalação Multitool via SD/CARD
+## 0️⃣ Pré-requisitos instalação Multitool via SDCard
 
-Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box sem iniciar o Armbian/Live em um SD/CARD siga os passos abaixo, caso contrário avance para 1️⃣ Pré-requisitos instalação live SD/CARD
+Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box sem iniciar o Armbian/Live em um SDCard siga os passos abaixo, caso contrário avance para 1️⃣ Pré-requisitos instalação live SDCard
 
-1. Dispositivo SD/CARD  - ```Mínimo 4GB```
+1. Dispositivo SDCard  - ```Mínimo 4GB```
 2. Software [balenaEtcher](https://etcher.balena.io/) , [Rufus](https://rufus.ie/pt_BR/) ou [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
 3. Imagem do Utilitário [Multitool](https://users.armbian.com/jock/rk322x/multitool/multitool.img.xz)
 4. Execute balenaEtcher (*Preferência)
-5. Grave a imagem `multitool.img.xz` no cartão SD/CARD
-6. Espere finalizar a gravação e remova o SD/CARD
-7. Em seguida insira novamente o SD/CARD 
+5. Grave a imagem `multitool.img.xz` no cartão SDCard
+6. Espere finalizar a gravação e remova o SDCard
+7. Em seguida insira novamente o SDCard 
 8. Acesse a pasta `/images` e copie a imagem compactada do Armbian
-9. Feito isso remova o SD/CARD e insira na TV Box
-10. Inicie a TV Box com o cartão SD/CARD  
-11. Caso sua TV Box faça inicialização automática do SD/CARD o utilitário Multitool será inicializado. Se for necessário inicie a TV Box com o botão de `update` pressionado ou com um clips/palito no botão oculto na entrada `AV`
+9. Feito isso remova o SDCard e insira na TV Box
+10. Inicie a TV Box com o cartão SDCard  
+11. Caso sua TV Box faça inicialização automática do SDCard o utilitário Multitool será inicializado. Se for necessário inicie a TV Box com o botão de `update` pressionado ou com um clips/palito no botão oculto na entrada `AV`
 
 **Gravar imagem via utilitário Multitool na unidade de armazenamento eMMC:**
 
@@ -141,7 +141,7 @@ Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box
   <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/5.jpg?raw=true" alt="Size Limit CLI" width="550">
 </p>
 
-6. Selecione a imagem Armbian que foi copiada para o SD/CARD
+6. Selecione a imagem Armbian que foi copiada para o SDCard
 <p align="center">
   <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/6.jpg?raw=true" alt="Size Limit CLI" width="550">
 </p>
@@ -156,29 +156,29 @@ Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box
   <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/8.jpg?raw=true" alt="Size Limit CLI" width="550">
 </p>
 
-9. Remova o SD/CARD da TV Box e inicie novamente a Box.
+9. Remova o SDCard da TV Box e inicie novamente a Box.
 10. Pule para  X
  
-## 1️⃣ Pré-requisitos instalação live SD/CARD
+## 1️⃣ Pré-requisitos instalação live SDCard
 
- 1. Dispositivo SD/CARD  - ```Mínimo 4GB```
+ 1. Dispositivo SDCard  - ```Mínimo 4GB```
  2. Software [balenaEtcher](https://etcher.balena.io/) , [Rufus](https://rufus.ie/pt_BR/) ou [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
  3. Imagem Oficial S.O Armbian
  
 ## 2️⃣ Gravação Imagem via balenaEtcher
  
 1.  Execute balenaEtcher (*Preferência)
-2.  Grave a imagem Armbian no cartão SD/CARD
+2.  Grave a imagem Armbian no cartão SDCard
 3.  Espere finalizar a gravação e insira-o novamente
-4.  Ignore/Feche as caixas de diálogo do Windows/MacOS para formatar o SD/CARD inserido
+4.  Ignore/Feche as caixas de diálogo do Windows/MacOS para formatar o SDCard inserido
 
 [Como  gravar uma Imagem no balenaEtcher?](#)
  
-## 3️⃣ Configurar SD/CARD para Armbian
+## 3️⃣ Configurar SDCard para Armbian
 
-Obs: Esta etapa não é necessária para os Dispositivos Rockchip 3228, 3228a e 3229, no entanto caso seu dispositivo não seja compatível com o .dtb padrão [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h), faça a modificação para o .dtb da sua TV BOX. Os arquivos .dtb podem ser encontrados na pasta `/dtb/` na raiz do SD/Card.
+Obs: Esta etapa não é necessária para os Dispositivos Rockchip 3228, 3228a e 3229, no entanto caso seu dispositivo não seja compatível com o .dtb padrão [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h), faça a modificação para o .dtb da sua TV BOX. Os arquivos .dtb podem ser encontrados na pasta `/dtb/` na raiz do SDCard.
  
-1.  Abra a partição legível do SD/CARD no Windows Explorer ou Finder (Ex: ```BOOT, armbian_boot```)
+1.  Abra a partição legível do SDCard no Windows Explorer ou Finder (Ex: ```BOOT, armbian_boot```)
 2.  Edite o arquivo `armbianEnv.txt` em um editor de texto:
     
     1. Comente as linhas com inicio `fdtfile=` adicionando #
@@ -197,20 +197,20 @@ overlays=cpu-hs emmc led-conf-default wlan-alt-wiring
 usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 ```
    
-4.  Remova o SD/CARD com segurança
-5.  Insira o SD/CARD na TV Box
+4.  Remova o SDCard com segurança
+5.  Insira o SDCard na TV Box
 
-## 4️⃣ Inicializando o Armbian pela primeira vez via SD/CARD
+## 4️⃣ Inicializando o Armbian pela primeira vez via SDCard
 
- 1. Conecte o SD/CARD na TV Box
+ 1. Conecte o SDCard na TV Box
  2. Conecte o adaptador de energia na TV Box 
- 3. O sistema vai inicializar o Armbian a partir do SD/CARD
+ 3. O sistema vai inicializar o Armbian a partir do SDCard
  4. Você deverá ver o terminal Armbian executando scripts de inicialização
- 5. Quando solicitado, faça login com nome de `usuário: senha` `root: 1234`
+ 5. Quando solicitado, faça login com nome de `usuário: root` `senha: 1234`
  6. Armbian irá inicializar no ambiente de desktop
- 7. Siga para - Instalação Armbian SD/CARD para EMMC
+ 7. Siga para - Instalação Armbian SDCard para eMMC
 
-## 5️⃣ Instalação Armbian SD/CARD para EMMC
+## 5️⃣ Instalação Armbian SDCard para eMMC
 
 1. Depois que o ambiente desktop for inicializado abra o terminal de comando `Terminator` 
 2. No terminal digite: `sudo armbian-config` 
@@ -251,7 +251,7 @@ usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
   <img src="https://github.com/educabox/educabox/blob/main/imagens/YY%20-%20INSTALACAO%20ARMBIAN/7.png?raw=true" alt="Size Limit CLI" width="738">
 </p>    
 
- 11. Ligue novamente a TV Box sem o SD/Card conectado para que inicialização do Armbian ocorra diretamente da TV Box.
+ 11. Ligue novamente a TV Box sem o SDCard conectado para que inicialização do Armbian ocorra diretamente da TV Box.
    ---
    <p align="center">
   <img src="https://github.com/educabox/educabox/blob/main/imagens/armbian.png?raw=true" alt="Size Limit CLI" width="738">
