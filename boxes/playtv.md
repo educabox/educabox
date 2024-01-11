@@ -190,7 +190,7 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
 
 1. Abra o gerenciador de arquivos e acesse a nova partição `BOOT_EMMC` no armazenamento eMMC.
 2. Delete ou faça backup do arquivo `emmc_autoscript`
-3. Copie do Pendrive de instalação o arquivo `s905_autoscript` na raiz da partição `BOOT_eMMC` e renomeie o arquivo para `emmc_autoscript`.
+3. Copie do Pendrive de instalação o arquivo `s905_autoscript` na raiz da partição `BOOT_EMMC` e renomeie o arquivo para `emmc_autoscript`.
 4. Ainda dentro da partição `BOOT_EMMC` abra o arquivo ``armbianEnv.txt``
 5. Altere ``rootdev=`` para o UUID da sua partição eMMC. Para isso abra o terminal de comando `Terminator` e digite:
 
