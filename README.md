@@ -105,7 +105,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | Allwinner| Instalação OTG | PhoenixUSB Pro | `4.0.0` |[Link](https://chinagadgetsreviews.com/download-allwinner-phoenixusb-pro-v4-0-0-tool.html)
 | Allwinner| Instalação SDCard | Phoenix Card | `3.1.0` |[Link](https://chinagadgetsreviews.com/download-latest-version-phoenixcard-v3-1-0.html)
 | Allwinner| Instalação SDCard | Phoenix Card | `4.2.4` |[Link](https://chinagadgetsreviews.com/download-latest-version-of-phoenixcard-v4-2-4.html)
-| Allwinner| Instalação e Drives| LiveSuit e Drives | `1.1.0` |[Link](https://chinagadgetsreviews.com/download-livesuit-pack-v1-11.htmll)
+| Allwinner| Instalação e Drives| LiveSuit e Drives | `1.1.0` |[Link](https://androidmtk.com/download-livesuit-all-versions)
 
 ### RockChip
 |Processador | Função | Utilitário| Versão | Link
