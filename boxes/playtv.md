@@ -163,7 +163,7 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
  `usuário: root` 
  `senha: 1234`
  7. Armbian irá inicializar no ambiente de desktop
- 8. Siga para - Instalação Armbian Pendrive para EMMC
+ 8. Siga para - Instalação Armbian Pendrive para eMMC
 
 ## #️⃣ Inicializando no Armbian pela primeira vez via c/ Script
 
@@ -177,22 +177,22 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
 `usuário: root`
 `senha: 1234`
 8. Armbian irá inicializar no ambiente de desktop
-9. Siga para - Instalação Armbian Pendrive para EMMC
+9. Siga para - Instalação Armbian Pendrive para eMMC
 
-## #️⃣ Instalação Armbian Pendrive para EMMC
+## #️⃣ Instalação Armbian Pendrive para eMMC
 
  1. Depois que o ambiente desktop for inicializado abra o terminal de comando `Terminator` 
  2. No terminal digite: `\root\install-aml.sh` 
  3. O script fará uma cópia do u-boot original da TV Box e depois a instalação do Armbian 
  4. Diferente de outras TVs Boxes processadores Amlogic **não tem compatibilidade** com a instalação padrão do Armbian `armbian-install`, **por isso não tente utilizar** o comando padrão do Armbian para instalação em TVs Boxes com processadores Amlogic
  
- **Obs: Antes de reiniciar novamente o Armbian faça as alterações abaixo, para que a próxima inicialização ocorra pelo armazenamento EMMC.**
+ **Obs: Antes de reiniciar novamente o Armbian faça as alterações abaixo, para que a próxima inicialização ocorra pelo armazenamento eMMC.**
 
-1. Abra o gerenciador de arquivos e acesse a nova partição `BOOT_EMMC` no armazenamento EMMC.
+1. Abra o gerenciador de arquivos e acesse a nova partição `BOOT_EMMC` no armazenamento eMMC.
 2. Delete ou faça backup do arquivo `emmc_autoscript`
-3. Copie do Pendrive de instalação o arquivo `s905_autoscript` na raiz da partição `BOOT_EMMC` e renomeie o arquivo para `emmc_autoscript`.
+3. Copie do Pendrive de instalação o arquivo `s905_autoscript` na raiz da partição `BOOT_eMMC` e renomeie o arquivo para `emmc_autoscript`.
 4. Ainda dentro da partição `BOOT_EMMC` abra o arquivo ``armbianEnv.txt``
-5. Altere ``rootdev=`` para o UUID da sua partição EMMC. Para isso abra o terminal de comando `Terminator` e digite:
+5. Altere ``rootdev=`` para o UUID da sua partição eMMC. Para isso abra o terminal de comando `Terminator` e digite:
 
 ```
 $sudo blkid
