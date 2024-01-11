@@ -5,14 +5,15 @@
 
 ### 📝 Guia de Instalação 
  1. 🛜 [Downloads Imagens](#downloads)
- 2. 🔍 [Pré-Requisitos](#requisitos)
- 3. 💾 [Gravação Imagem](#gravacao)
- 4. 📕 [Configurar SDCard ou Pendrive [RockChip RK322X]](#configurar-rk322x)
- 5. 📗 [Configurar SDCard ou Pendrive [Amlogic S905X | S905W]](#configurar-s905xw)
- 6. 📘 [Configurar SDCard ou Pendrive [Amlogic S905X2 | S905X3]](#configurar-s905x23)
- 7. 📲 [Inicializando o Armbian pela primeira vez via Pendrive ou SDCard](#init-pendrive-sdcard)
- 8. ⚙️ [Instalação Armbian SDCard para eMMC [RockChip RK322X]](#install-emmc-rk322x)
- 9. ⚙️ [Instalação Armbian Pendrive para eMMC [S905X, S905W, S905X2, S905X3]](#install-emmc-s905)
+ 2. ▶️ [Aplicativos Pré-Instalados](#aplicativos)
+ 3. 🔍 [Pré-Requisitos](#requisitos)
+ 4. 💾 [Gravação Imagem](#gravacao)
+ 5. 📕 [Configurar SDCard ou Pendrive [RockChip RK322X]](#configurar-rk322x)
+ 6. 📗 [Configurar SDCard ou Pendrive [Amlogic S905X | S905W]](#configurar-s905xw)
+ 7. 📘 [Configurar SDCard ou Pendrive [Amlogic S905X2 | S905X3]](#configurar-s905x23)
+ 8. 📲 [Inicializando o Armbian pela primeira vez via Pendrive ou SDCard](#init-pendrive-sdcard)
+ 9. ⚙️ [Instalação Armbian SDCard para eMMC [RockChip RK322X]](#install-emmc-rk322x)
+ 10. ⚙️ [Instalação Armbian Pendrive para eMMC [S905X, S905W, S905X2, S905X3]](#install-emmc-s905)
 
 #  ✅ <a id="downloads" />Download Educabox [Armbian]
 
@@ -37,7 +38,7 @@ O guia de instalação abaixo é para instalação de uma imagem live otimizada 
 | RPC PLUS  | RockChip 3229  | 1GB | 8GB  | ❌ SV6256P    | ✅          | [Link](https://github.com/educabox/educabox/blob/main/boxes/rpcplus.md)  |
 | TIGRE 2   | Amlogic S905X  | 2GB | 16GB | ✅ RTL8723BS  | ❌          | [Link](https://drive.google.com/uc?export=download&id=1FBiyUgDHFMlu5NQXtGfuUzRXVVz1KXR9)   |
 
-## 1️⃣ <a id="aplicativos" />Aplicativos Pré-Instalados
+## ▶️ <a id="aplicativos" />Aplicativos Pré-Instalados
 
 | LibreOffice | Firefox | VLC | Explorer | Terminator | Bloco de Notas | Visualizador de Images | Visualizador PDF |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
