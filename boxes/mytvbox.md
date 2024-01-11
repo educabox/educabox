@@ -178,6 +178,8 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
  3. O script fará uma cópia do u-boot original da TV Box e depois a instalação do Armbian 
  4. Diferente de outras TVs Boxes processadores Amlogic **não tem compatibilidade** com a instalação padrão do 
     Armbian `armbian-install`, **por isso não tente utilizar** o comando padrão do Armbian para instalação em TVs Boxes com processadores Amlogic
+ 5. Remova o Pendrive com segurança
+ 6. Reinicie a TV BOX
     
    ---
    <p align="center">
