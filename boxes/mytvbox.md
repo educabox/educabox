@@ -155,7 +155,7 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
  3. Com um clips acione o botão `reset` e depois `update` por alguns segundos até a tela apagar e reiniciar o equipamento.
  4. O sistema será reinicializado e deverá então começar a inicializar o Armbian a partir do Pendrive
  5. Você deverá ver o terminal Armbian executando scripts de inicialização
- 6. Quando solicitado, faça login com nome de `usuário: senha` `root: 1234`
+ 6. Quando solicitado, faça login com nome de `usuário: root` `senha: 1234`
  7. Armbian irá inicializar no ambiente de desktop
  8. Siga para - Instalação Armbian Pendrive para EMMC
 
@@ -167,7 +167,7 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
 4. Selecione Atualizar
 5. O sistema será reinicializado duas vezes e deverá então começar a inicializar o Armbian a partir do Pendrive
 6. Você deverá ver o terminal Armbian executando scripts de inicialização
-7. Quando solicitado, faça login com nome de `usuário: senha` `root: 1234`
+7. Quando solicitado, faça login com nome de `usuário: root` `senha: 1234`
 8. Armbian irá inicializar no ambiente de desktop
 9. Siga para - Instalação Armbian Pendrive para EMMC
 
