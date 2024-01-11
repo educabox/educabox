@@ -37,6 +37,12 @@ O guia de instalação abaixo é para instalação de uma imagem live otimizada 
 | RPC PLUS  | RockChip 3229  | 1GB | 8GB  | ❌ SV6256P    | ✅          | [Link](https://github.com/educabox/educabox/blob/main/boxes/rpcplus.md)  |
 | TIGRE 2   | Amlogic S905X  | 2GB | 16GB | ✅ RTL8723BS  | ❌          | [Link](https://drive.google.com/uc?export=download&id=1FBiyUgDHFMlu5NQXtGfuUzRXVVz1KXR9)   |
 
+## 1️⃣ <a id="aplicativos" />Aplicativos Pré-Instalados
+
+| LibreOffice | Firefox | VLC | Explorer | Terminator | Bloco de Notas | Visualizador de Images | Visualizador PDF |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+|<img src="https://github.com/educabox/educabox/blob/main/imagens/VV%20-%20ICONES/libreoffice.png?raw=true&image_size=auto"/>|<img src="https://github.com/educabox/educabox/blob/main/imagens/VV%20-%20ICONES/firefox.png?raw=true&image_size=auto"/>|<img src="https://github.com/educabox/educabox/blob/main/imagens/VV%20-%20ICONES/vlc.png?raw=true&image_size=auto"/>|<img src="https://github.com/educabox/educabox/blob/main/imagens/VV%20-%20ICONES/explorador.png?raw=true&image_size=auto"/>|<img src="https://github.com/educabox/educabox/blob/main/imagens/VV%20-%20ICONES/terminator.png?raw=true&image_size=auto"/>|<img src="https://github.com/educabox/educabox/blob/main/imagens/VV%20-%20ICONES/bloconotas.png?raw=true&image_size=auto"/>|<img src="https://github.com/educabox/educabox/blob/main/imagens/VV%20-%20ICONES/images.png?raw=true&image_size=auto"/>|<img src="https://github.com/educabox/educabox/blob/main/imagens/VV%20-%20ICONES/pdf.png?raw=true&image_size=auto"/>
+
 ## 1️⃣ <a id="requisitos" />Pré-requisitos
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/pendrive.png?raw=true" align="right" width="80" height="80">
