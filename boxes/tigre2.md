@@ -112,7 +112,7 @@ DTB | [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=
 
 [Como  gravar uma Imagem no balenaEtcher?](#)
  
-## 3️⃣ Configurar cartão Pendrive para Armbian
+## 3️⃣ Configurar SDCard ou Pendrive para Armbian
 
 1.  Abra a partição legível do pendrive no Windows Explorer ou Finder (Ex: ```BOOT, armbian_boot```)
 2.  Renomeie o arquivo apropriado abaixo para ```u-boot.ext``` na raiz do Pendrive:
