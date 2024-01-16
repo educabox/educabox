@@ -122,7 +122,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | RockChip| Instalação OTG | Rockchip Batch Tool | `1.8` |[Link](https://chinagadgetsreviews.com/hot-download-rockchip-batch-tool-v1-8.html)
 | RockChip| Instalação SDCard| Rockchip Create Upgrade Disk Tool | `1.7` |[Link](https://chinagadgetsreviews.com/download-latest-rockchip-create-upgrade-disk-tool-v1-7.html)
 | RockChip| Instalação SDCard| Rockchip Create Upgrade Disk Tool | `1.59` |[Link](https://chinagadgetsreviews.com/download-rockchip-create-upgrade-disk-tool-v1-59.html)
-| RockChip| Instalação SDCard| Multitool | `1.59` |[Link](https://users.armbian.com/jock/rk322x/multitool/multitool.img.xz)
+| RockChip| Instalação SDCard| Multitool | `--` |[Link](https://users.armbian.com/jock/rk322x/multitool/multitool.img.xz)
 | RockChip| Drives | Rockchip Driver Assistant | `4.5.0` |[Link](https://chinagadgetsreviews.com/download-rockchip-driver-assistant-v4-5.html)
 | RockChip| Drives | Rockchip Driver Assistant | `4.8.0` |[Link](https://chinagadgetsreviews.com/download-rockchip-driver-assistant-v4-8.html)
 | RockChip| Drives | Rockchip Driver Assistant | `5.1.1` |[Link](https://chinagadgetsreviews.com/download-rockchip-driver-assistant-v5-1-1.html)
