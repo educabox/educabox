@@ -80,7 +80,7 @@ DTB | [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D
 # 📝 Neofetch
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/10%20-%20INXPLUS/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/16%20-%20MXQPRO4K5G/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
 # ✅ Guia de Instalação
