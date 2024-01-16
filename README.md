@@ -175,7 +175,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-ifms.png?raw=true" width="300px;" alt="Receita Federal"/><br>
+        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-ifms.png?raw=true" width="300px;" alt="IFMS"/><br>
         <sub>
         <br>
           <b></b>
