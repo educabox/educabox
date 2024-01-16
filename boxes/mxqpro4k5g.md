@@ -176,7 +176,7 @@ Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box
  
 ## 3️⃣ Configurar SDCard para Armbian
 
-Obs: Esta etapa não é necessária para os Dispositivos Rockchip 3228, 3228a e 3229, no entanto caso seu dispositivo não seja compatível com o .dtb padrão [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h), faça a modificação para o .dtb da sua TV BOX. Os arquivos .dtb podem ser encontrados na pasta `/dtb/` na raiz do SDCard.
+Obs: Esta etapa não é necessária para os Dispositivos Rockchip 3228, 3228A e 3229, no entanto caso seu dispositivo não seja compatível com o .dtb padrão [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h), faça a modificação para o .dtb da sua TV BOX. Os arquivos .dtb podem ser encontrados na pasta `/dtb/` na raiz do SDCard.
  
 1.  Abra a partição legível do SDCard no Windows Explorer ou Finder (Ex: ```BOOT, armbian_boot```)
 2.  Edite o arquivo `armbianEnv.txt` em um editor de texto:
