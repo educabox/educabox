@@ -150,7 +150,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://www.gov.br/mcom/pt-br/acesso-a-informacao/acoes-e-programas/programas-projetos-acoes-obras-e-atividades/computadores-para-inclusao-1">
         <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-computadores-inclusao.png?raw=true" width="105px;" alt="CRC"/><br>
         <sub>
           <b></b>
@@ -158,7 +158,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="http://crcdourados.com.br">
         <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-crc.png?raw=true" width="100px;" alt="CRC DOURADOS"/><br>
         <sub>
           <b></b>
@@ -166,7 +166,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://www.gov.br/receitafederal/">
         <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-rf.png?raw=true" width="105px;" alt="Receita Federal"/><br>
         <sub>
           <b></b>
@@ -174,7 +174,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://www.ifms.edu.br/">
         <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-ifms.png?raw=true" width="300px;" alt="IFMS"/><br>
         <sub>
         <br>
