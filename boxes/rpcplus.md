@@ -158,7 +158,7 @@ Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box
 </p>
 
 9. Remova o SDCard da TV Box e inicie novamente a Box.
-10. Pule para  X
+10. Pule para Instalação Armbian SDCard para eMMC.
  
 ## 1️⃣ Pré-requisitos instalação live SDCard
 
