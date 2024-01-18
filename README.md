@@ -187,6 +187,48 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
 
 ### 👨🏽‍💻👩🏼‍💻 <a id="equipe"/>Equipe de Desenvolvimento
 
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://lattes.cnpq.br/6266978921240941">
+        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/lucas.png?raw=true" width="110px;" alt="Lucas"/><br>
+        <span>Lucas Rodrigues</span>
+        <sub>
+          <b></b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="http://lattes.cnpq.br/7192649680369183">
+        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/savio.png?raw=true" width="110px;" alt="Savio"/><br>
+        <span>Savio Cantero</span>
+        <sub>
+          <b></b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/evandro.png?raw=true" width="110px;" alt="Evandro"/><br>
+        <span>Evandro Falleiros</span>
+        <sub>
+          <b></b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/jonison.png?raw=true" width="110px;" alt="Jonison"/><br>
+        <span>Jónison Santos</span>
+        <sub>
+        <br>
+          <b></b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## ⁉️ <a id="duvidas"/>Dúvidas e Sugestões
 
 Quer fazer parte desse projeto? Entre em contato conosco:
