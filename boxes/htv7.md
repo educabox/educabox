@@ -18,7 +18,7 @@ Placa  DTB  | sm1_ac213_2g
 CPU  |  Amlogic  S905X3
 Família  |  Cortex-A55
 Velocidade  |  100  -  1908  MHz
-GPU  |  Mali-G21  MC1
+GPU  |  Mali-G31  MC1
 Wifi  |  RTL8822CS
 Memória  | 2GB
 Armazenamento  | 16GB
