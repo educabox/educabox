@@ -130,7 +130,7 @@ Basta copiar os arquivos anexados para a partição de `boot` da imagem Armbian 
 3. Copie os arquivos [[aml_autoscript]](https://drive.google.com/uc?export=download&id=11_2ED60PkU16qWI3BMhDq8P7ddh0XC52) e [[s905_autoscript]](https://drive.google.com/uc?export=download&id=10LiKlvmS6M29tFIWwuJT1Vy0eWQJEl0o) para raiz do Pendrive.
 4.  Copie o arquivo [.dtb](https://drive.google.com/uc?export=download&id=1aaxBDKcvh3FGpS1LabSoefU0TTAFl4Mt) ``meson-g12a-sei510.dtb`` para ``/dtb/amlogic/``
 5. Crie um novo arquivo chamado ``armbianEnv.txt`` na raiz do Pendrive         
-6.  Edite o arquivo em um editor de texto e cole o código abaixo - Créditos [[Devmfc]](https://forum.armbian.com/topic/30245-cant-boot-with-2305-or-later-builds-on-s905x2-g12a-or-s905x3-sm1/?do=findComment&comment=171830):
+6.  Edite o arquivo em um editor de texto e cole o código abaixo:
         
 ```
 extraargs=earlycon rootflags=data=writeback rw no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
