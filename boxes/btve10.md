@@ -140,7 +140,7 @@ usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 console=both
 
 # DTB file for this tvbox
-fdtfile=amlogic/meson-sm1-sei610-ethfix.dtb
+fdtfile=amlogic/meson-g12a-sei510.dtb
 
 # set this to the UUID of the root partition (value can be found 
 # in /extlinux/extlinux.conf after APPEND root= or with blkid)
