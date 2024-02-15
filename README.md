@@ -3,8 +3,8 @@
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true&image_size=auto"" width="250"></a>
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-ifms-branco.png?raw=true&image_size=auto"" width="250"></a>
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true&image_size=auto" width="250"></a>
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-ifms-branco.png?raw=true" width="250"></a>
   <br>
   EducaBox
   <br>
