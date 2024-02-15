@@ -3,7 +3,7 @@
 
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png" width="250"></a>
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true&image_size=auto"" width="250"></a>
   <br>
   EducaBox
   <br>
