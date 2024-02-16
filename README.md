@@ -209,7 +209,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="http://lattes.cnpq.br/0808904471212303">
         <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/evandro.png?raw=true" width="110px;" alt="Evandro"/><br>
         <span>Evandro Falleiros</span>
         <sub>
@@ -218,7 +218,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="http://lattes.cnpq.br/3005793775761769">
         <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/jonison.png?raw=true" width="110px;" alt="Jonison"/><br>
         <span>Jónison Santos</span>
         <sub>
