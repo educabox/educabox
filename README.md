@@ -62,7 +62,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 | BTVE10     | Amlogic S905X3  | 2GB     | 8GB           | ✅ RTL8189FTV    |✅          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/btve10.md)    |
 | EXTREMO    | Amlogic S905W   | 2GB     | 8GB           | ❌ SV6051P       |✅          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/extremo.md)   |
 | HTV6+      | Amlogic S905W   | 2GB     | 16GB          | ✅ RTL8723BS     |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/htv6plus.md)  | 
-| HTV7       | Amlogic S905X3  | 2GB     | 16GB          | ❌ RTL8822CS     |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/htv7.md)      |
+| HTV7       | Amlogic S905X3  | 2GB     | 16GB          | ✅ RTL8822CS     |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/htv7.md)      |
 | IMOVE      | Amlogic S905W   | 1GB     | 8GB           | ❌ SV6051P       |✅          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/imove.md)     |
 | IMOVE PRO  | Amlogic S905W   | 1GB     | 8GB           | ❌ SV6051P       |✅          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/imovepro.md)  |
 | IN X PLUS  | RockChip 3229   | 1GB     | 8GB           | ❌ SV6256P       |✅          |✅       |✅       |[Link](https://github.com/educabox/educabox/blob/main/boxes/inxplus.md)   |
