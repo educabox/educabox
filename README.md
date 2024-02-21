@@ -61,7 +61,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 | BTVBX      | Amlogic S905X   | 2GB     | 16GB          | ✅ AP6212        |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/btvbx.md)     |
 | BTVE10     | Amlogic S905X3  | 2GB     | 8GB           | ✅ RTL8189FTV    |✅          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/btve10.md)    |
 | EXTREMO    | Amlogic S905W   | 2GB     | 8GB           | ❌ SV6051P       |✅          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/extremo.md)   |
-| HTV6+      | Amlogic S905X   | 2GB     | 16GB          | ✅ RTL8723BS     |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/htv6plus.md)  | 
+| HTV6+      | Amlogic S905W   | 2GB     | 16GB          | ✅ RTL8723BS     |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/htv6plus.md)  | 
 | HTV7       | Amlogic S905X3  | 2GB     | 16GB          | ❌ RTL8822CS     |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/htv7.md)      |
 | IMOVE      | Amlogic S905W   | 1GB     | 8GB           | ❌ SV6051P       |✅          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/imove.md)     |
 | IMOVE PRO  | Amlogic S905W   | 1GB     | 8GB           | ❌ SV6051P       |✅          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/imovepro.md)  |
@@ -136,7 +136,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | Amlogic | S905X |`3.0.2`|`-` |[.img](https://drive.google.com/file/d/1mlfXSwFB7IwS_ufO0PmtnZS8eWoALwij/view?usp=drive_link) - [.zip](https://drive.google.com/file/d/1ikgmEQ-IEJJwWFf1nptcqSkmUzKazDoT/view?usp=drive_link)
 | Amlogic | S905X2 |`3.7.0`|`9.0 (Pie)` |[.img](https://drive.google.com/file/d/1sxk-mr_QLQErB-OCmLhOgm71f8rSFr7Z/view?usp=drive_link) - [.zip](https://drive.google.com/file/d/1r2Q7nTJ_U96qj5eGFhf6gBTRJTfJEyt9/view?usp=drive_link)
 | Amlogic | S905X3 |`3.7.0`|`9.0 (Pie)` |[.img](https://drive.google.com/file/d/1sxk-mr_QLQErB-OCmLhOgm71f8rSFr7Z/view?usp=drive_link) - [.zip](https://drive.google.com/file/d/1r2Q7nTJ_U96qj5eGFhf6gBTRJTfJEyt9/view?usp=drive_link)
-| Amlogic | S905W |`3.0.2`|`-` |[.img](https://drive.google.com/file/d/1p5vziF86DJspxG2nlJq51k_LoEF03pUz/view?usp=drive_link) - [.zip](https://drive.google.com/file/d/1KKFMqGhu0OFElQhOFK8ovwnwqQX_gUMZ/view?usp=drive_link)
+| Amlogic | S905W |`3.0.2`|`-` |[.img](https://drive.google.com/uc?export=download&id=1p5vziF86DJspxG2nlJq51k_LoEF03pUz) - [.zip](https://drive.google.com/file/d/1KKFMqGhu0OFElQhOFK8ovwnwqQX_gUMZ/view?usp=drive_link)
 | Amlogic | S912 |`-`|`-`|[.img](https://drive.google.com/file/d/1OPunnOo7Fl7zX3CjjnqjAwRDF5lM2Nu6/view?usp=drive_link)
 | Amlogic | S922X w400 |`3.7.0`|`9.0 (Pie)` |[.img](https://drive.google.com/file/d/1BloDo99bkHIiwZsYGuKdXS8c5Tghn3qz/view?usp=drive_link) - [.zip](https://drive.google.com/file/d/1PG6dtmh95DcUMEqEx7GleFOOxTxRxmGD/view?usp=drive_link)
 | Amlogic | K200 |`2.8.5.1`|`-` |[.img](https://drive.google.com/file/d/1OPunnOo7Fl7zX3CjjnqjAwRDF5lM2Nu6/view?usp=drive_link)
