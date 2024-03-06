@@ -20,7 +20,7 @@ Família | Cortex-A55
 Velocidade | 100 - 1908 MHz
 GPU | Mali-G31 MC1
 Wifi | AP6212 
-Memória | 1GB
+Memória | 2GB
 Armazenamento | 16GB
 Resolução | 1080X1920
 
