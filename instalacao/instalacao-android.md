@@ -17,8 +17,8 @@ O guia de instalação abaixo é para instalação de uma imagem otimizada Andro
 |-----------|----------------|:---:|:----:|--------------|:----------:|:------------------------------------------------------------------------:|
 | IN X PLUS | RockChip 3229 | 1GB | 8GB | ✅ SV6256P | ✅ | [Link](https://drive.google.com/uc?export=download&id=1xw9wbWIX8LgOfjQ97nEi3nBO2dCpphDg) |
 | MXQ PRO 4K | RockChip 3228A | 1GB | 8GB  | ✅ ESP8089    | ✅        | [Link](https://drive.google.com/uc?export=download&id=1KhYS4f6dqAg6p-vpjhIzttDiUjMf_vB8)    |
-| RPC 8K | RockChip 3229 | 1GB | 8GB | ✅ SV6051P | ✅ | [Link](#) |
-| RPC MINI | RockChip 3229 | 1GB | 8GB | ✅ SV6051P | ✅ | [Link](#) |
+| RPC 8K | RockChip 3229 | 1GB | 8GB | ✅ SV6051P | ✅ | [Link](https://drive.google.com/uc?export=download&id=1DXachtEwh5OBAh8V3RIFj_nZBS-lA8pE) |
+| RPC MINI | RockChip 3229 | 1GB | 8GB | ✅ SV6051P | ✅ | [Link](https://drive.google.com/uc?export=download&id=1DXachtEwh5OBAh8V3RIFj_nZBS-lA8pE) |
 | RPC PLUS | RockChip 3229 | 1GB | 8GB | ✅ SV6256P | ✅ | [Link](https://drive.google.com/uc?export=download&id=1xw9wbWIX8LgOfjQ97nEi3nBO2dCpphDg) |
 
 ## 1️⃣ <a id="aplicativos"/>Aplicativos Pré-Instalados
