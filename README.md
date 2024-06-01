@@ -59,7 +59,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 |------------|-----------------|:-------:|:-------------:|------------------|:----------:|:-------:|:-------:|:------------------------------------------------------------------------:|
 | BTV11      | Amlogic S905X3  | 1GB     | 16GB          | ✅ AP6212        |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/btv11.md)     |
 | BTVBX      | Amlogic S905X   | 2GB     | 16GB          | ✅ AP6212        |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/btvbx.md)     |
-| BTVE10     | Amlogic S905X3  | 2GB     | 8GB           | ✅ RTL8189FTV    |✅          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/btve10.md)    |
+| BTVE10     | Amlogic S905X2  | 2GB     | 8GB           | ✅ RTL8189FTV    |✅          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/btve10.md)    |
 | EXTREMO    | Amlogic S905W   | 2GB     | 8GB           | ❌ SV6051P       |✅          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/extremo.md)   |
 | HTV6+      | Amlogic S905W   | 2GB     | 16GB          | ✅ RTL8723BS     |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/htv6plus.md)  | 
 | HTV7       | Amlogic S905X3  | 2GB     | 16GB          | ✅ RTL8822CS     |❌          |✅       |         |[Link](https://github.com/educabox/educabox/blob/main/boxes/htv7.md)      |
