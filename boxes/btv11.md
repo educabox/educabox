@@ -86,7 +86,7 @@ DTB | [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17ao
 
 # ✅ Guia de Instalação Imagem Oficial Armbian
 
-O guia de instalação abaixo é para criação de uma imagem limpa da  \_Imagem Oficial Armbian\_ com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [BTV11].
+O guia de instalação abaixo é para criação de uma imagem limpa da  \_Imagem\_ Oficial Armbian\_ com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [BTV11].
 
 Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) do respectivo equipamento.
 
@@ -96,7 +96,7 @@ Imagem Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_deskt
 Torrent Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=10nbA5OmPXiTydt9d8HHTb1Cm_RJv1YWm)
 DTB | [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17aoHwUOW1su-vBiLBEOCE9eV0uP59Bfw)
 
-[Como Instalar nossa Imagem Educabox?](#)
+[Como Instalar nossa Imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
 
