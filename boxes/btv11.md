@@ -98,7 +98,7 @@ Educabox | [educabox_armbian_btv11.img.gz](https://drive.google.com/uc?export=do
 DTB | [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17aoHwUOW1su-vBiLBEOCE9eV0uP59Bfw)
 
 [Como Instalar nossa Imagem Educabox?](#)
-
+<img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
 ## 1️⃣ Pré-requisitos
 
 1. Dispositivo USB (Pendrive) - ```Mínimo 8GB```
