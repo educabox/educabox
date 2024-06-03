@@ -94,7 +94,7 @@ Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o
 ---------|:--:
 Imagem Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=16XfAspTprQX2QKNFBrFKEcHLAQbMXLjE)
 Torrent Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=10nbA5OmPXiTydt9d8HHTb1Cm_RJv1YWm)
-Educabox | [educabox_armbian_btv11.img.gz](https://drive.google.com/uc?export=download&id=1O6Xzlx-8S0DLrzNtspxkH4fDuruPiVn1)
+Imagem Educabox | [educabox_armbian_btv11.img.gz](https://drive.google.com/uc?export=download&id=1O6Xzlx-8S0DLrzNtspxkH4fDuruPiVn1)
 DTB | [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17aoHwUOW1su-vBiLBEOCE9eV0uP59Bfw)
 
 [Como Instalar nossa Imagem Educabox?](#)
@@ -115,7 +115,9 @@ DTB | [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17ao
 4.  Ignore/Feche as caixas de diálogo do Windows/MacOS para formatar o Pendrive inserido
 
 [Como  gravar uma Imagem no balenaEtcher?](#)
- 
+
+<img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_balena.png?raw=true&image_size=auto"/>
+
 ## 3️⃣ Configurar SDCard ou Pendrive para Armbian
 
 Obs: Para esta Box não é necessário editar o arquivo `u-boot` do Armbian. Portanto, eles não são necessários. Basta algumas modificações simples para inicializar o Armbian.
