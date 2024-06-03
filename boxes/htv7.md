@@ -84,20 +84,21 @@ DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&
   <img src="https://github.com/educabox/educabox/blob/main/imagens/06%20-%20HTV7/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
-# ✅ Guia de Instalação
+# ✅ Guia de Instalação Imagem Oficial Armbian
 
-O guia de instalação abaixo é para criação de uma imagem limpa com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [HTV7].
+O guia de instalação abaixo é para criação de uma imagem limpa da [Imagem Oficial Armbian] com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [HTV7].
 
-Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox] do respectivo equipamento.
+Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) do respectivo equipamento.
 
 |Imagens | Download|
 ---------|:--:
 Imagem Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=16XfAspTprQX2QKNFBrFKEcHLAQbMXLjE)
 Torrent Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=10nbA5OmPXiTydt9d8HHTb1Cm_RJv1YWm)
-Educabox | [educabox_armbian_htv7.img.gz](https://drive.google.com/uc?export=download&id=13Tv27Ph6NzFVbhkLe8QYam0327eHwrPQ)
 DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) - Créditos [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
 
-[Como Instalar nossa Imagem Educabox?](#)
+[Como Instalar nossa Imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
+
+<a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
 
 ## 1️⃣ Pré-requisitos
 
@@ -113,6 +114,8 @@ DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&
 4.  Ignore/Feche as caixas de diálogo do Windows/MacOS para formatar o Pendrive inserido
 
 [Como  gravar uma Imagem no balenaEtcher?](#)
+
+<a href="https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_balena.png?raw=true&image_size=auto"/>
  
 ## 3️⃣ Configurar SDCard ou Pendrive para Armbian
 
