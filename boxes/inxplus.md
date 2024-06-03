@@ -32,7 +32,8 @@ Codename | Bookworm
 S.O | Armbian 23.11.1
 Linux | Debian
 Kernel | 6.1.63
-Imagem Oficial | [Armbian_23.11.1_Rk322x-box_bookworm_current_6.1.63_xfce_desktop.img.xz](https://imola.armbian.com/dl/rk322x-box/archive/Armbian_23.11.1_Rk322x-box_bookworm_current_6.1.63_xfce_desktop.img.xz)
+Imagem Oficial | [Armbian_23.11.1_Rk322x-box_bookworm_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=1cZzKVb4iwia0aPONmyD_bFzK2FwtRN-r)
+Torrent Oficial | [Armbian_23.11.1_Rk322x-box_bookworm_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=1c1b4kldMVfyZwS0YkZXywP_6S2TaOpvO)
 Imagem Educabox | [educabox_armbian_rk322x.img.gz](https://drive.google.com/uc?export=download&id=1yrbGJaaH6ONd6Td5SeE_crzek8Ebmx6F)
 DTB | [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h)
 
@@ -83,19 +84,22 @@ DTB | [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D
   <img src="https://github.com/educabox/educabox/blob/main/imagens/10%20-%20INXPLUS/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
-# ✅ Guia de Instalação
+# ✅ Guia de Instalação Imagem Oficial Armbian
 
-O guia de instalação abaixo é para criação de uma imagem limpa com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [IN X PLUS].
+O guia de instalação abaixo é para criação de uma imagem limpa da [Imagem Oficial Armbian] com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [IN X PLUS].
 
-Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox] do respectivo equipamento.
+Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) do respectivo equipamento.
 
 |Imagens | Download|
 ---------|:--:
-Oficial | [Armbian_23.11.1_Rk322x-box_bookworm_current_6.1.63_xfce_desktop.img.xz](https://imola.armbian.com/dl/rk322x-box/archive/Armbian_23.11.1_Rk322x-box_bookworm_current_6.1.63_xfce_desktop.img.xz)
-Educabox | [educabox_armbian_rk322x.img.gz](https://drive.google.com/uc?export=download&id=1yrbGJaaH6ONd6Td5SeE_crzek8Ebmx6F)
+Imagem Oficial | [Armbian_23.11.1_Rk322x-box_bookworm_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=1cZzKVb4iwia0aPONmyD_bFzK2FwtRN-r)
+Torrent Oficial | [Armbian_23.11.1_Rk322x-box_bookworm_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=1c1b4kldMVfyZwS0YkZXywP_6S2TaOpvO)
 DTB | [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h)
 
-[Como Instalar nossa Imagem Educabox?](#)
+[Como Instalar nossa Imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
+
+<a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
+
 
 ## 0️⃣ Pré-requisitos instalação Multitool via SDCard
 
@@ -112,6 +116,10 @@ Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box
 9. Feito isso remova o SDCard e insira na TV Box
 10. Inicie a TV Box com o cartão SDCard  
 11. Caso sua TV Box faça inicialização automática do SDCard o utilitário Multitool será inicializado. Se for necessário inicie a TV Box com o botão de `update` pressionado ou com um clips/palito no botão oculto na entrada `AV`
+
+[Como  gravar uma Imagem no balenaEtcher?](https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md)
+
+<a href="https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_balena.png?raw=true&image_size=auto"/>
 
 **Gravar imagem via utilitário Multitool na unidade de armazenamento eMMC:**
 
