@@ -99,7 +99,7 @@ DTB | [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17ao
 
 [Como Instalar nossa Imagem Educabox?](#)
 
-<img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
+<a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
 
 ## 1️⃣ Pré-requisitos
 
@@ -116,7 +116,7 @@ DTB | [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17ao
 
 [Como  gravar uma Imagem no balenaEtcher?](#)
 
-<img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_balena.png?raw=true&image_size=auto"/>
+<a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_balena.png?raw=true&image_size=auto"/>
 
 ## 3️⃣ Configurar SDCard ou Pendrive para Armbian
 
