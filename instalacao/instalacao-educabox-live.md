@@ -27,7 +27,7 @@ O guia de instalação abaixo é para instalação de uma imagem live otimizada 
 | BTVE10     | Amlogic S905X3 | 2GB | 8GB  | ✅ RTL8189FTV | ✅        | [Link](https://drive.google.com/uc?export=download&id=1_y00AeCC85XuR6s7da3A3YwlgaeQVZxj)    |
 | EXTREMO    | Amlogic S905W  | 2GB | 8GB  | ❌ SV6051P    | ✅        | [Link](https://drive.google.com/uc?export=download&id=1Pyjx83Z513lyEly3imZW4mID6BDLVCmU)    |
 | HTV6+      | Amlogic S905X  | 2GB | 16GB | ✅ RTL8723BS  | ❌        | [Link](https://drive.google.com/uc?export=download&id=1NXFM43v1dssx45li3AG_zvNhGeHJcf19)    |
-| HTV7       | Amlogic S905X3 | 2GB | 16GB | ❌ RTL8822CS  | ❌        | [Link](https://drive.google.com/uc?export=download&id=1Q0LOpTapjLeA3leLJTieEueSH5gOsTvq)    |
+| HTV7       | Amlogic S905X3 | 2GB | 16GB | ✅ RTL8822CS  | ❌        | [Link](https://drive.google.com/uc?export=download&id=1Q0LOpTapjLeA3leLJTieEueSH5gOsTvq)    |
 | IMOVE      | Amlogic S905W  | 1GB | 8GB  | ❌ SV6051P    | ✅        | [Link](https://drive.google.com/uc?export=download&id=139n46MwJiSRzgsyW-cCqNiH0SNn4U5C4)    |
 | IMOVE PRO  | Amlogic S905W  | 1GB | 8GB  | ❌ SV6051P    | ✅        | [Link](https://drive.google.com/uc?export=download&id=16EeBueX84sZLZ_8uKO4NDqdgPlEt1enF)    |
 | IN X PLUS  | RockChip 3229  | 1GB | 8GB  | ❌ SV6256P    | ✅        | [Link](https://drive.google.com/uc?export=download&id=1yrbGJaaH6ONd6Td5SeE_crzek8Ebmx6F)    |
