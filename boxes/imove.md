@@ -113,7 +113,7 @@ DTB | [meson-gxl-s905w-p281.dtb](https://drive.google.com/uc?export=download&id=
 3.  Remova com segurança o Pendrive e insira-o novamente
 4.  Ignore/Feche as caixas de diálogo do Windows/MacOS para formatar o Pendrive inserido
 
-[Como  gravar uma Imagem no balenaEtcher?](#)
+[Como  gravar uma Imagem no balenaEtcher?](https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md)
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_balena.png?raw=true&image_size=auto"/>
  
