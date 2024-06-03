@@ -86,7 +86,7 @@ DTB | [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17ao
 
 # ✅ Guia de Instalação Imagem Oficial Armbian
 
-O guia de instalação abaixo é para criação de uma imagem limpa da  \_Imagem\_ Oficial Armbian\_ com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [BTV11].
+O guia de instalação abaixo é para criação de uma imagem limpa da [Imagem Oficial Armbian] com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [BTV11].
 
 Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) do respectivo equipamento.
 
