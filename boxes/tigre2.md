@@ -84,35 +84,38 @@ DTB | [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=
   <img src="https://github.com/educabox/educabox/blob/main/imagens/08%20-%20TIGRE2/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
-# ✅ Guia de Instalação
+# ✅ Guia de Instalação Imagem Oficial Armbian
 
-O guia de instalação abaixo é para criação de uma imagem limpa com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [TIGRE 2].
+O guia de instalação abaixo é para criação de uma imagem limpa da [Imagem Oficial Armbian] com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [TIGRE 2].
 
-Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox] do respectivo equipamento.
+Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) do respectivo equipamento.
 
 |Imagens | Download|
 ---------|:--:
 Imagem Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=16XfAspTprQX2QKNFBrFKEcHLAQbMXLjE)
 Torrent Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=10nbA5OmPXiTydt9d8HHTb1Cm_RJv1YWm)
-Educabox | [educabox_armbian_tigre2.img.gz](https://drive.google.com/uc?export=download&id=1cUDDeGJ-UgXKvqUQjAnTVT9_ib6CINjv)
 DTB | [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=1DOmjTFgb4NfTOwKvHHMnvDDkN8xAMonf)
 
-[Como Instalar nossa Imagem Educabox?](#)
+[Como Instalar nossa Imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
+
+<a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
 
 ## 1️⃣ Pré-requisitos
 
- 1. Dispositivo USB (Pendrive) - ```Mínimo 8GB```
- 2. Software [balenaEtcher](https://etcher.balena.io/) , [Rufus](https://rufus.ie/pt_BR/) ou [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
- 3. Imagem Oficial S.O Armbian
+1. Dispositivo USB (Pendrive) - ```Mínimo 8GB```
+2. Software [balenaEtcher](https://etcher.balena.io/) , [Rufus](https://rufus.ie/pt_BR/) ou [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
+3. Imagem Oficial S.O Armbian
  
 ## 2️⃣ Gravação Imagem
  
 1.  Execute balenaEtcher (*Preferência)
-2.  Grave a imagem Armbian no cartão Pendrive USB
+2.  Grave a imagem Armbian no Pendrive USB
 3.  Remova com segurança o Pendrive e insira-o novamente
 4.  Ignore/Feche as caixas de diálogo do Windows/MacOS para formatar o Pendrive inserido
 
 [Como  gravar uma Imagem no balenaEtcher?](#)
+
+<a href="https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_balena.png?raw=true&image_size=auto"/>
  
 ## 3️⃣ Configurar SDCard ou Pendrive para Armbian
 
