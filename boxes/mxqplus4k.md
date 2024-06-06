@@ -87,7 +87,7 @@ DTB | [sun8i-h3-orangepi-pc-plus.dtb](https://drive.google.com/file/d/1eokN43prh
 
 # ✅ Guia de Instalação
 
-O guia de instalação abaixo é para criação de uma imagem limpa com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [ID18 8K].
+O guia de instalação abaixo é para criação de uma imagem limpa com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [MXQ PLUS 4K].
 
 Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox] do respectivo equipamento.
 
