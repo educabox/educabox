@@ -33,9 +33,9 @@ Codename | Bookworm
 S.O | Armbian 23.11.1
 Linux | Ubuntu
 Kernel | 6.1.63
-Imagem Oficial | [Armbian_23.11.1_Sunvell-r69_jammy_current_6.1.63_xfce_desktop.img.xz](#)
-Torrent Oficial | [Armbian_23.11.1_Sunvell-r69_jammy_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/file/d/1gQDQTgUdDZD8D732Vo0C9szO7t1ePs32/view?usp=drive_link)
-Imagem Educabox | [educabox_armbian_r69.img.gz](#)
+Imagem Oficial | [Armbian_23.11.1_Sunvell-r69_jammy_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=1gQDQTgUdDZD8D732Vo0C9szO7t1ePs32)
+Torrent Oficial | [Armbian_23.11.1_Sunvell-r69_jammy_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=1gQDQTgUdDZD8D732Vo0C9szO7t1ePs32)
+Imagem Educabox | [educabox_armbian_mxqplus_4k.img.gz](https://drive.google.com/uc?export=download&id=1yC5RHQ18KWe0IthDOr0hjjOQwAuOwbXM)
 DTB | sun8i-h3-orangepi-pc-plus.dtb
 
 # 📌 Serviços Ativos/Inativos 
