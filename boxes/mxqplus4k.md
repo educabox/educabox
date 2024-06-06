@@ -1,5 +1,5 @@
 
-# 📦 TV BOX BTV BX 
+# 📦 TV BOX MXQ PLUS 4K
 </p>
 <p align="center">
   <img src="https://github.com/educabox/educabox/blob/main/imagens/19%20-%20MXQPLUS4K/Screenshots/MXQPLUS4K%20HARDWARE.png?raw=true" alt="Size Limit CLI" width="1500">
@@ -85,11 +85,11 @@ DTB | [sun8i-h3-orangepi-pc-plus.dtb](https://drive.google.com/file/d/1eokN43prh
   <img src="https://github.com/educabox/educabox/blob/main/imagens/19%20-%20MXQPLUS4K/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
-# ✅ Guia de Instalação
+# ✅ Guia de Instalação Imagem Oficial Armbian
 
-O guia de instalação abaixo é para criação de uma imagem limpa com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [MXQ PLUS 4K].
+O guia de instalação abaixo é para criação de uma imagem limpa da [Imagem Oficial Armbian] com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [MXQ PLUS 4K].
 
-Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox] do respectivo equipamento.
+Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) do respectivo equipamento.
 
 |Imagens | Download|
 ---------|:--:
