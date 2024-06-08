@@ -105,8 +105,8 @@ sudo shutdown now                      Desligar
 Ferramentas de CPU
 ---------
 cpufreq-set -g performance             Definir governador para desempenho
-cpufreq-set -u 2Ghz                    Set max frequency for all cores
-cpufreq-set -c 0-1 -u 1.8Ghz           Defina a frequência máxima para todos os núcleos
+cpufreq-set -u 2Ghz                    Defina a frequência máxima para todos os núcleos
+cpufreq-set -c 0-1 -u 1.8Ghz           Defina a frequência máxima para núcleos específicos
 lscpu | grep MHz                       Mostrar frequência da CPU    
 taskset -c 3 programName               Use um núcleo específico para um aplicativo   
 
@@ -129,8 +129,8 @@ cd /home/directoryToGoTo/                     Ir para o diretório
 ls                                            Listar diretórios
 ls -l                                         Fornece informações sobre arquivos/diretórios
 ls -l filename.txt                            Fornece informações do arquivo
-pwd                                           Show current working directory
-cd ..                                         Mostrar diretório de trabalho atual
+pwd                                           Mostrar diretório de trabalho atual
+cd ..                                         Vá para o diretório acima
 rmdir /home/directoryToGoTo/                  Remover diretório                            
 wget http://www.website.com/file.txt          Fazer download do arquivo
 
@@ -163,12 +163,12 @@ and write:
 				
 nmcli device wifi rescan                   Procure por wifi disponível networks
 nmcli device wifi list                     Mostrar redes wifi disponíveis
-nmcli device wifi connect 				   Conectar wifi
+nmcli device wifi connect 	           Conectar wifi
 | SSID-Name password wireless-password	   
 
 ip a                                       Mostrar IP
 ifconfig                                   Exibir a configuração atual de Rede                     
-iwconfig								   Definir os parâmetros da interface
+iwconfig				   Definir os parâmetros da interface
 
 Alterar layout do teclado
 ----------------------
@@ -187,7 +187,7 @@ cal                            Mostrar calendário
 Armbian
 -------
 sudo armbianmonitor -m         Monitorar o Sistema Armbian                                     
-sudo armbian-config			   Configurar o Sistema Armbian
+sudo armbian-config	       Configurar o Sistema Armbian
 
 
 
