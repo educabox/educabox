@@ -44,7 +44,7 @@ DTB | [sun8i-h3-orangepi-pc-plus.dtb](https://drive.google.com/uc?export=downloa
 - ✅ CPU
 - ✅ GPU/HDMI   
 - ✅ USB 2.0
-- ✅ WIFI (SV6256P)
+- ❌ ~~WIFI (SV6256P)~~
 - ✅ ETHERNET
 - ✅ BLUETOOTH
 - ❌ ~~AUDIO~~
