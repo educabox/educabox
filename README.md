@@ -98,7 +98,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 |--|:--:|:--:|:--:|--|
 | Amlogic | Instalação OTG | USB Burning Tool | `2.20` |[Link](https://chinagadgetsreviews.com/download-amlogic-usb-burning-tool-v2-2-0.html)
 | Amlogic | Instalação OTG | USB Burning Tool | `3.20` |[Link](https://chinagadgetsreviews.com/download-amlogic-usb-burning-tool-latest-version-3-2-0.html)
-| Amlogic | Licenças | USB Burning Tool | `-` |[Link](https://drive.google.com/drive/u/0/folders/17QFmbMyMltn7aVDXRmNA0DJF4fj0XvM7)
+| Amlogic | Licenças | USB Burning Tool | `-` |[Link](https://drive.google.com/uc?export=download&id=1SMNeypg2U2R1ZhDCGAEF1viGKsteFspF)
 | Amlogic | Instalação SDCard | Amlogic Burn Card Maker | `2.0.2` |[Link](https://chinagadgetsreviews.com/download-amlogic-burn_card_maker-v2-0-2.html)
 | Amlogic | Instalação e Recovery | Amlogic Customization Tool | `6.0.0` |[Link](https://chinagadgetsreviews.com/download-amlogic-customization-tool-v6-0-0.html)
 | Amlogic | Instalação e Recovery |Amlogic Customization Tool | `7.1.0` |[Link](https://chinagadgetsreviews.com/download-amlogic-customization-tool-v7-1-0.html)
@@ -106,7 +106,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 ### Allwinner
 |Processador | Função | Utilitário| Versão | Link
 |--|:--:|:--:|:--:|--|
-| Allwinner| Instalação OTG |Phoenix Suit | `1.04 - 1.10` |[Link](https://androidmtk.com/download-phoenixcard-tool)
+| Allwinner| Instalação OTG |Phoenix Suit | `1.04 - 1.10` |[Link](https://www.phoenixsuite.org/)
 | Allwinner| Instalação OTG | PhoenixUSB Pro | `4.0.0` |[Link](https://chinagadgetsreviews.com/download-allwinner-phoenixusb-pro-v4-0-0-tool.html)
 | Allwinner| Instalação SDCard | Phoenix Card | `3.1.0` |[Link](https://chinagadgetsreviews.com/download-latest-version-phoenixcard-v3-1-0.html)
 | Allwinner| Instalação SDCard | Phoenix Card | `4.2.4` |[Link](https://chinagadgetsreviews.com/download-latest-version-of-phoenixcard-v4-2-4.html)
