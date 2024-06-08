@@ -202,7 +202,7 @@ educabox$ sudo echo "setxkbmap -model abnt2 -layout br" >> ~/.bashrc
 ```
 #  🖥️ <a id="superblock" />Problemas com Inconsistência Sistema de Arquivos
 
-As vezes em uma instalação via DD o espaço usado na imagem compactada pode variar alguns megabytes em relação ao unidade de armazenamento da TV Box que está em processo de instalação. Caso após uma instalação,  na etapa de reinicialização do SO o mesmo apresente um erro no sistema de arquivos ou espaço em disco conforme exemplo abaixo:
+As vezes em uma instalação via DD o espaço usado na imagem compactada pode variar alguns megabytes em relação a unidade de armazenamento da TV Box que está em processo de instalação. Caso após uma instalação, na etapa de reinicialização do SO o mesmo apresente um erro no sistema de arquivos ou espaço em disco conforme exemplo abaixo:
 
 ```
 /dev/mmcblk0 :UNEXPECTED INCONSISTENCY; RUN fsck MANUALLY.
