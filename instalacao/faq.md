@@ -1,5 +1,3 @@
-
-
 # 📚 FAQ - Dicas e Dúvidas
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian.png?raw=true" align="right" width="120" height="178">
@@ -112,6 +110,10 @@ cpufreq-set -c 0-1 -u 1.8Ghz           Defina a frequência máxima para todos o
 lscpu | grep MHz                       Mostrar frequência da CPU    
 taskset -c 3 programName               Use um núcleo específico para um aplicativo   
 
+Alterar configurações da CPU
+-------
+sudo nano /etc/default/cpufrequtils
+
 Arquivos/Diretórios
 -----------------
 nano /home/fileToRemove.txt                   Crie um arquivo txt com Nano
@@ -172,18 +174,6 @@ Alterar layout do teclado
 ----------------------
 sudo dpkg-reconfigure keyboard-configuration   Definir layout do teclado
 
-Adicionar resolução de exibição
-----------------------
-cvt 2560 1440 60                         Selecione a resolução de exibição desejada
-# 2560x1440 59.96 Hz (CVT 3.69M9) hsync: 89.52 kHz; pclk: 312.25 MHz
-Modeline "2560x1440_60.00"  312.25  2560 2752 3024 3488  1440 1443 1448 1493 -hsync +vsync
-
-xrandr --newmode "2560x1440_60.00"  312.25  2560 2752 3024 3488  1440 1443 1448 1493 -hsync +vsync         Adicione resolução, tudo após Modeline do cvt é copiado após newmode
-
-xrandr --addmode HDMI-1 2560x1440_60.00                                                                    Add the new resolution to your display
-
-xrandr --newmode "2560x1440_60.00"  312.25  2560 2752 3024 3488  1440 1443 1448 1493 -hsync +vsync && xrandr --addmode HDMI-1 2560x1440_60.00 
-
 Others
 ------
 reset                          Limpar terminal
@@ -196,11 +186,10 @@ cal                            Mostrar calendário
 
 Armbian
 -------
-sudo armbianmonitor -m                                             
-sudo armbian-config
+sudo armbianmonitor -m         Monitorar o Sistema Armbian                                     
+sudo armbian-config			   Configurar o Sistema Armbian
 
-alterar configurações da CPU
-sudo nano /etc/default/cpufrequtils
+
 
 Credits [Made by NicoD](https://forum.armbian.com/profile/8801-nicod/)
 ```
