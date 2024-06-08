@@ -138,7 +138,7 @@ Compactação de Arquivos - Zip/Tar/GunZip
 --------------
 zip myzip file1 file2 file3                   Criar um arquivo zip
 unzip myzip.zip                               Descompactação de um arquivo zip
-tar xvf filename.tar						  Criar um arquivo tar	
+tar xvf filename.tar			      Criar um arquivo tar	
 gunzip filename_tar.gz                        Descompactação um arquivo tar
 
 Montar unidades/dispositivos USB
@@ -197,9 +197,15 @@ Credits [Made by NicoD](https://forum.armbian.com/profile/8801-nicod/)
 
 Caso sua instalação não esteja configurada com o idioma PT-BR, execute o seguinte comando no terminal ``Terminator``:
 
+1. Teclado Brasileiro
 ```
 educabox$ sudo echo "setxkbmap -model abnt2 -layout br" >> ~/.bashrc
 ```
+2. Teclado Americano
+```
+educabox$ sudo echo "setxkbmap -model abnt2 -layout us" >> ~/.bashrc
+```
+
 #  🖥️ <a id="superblock" />Problemas com Inconsistência Sistema de Arquivos
 
 As vezes em uma instalação via DD o espaço usado na imagem compactada pode variar alguns megabytes em relação a unidade de armazenamento da TV Box que está em processo de instalação. Caso após uma instalação, na etapa de reinicialização do SO o mesmo apresente um erro no sistema de arquivos ou espaço em disco conforme exemplo abaixo:
@@ -216,7 +222,7 @@ Execute o fsck para que o sistema de arquivos seja corrigido:
 ```
 # fsck /dev/mmcblk0' manually
 ```
-Em seguida seleciona a tecla (Y) ou (S) para as mensagens solicitando correções. Por fim, uma mensagem dizendo que o sistema de arquivos foi modificado será apresentada.
+Em seguida selecione a tecla (Y) ou (S) para as mensagens solicitando correções. Por fim, uma mensagem dizendo que o sistema de arquivos foi modificado será apresentada.
 
 ```
 /dev/mmcblk0 : ***** FILE SYSTEM WAS MODIFIED ***
