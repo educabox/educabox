@@ -124,7 +124,7 @@ DTB | [meson-gxl-s905w-p281.dtb](https://drive.google.com/uc?export=download&id=
     
     ~~u-boot-s905 (para s905)~~  
     ```u-boot-s905x-s912 (para s905x, S905w e s912)``` (Altere esse arquivo) p/ ```u-boot.ext``` 
-    ~~u-boot-s905x2-s922 (para s905x2, s905x3 e s922)~~
+    ~u-boot-s905x2-s922 (para s905x2, s905x3 e s922)~~
     
 3.  Edite o arquivo /extlinux/extlinux.conf em um editor de texto:
     
