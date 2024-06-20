@@ -167,7 +167,7 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
 
 1. Antes de inserir o Pendrive na TV Box, abra a partição legível do SDCard ou Pendrive no Windows Explorer ou Finder (Ex: ```BOOT_EMMC, armbian_boot```).
 2. Abra o arquivo ``armbianEnv.txt`` na raiz do Pendrive.         
-3. Edite o arquivo em um editor de texto:        
+3. Edite o arquivo em um editor de texto, verifique se o seu dispositivo é S905X2 ou s905X3 e descomente ``fdtfile`` correto:        
 ```
 extraargs=earlycon rootflags=data=writeback rw no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
 bootlogo=false
@@ -176,7 +176,10 @@ usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 console=both
 
 # DTB file for this tvbox
-fdtfile=amlogic/meson-sm1-sei610.dtb
+# S905X2
+#fdtfile=amlogic/meson-g12a-sei510.dtb
+# S905X3
+#fdtfile=amlogic/meson-sm1-sei610.dtb
 
 # set this to the UUID of the root partition (value can be found 
 # in /extlinux/extlinux.conf after APPEND root= or with blkid)
