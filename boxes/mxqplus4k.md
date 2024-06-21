@@ -27,16 +27,13 @@ Resolução | 720x1280
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
 
-|Sumário | Detalhes|
----------|:--:
-Codename | Bookworm
-S.O | Armbian 23.11.1
-Linux | Ubuntu
-Kernel | 6.1.63
-Imagem Oficial | [Armbian_23.11.1_Sunvell-r69_jammy_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=1KAYq2emQpyzw1o-yfJN3nPPqEJ9AwAV7)
-Torrent Oficial | [Armbian_23.11.1_Sunvell-r69_jammy_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=1gQDQTgUdDZD8D732Vo0C9szO7t1ePs32)
-Imagem Educabox | [educabox_armbian_mxqplus_4k.img.gz](https://drive.google.com/uc?export=download&id=1yC5RHQ18KWe0IthDOr0hjjOQwAuOwbXM)
-DTB | [sun8i-h3-orangepi-pc-plus.dtb](https://drive.google.com/uc?export=download&id=1eokN43prhKItIuqo-GgkiuniLQSbdYS3)
+| S.O | Kernel | Versão | Interface | Download |
+|---------|:------:|:------:|:---------:|:--------:|
+| Educabox | 6.1.63 | 23.11.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1yC5RHQ18KWe0IthDOr0hjjOQwAuOwbXM)|
+| Armbian | 6.1.63 | 23.11.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1KAYq2emQpyzw1o-yfJN3nPPqEJ9AwAV7)|
+| Armbian | 6.1.63 | 23.11.1| XFCE | [Torrent](https://drive.google.com/uc?export=download&id=1gQDQTgUdDZD8D732Vo0C9szO7t1ePs32)|
+
+**DTB** = [sun8i-h3-orangepi-pc-plus.dtb](https://drive.google.com/uc?export=download&id=1eokN43prhKItIuqo-GgkiuniLQSbdYS3)
 
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
@@ -91,11 +88,14 @@ O guia de instalação abaixo é para criação de uma imagem limpa da [Imagem O
 
 Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) do respectivo equipamento.
 
-|Imagens | Download|
----------|:--:
-Imagem Oficial | [Armbian_23.11.1_Sunvell-r69_jammy_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=1KAYq2emQpyzw1o-yfJN3nPPqEJ9AwAV7)
-Torrent Oficial | [Armbian_23.11.1_Sunvell-r69_jammy_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=1gQDQTgUdDZD8D732Vo0C9szO7t1ePs32)
-DTB | [sun8i-h3-orangepi-pc-plus.dtb](https://drive.google.com/uc?export=download&id=1eokN43prhKItIuqo-GgkiuniLQSbdYS3)
+| S.O | Kernel | Versão | Interface | Download |
+|---------|:------:|:------:|:---------:|:--------:|
+| Armbian | 6.1.63 | 23.11.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1KAYq2emQpyzw1o-yfJN3nPPqEJ9AwAV7)|
+| Armbian | 6.1.63 | 23.11.1| XFCE | [Torrent](https://drive.google.com/uc?export=download&id=1gQDQTgUdDZD8D732Vo0C9szO7t1ePs32)|
+
+**Outras Versões** = [Repositório Oficial Armbian](https://imola.armbian.com/archive/sunvell-r69/archive/)
+
+**DTB** = [sun8i-h3-orangepi-pc-plus.dtb](https://drive.google.com/uc?export=download&id=1eokN43prhKItIuqo-GgkiuniLQSbdYS3)
 
 [Como Instalar nossa Imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
 
