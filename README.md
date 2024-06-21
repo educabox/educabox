@@ -34,8 +34,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 ## 📗 Sumário
 
- 1. 📝 [Tutorial Instalação Imagem EducaBox](#tutorial)
- 2. 🛜 [Download e Documentação](#download)
+ 1. 📝 [Tutorial Instalação Imagem EducaBox [Armbian/Android]](#tutorial)
+ 2. 🛜 [Download e Documentação para Imagem Oficial Armbiam](#download)
  3. 🔍 [Pré-Requisito](#pre-requisito)
  4. ⚙️ [Utilitários](#utilitario)
  5. 🔁 [Recuperação TWRP](#recuperacao)
@@ -49,7 +49,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/botao_armbian.png?raw=true&image_size=auto"/> <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-android.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/botao_android.png?raw=true&image_size=auto"/>
 </p>
 
-## 🚀 <a id="download"/>Download e Documentação
+## 🚀 <a id="download"/>Download e Documentação para Imagem Oficial Armbiam
 
 >Este é o repositório com todas as TVs Boxes que já foram descaracterizadas por nossa equipe. O link de instalação descreve passo-a-passo como instalar uma imagem Armbian Oficial em cada dispositivo! Caso deseje faça a instalação customizada do nosso projeto EducaBox já com todas as ferramentas e scripts para instalação.
 
