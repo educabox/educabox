@@ -35,7 +35,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 ## 📗 Sumário
 
  1. 📝 [Tutorial Instalação Imagem EducaBox [Armbian/Android]](#tutorial)
- 2. 🛜 [Download e Documentação para Imagem Oficial Armbiam](#download)
+ 2. 🚀 [Tutorial Instalação Imagem Oficial Armbiam](#download)
  3. 🔍 [Pré-Requisito](#pre-requisito)
  4. ⚙️ [Utilitários](#utilitario)
  5. 🔁 [Recuperação TWRP](#recuperacao)
@@ -43,13 +43,13 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
  7. 👨🏽‍💻 [Equipe de Desenvolvimento](#equipe)
  8. ❓ [Dúvidas e Sugestões](#duvidas)
  
-## 💾 <a id="tutorial"/>Tutorial Instalação Imagem EducaBox
+## 📝 <a id="tutorial"/>Tutorial Instalação Imagem EducaBox
 
 <p align="center">
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/botao_armbian.png?raw=true&image_size=auto"/> <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-android.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/botao_android.png?raw=true&image_size=auto"/>
 </p>
 
-## 🚀 <a id="download"/>Download e Documentação para Imagem Oficial Armbiam
+## 🚀 <a id="download"/>Tutorial Instalação Imagem Oficial Armbiam
 
 >Este é o repositório com todas as TVs Boxes que já foram descaracterizadas por nossa equipe. O link de instalação descreve passo-a-passo como instalar uma imagem Armbian Oficial em cada dispositivo! Caso deseje faça a instalação customizada do nosso projeto EducaBox já com todas as ferramentas e scripts para instalação.
 
@@ -91,7 +91,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
   
  2. Faça um backup da sua ROM atual em caso de possíveis erros ou aparelhos brickados.
 
-## 💾 <a id="utilitario"/>Utilitários 
+## ⚙️ <a id="utilitario"/>Utilitários 
 
 ### Amlogic
 |Processador  | Função | Utilitário| Versão | Link
@@ -131,7 +131,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | RockChip| Drives | Rockchip Driver Assistant | `4.8.0` |[Link](https://chinagadgetsreviews.com/download-rockchip-driver-assistant-v4-8.html)
 | RockChip| Drives | Rockchip Driver Assistant | `5.1.1` |[Link](https://chinagadgetsreviews.com/download-rockchip-driver-assistant-v5-1-1.html)
 
-## 💾 <a id="recuperacao"/>Recuperação TWRP
+## 🔁 <a id="recuperacao"/>Recuperação TWRP
 
 |Processador  | Modelo | Versão TWRP| Android | Link
 |--|:--:|:--:|:--:|--|
