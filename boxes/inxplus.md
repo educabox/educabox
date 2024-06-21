@@ -26,16 +26,19 @@ Resolução | 720x1080
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
 
-|Sumário | Detalhes|
----------|:--:
-Codename | Bookworm
-S.O | Armbian 23.11.1
-Linux | Debian
-Kernel | 6.1.63
-Imagem Oficial | [Armbian_23.11.1_Rk322x-box_bookworm_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=1cZzKVb4iwia0aPONmyD_bFzK2FwtRN-r)
-Torrent Oficial | [Armbian_23.11.1_Rk322x-box_bookworm_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=1c1b4kldMVfyZwS0YkZXywP_6S2TaOpvO)
-Imagem Educabox | [educabox_armbian_rk322x.img.gz](https://drive.google.com/uc?export=download&id=1yrbGJaaH6ONd6Td5SeE_crzek8Ebmx6F)
-DTB | [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h)
+Segue alguns S.Os disponíveis para download, apenas o Kernel 4 está ativo as interfaces Wifi (SV6X5X), para os demais kernels o drive está obsoleto. Há também uma versão do Educabox para TVs Boxes que possuem memória NAND.
+
+| S.O | Kernel | Versão | Interface | Memória| Wifi | Download |
+|---------|:------:|:------:|:---------:|:--------:|:--------:|:--------:|
+| Educabox | 4.4.194 | 22.02.0| XFCE | NAND |SV6256|[.img](https://drive.google.com/uc?export=download&id=1VccDfPlLJgg-36uE3iX6VASHksebghIX)|
+| Educabox | 4.4.194 | 22.02.0| XFCE | eMMC |SV6051|[.img](https://drive.google.com/uc?export=download&id=1V5SxqtJUHjaYTUNQTo4uHbCtEnxeeTBL)|
+| Educabox | 4.4.194 | 22.02.0| XFCE | eMMC |SV6256|[.img](https://drive.google.com/uc?export=download&id=1WjmoRcJX92EUoaGK8ey1zZWWBSbYgqN7)|
+| Educabox | 5.15.25 | 22.0.5| XFCE | eMMC |--|[.img](https://drive.google.com/uc?export=download&id=1IpVunwuoMs4WPE2x5P64ATnPWkQWpBRI)|
+| Armbian | 6.1.63 | 23.11.1| XFCE | eMMC |--|[.img](https://drive.google.com/uc?export=download&id=1cZzKVb4iwia0aPONmyD_bFzK2FwtRN-r)|
+| Armbian | 6.1.63 | 23.11.1| XFCE | eMMC |--|[Torrent](https://drive.google.com/uc?export=download&id=1c1b4kldMVfyZwS0YkZXywP_6S2TaOpvO)|
+| Educabox | 6.6.22 | 24.2.5| XFCE | eMMC |--|[.img](https://drive.google.com/uc?export=download&id=1P1tZx27ZXoTC-0VeJA8CnlOhvgHqKkBl)|
+
+**DTB** = [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h)
 
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
@@ -90,11 +93,13 @@ O guia de instalação abaixo é para criação de uma imagem limpa da [Imagem O
 
 Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) do respectivo equipamento.
 
-|Imagens | Download|
----------|:--:
-Imagem Oficial | [Armbian_23.11.1_Rk322x-box_bookworm_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=1cZzKVb4iwia0aPONmyD_bFzK2FwtRN-r)
-Torrent Oficial | [Armbian_23.11.1_Rk322x-box_bookworm_current_6.1.63_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=1c1b4kldMVfyZwS0YkZXywP_6S2TaOpvO)
-DTB | [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h)
+| S.O | Kernel | Versão | Interface | Download |
+|---------|:------:|:------:|:---------:|:--------:|
+| Armbian | 6.1.63 | 23.11.1| XFCE |[.img](https://drive.google.com/uc?export=download&id=1cZzKVb4iwia0aPONmyD_bFzK2FwtRN-r)|
+| Armbian | 6.1.63 | 23.11.1| XFCE |[Torrent](https://drive.google.com/uc?export=download&id=1c1b4kldMVfyZwS0YkZXywP_6S2TaOpvO)|
+
+**Outras Versões** = [Repositório Oficial Armbian](https://imola.armbian.com/archive/rk322x-box/archive/)
+**DTB** = [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h) 
 
 [Como Instalar nossa Imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
 
