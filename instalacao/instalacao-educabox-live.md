@@ -33,7 +33,7 @@ O guia de instalação abaixo é para instalação de uma imagem live otimizada 
 | IMOVE PRO   | Amlogic S905W  | 1GB | 8GB  | ❌ SV6051P    | ✅        | [Link](https://drive.google.com/uc?export=download&id=1nKIAtJosi5-9J4OkB-dwW8DhQnXG0Lwq)    |
 | IN X PLUS   | RockChip 3229  | 1GB | 8GB  | ❌ SV6256P    | ✅        | [Link](https://drive.google.com/uc?export=download&id=1WjmoRcJX92EUoaGK8ey1zZWWBSbYgqN7)    |
 | MXQ PRO 4K  | RockChip 3228A | 1GB | 8GB  | ❌ ESP8089    | ✅        | [Link](https://drive.google.com/uc?export=download&id=1yrbGJaaH6ONd6Td5SeE_crzek8Ebmx6F)    |
-| MXQ PLUS 4K | Allwinner H3   | 1GB | 8GB  | ❌ SV6256P    | ❌        | [Link](https://drive.google.com/uc?export=download&id=1wvsE4q5AVrB59Sg9mAmPG2Z5Kc8WCc62)    |
+| MXQ PLUS 4K | Allwinner H3   | 1GB | 8GB  | ❌ SV6256P    | ❌        | [Link](https://drive.google.com/uc?export=download&id=1yC5RHQ18KWe0IthDOr0hjjOQwAuOwbXM)    |
 | MY BOX TV   | Amlogic S905X  | 2GB | 16GB | ❌ AP6181     | ❌        | [Link](https://drive.google.com/uc?export=download&id=1OylWmzEJR7dbFAdDsai_5nFSM2TbXtON)    |
 | PLAY TV     | Amlogic S905X3 | 2GB | 16GB | ✅ RTL8189FTV | ❌        | [Link](https://drive.google.com/uc?export=download&id=1P6PlI_igcaHj0yJiVMpjVUaqUzfHUOHn)    |
 | R69         | Allwinner H3   | 1GB | 8GB  | ✅ XR819      | ✅        | [Link](https://drive.google.com/uc?export=download&id=1wvsE4q5AVrB59Sg9mAmPG2Z5Kc8WCc62)    | 
