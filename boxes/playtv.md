@@ -26,16 +26,16 @@ Resolução | 1080X1920
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
 
-|Sumário | Detalhes|
----------|:--:
-Codename | Bookworm
-S.O | Armbian 23.8.1
-Linux | Ubuntu
-Kernel | 6.1.50
-Imagem Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=16XfAspTprQX2QKNFBrFKEcHLAQbMXLjE)
-Torrent Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=10nbA5OmPXiTydt9d8HHTb1Cm_RJv1YWm)
-Imagem Educabox | [educabox_armbian_playtv.img.gz](https://drive.google.com/uc?export=download&id=1hbZFiutp9CZFN7EHHxHYjn4wXlItrU-c)
-DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) - Créditos [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
+| S.O | Kernel | Versão | Interface | Download |
+|---------|:------:|:------:|:---------:|:--------:|
+| Educabox | 6.1.50 | 23.8.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1P6PlI_igcaHj0yJiVMpjVUaqUzfHUOHn)|
+| Armbian | 6.1.50 | 23.8.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=16XfAspTprQX2QKNFBrFKEcHLAQbMXLjE)|
+| Armbian | 6.1.50 | 23.8.1| XFCE | [Torrent](https://drive.google.com/uc?export=download&id=10nbA5OmPXiTydt9d8HHTb1Cm_RJv1YWm)|
+
+Verifique a compatibilidade com um desses DTBs:
+
+**DTB** = [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17aoHwUOW1su-vBiLBEOCE9eV0uP59Bfw)
+**DTB** = [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) - Créditos [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
 
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
@@ -84,11 +84,18 @@ O guia de instalação abaixo é para criação de uma imagem limpa da [Imagem O
 
 Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) do respectivo equipamento.
 
-|Imagens | Download|
----------|:--:
-Imagem Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=16XfAspTprQX2QKNFBrFKEcHLAQbMXLjE)
-Torrent Oficial | [Armbian_23.8.1_Aml-s9xx-box_bookworm_current_6.1.50_xfce_desktop.img.xz](https://drive.google.com/uc?export=download&id=10nbA5OmPXiTydt9d8HHTb1Cm_RJv1YWm)
-DTB | [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) - Créditos [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
+| S.O | Kernel | Versão | Interface | Download |
+|---------|:------:|:------:|:---------:|:--------:|
+| Armbian | 6.1.63 | 23.11.1| XFCE |[.img](https://drive.google.com/uc?export=download&id=1cZzKVb4iwia0aPONmyD_bFzK2FwtRN-r)|
+| Armbian | 6.1.63 | 23.11.1| XFCE |[Torrent](https://drive.google.com/uc?export=download&id=1c1b4kldMVfyZwS0YkZXywP_6S2TaOpvO)|
+
+**Outras Versões** = [Repositório Oficial Armbian](https://imola.armbian.com/archive/aml-s9xx-box/archive/)
+
+Verifique a compatibilidade com um desses DTBs:
+
+**DTB** = [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17aoHwUOW1su-vBiLBEOCE9eV0uP59Bfw)
+**DTB** = [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) - Créditos [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
+
 
 [Como Instalar nossa Imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
 
