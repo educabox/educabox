@@ -42,7 +42,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
  6. 🤝 [Parceiros](#parceiros)
  7. 👨🏽‍💻 [Equipe de Desenvolvimento](#equipe)
  8. ❓ [Dúvidas e Sugestões](#duvidas)
- 
+
+ <a href="https://github.com/educabox/educabox/blob/main/instalacao/faq.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/faq.png?raw=true&image_size=auto"/>
 ## 📝 <a id="tutorial"/>Tutorial Instalação Imagem EducaBox
 
 <p align="center">
