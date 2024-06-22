@@ -251,8 +251,8 @@ Uma rede oculta é uma rede sem fio normal que simplesmente não transmite seu S
 Emita o seguinte comando para criar uma conexão associada a uma rede oculta:
 
 ```
-$ nmcli c add type wifi con-name <name> ifname wlan0 ssid <ssid>
-$ nmcli c modify <name> wifi-sec.key-mgmt wpa-psk wifi-sec.psk <password>
+educabox$ nmcli c add type wifi con-name <name> ifname wlan0 ssid <ssid>
+educabox$ nmcli c modify <name> wifi-sec.key-mgmt wpa-psk wifi-sec.psk <password>
 ```
 
 Onde ```<name>``` é um nome sugestivo para rede oculta e ```<ssid>``` o nome da rede.
@@ -260,7 +260,7 @@ Onde ```<name>``` é um nome sugestivo para rede oculta e ```<ssid>``` o nome da
 Agora você pode estabelecer uma conexão digitando:
 
 ```
-$ nmcli c up <name>
+educabox$ nmcli c up <name>
 ``` 
 
 
