@@ -6,8 +6,9 @@
  1. 🗂️ [Unidades de Armazenamento](#armazenamento)
  2. 💾 [Dispositivos para Gravação](#removiveis)
  3. #️⃣ [Comandos Úteis Armbian](#comandos)
- 4. ⌨️ [Configuração Teclado PT-BR](#teclado)
- 5. 🖥️ [Problemas com Inconsistência Sistema de Arquivos](#superblock) 
+ 4. 🛜 [Configuração Wifi via Terminal](#wifi)
+ 5. ⌨️ [Configuração Teclado PT-BR](#teclado)
+ 6. 🖥️ [Problemas com Inconsistência Sistema de Arquivos](#superblock) 
 
 #  🗂️ <a id="armazenamento" />Unidades de Armazenamento
 
@@ -193,6 +194,76 @@ sudo armbian-config	       Configurar o Sistema Armbian
 
 Credits [Made by NicoD](https://forum.armbian.com/profile/8801-nicod/)
 ```
+
+#  🛜 <a id="wifi" />Configuração Wifi via Terminal
+
+Caso sua instalação não possua interface gráfica ou seja necessário fazer a conexão via prompt, use o Network Manager CLI para configurar sua rede Wifi:
+
+1. Via terminal liste suas interfaces de rede:
+```
+educabox$ nmcli device status
+DEVICE  TYPE      STATE         CONNECTION         
+enp1s0  ethernet  connected     Wired connection 1 
+wlp2s0  wifi      disconnected  --                 
+lo      loopback  unmanaged     --
+```
+2. Veja se suas interfaces de rádio/wifi estão ativas:
+```
+educabox$ nmcli radio
+WIFI-HW  WIFI     WWAN-HW  WWAN    
+enabled  enabled  enabled  enabled
+```
+Se a saída mostrar que o Wi-Fi está **desabilitado** , você pode habilitá-lo com o seguinte comando:
+
+```
+educabox$ nmcli radio wifi on
+```
+
+3. Liste as redes disponíveis em sua área (BSSID):
+```
+educabox$ nmcli dev wifi list
+SSID           MODE   CHAN  RATE       SIGNAL  BARS  SECURITY 
+ESCOLA         Infra  11    54 Mbit/s  100     ▂▄▆█  WPA2     
+AP_ADM         Infra  132   54 Mbit/s  100     ▂▄▆█  WPA2     
+AP_ALUNOS      Infra  52    54 Mbit/s  49      ▂▄__  WPA2     
+CASA           Infra  149   54 Mbit/s  45      ▂▄__  WPA2     
+OFFICE         Infra  11    54 Mbit/s  42      ▂▄__  WPA2     
+NET_VIVA       Infra  1     54 Mbit/s  27      ▂___  WPA2
+```
+4. Faça a conexão da rede WiFi (AP) **(Obs: é necessário ter acesso root ou sudo)**
+
+Onde: ```<SSID|BSSID>``` é o nome da rede (ex: ESCOLA)
+```
+educabox$ nmcli device wifi connect <SSID|BSSID>
+```
+Caso a rede possua senha de autenticação:
+```
+educabox$ $ nmcli device wifi connect <SSID|BSSID> password <password>
+```
+Se houver mais de uma interface de rede Wifi, especifique qual é a interface que deseja usar (ex: wlan1):
+```
+educabox$ $ nmcli device wifi connect <SSID|BSSID> password <password> ifname wlan1
+```
+5. Para redes ocultas é necessário realizar alguns ajustes - [Créditos](https://ubuntu.com/core/docs/networkmanager/configure-wifi-connections):
+
+Uma rede oculta é uma rede sem fio normal que simplesmente não transmite seu SSID, a menos que seja solicitado. Isso significa que seu nome não pode ser pesquisado e deve ser conhecido por alguma outra fonte.
+
+Emita o seguinte comando para criar uma conexão associada a uma rede oculta:
+
+```
+$ nmcli c add type wifi con-name <name> ifname wlan0 ssid <ssid>
+$ nmcli c modify <name> wifi-sec.key-mgmt wpa-psk wifi-sec.psk <password>
+```
+
+Onde ```<name>``` é um nome sugestivo para rede oculta e ```<ssid>``` o nome da rede.
+
+Agora você pode estabelecer uma conexão digitando:
+
+```
+$ nmcli c up <name>
+``` 
+
+
 #  ⌨️ <a id="teclado" />Configuração Teclado PT-BR
 
 Caso sua instalação não esteja configurada com o idioma PT-BR, execute o seguinte comando no terminal ``Terminator``:
