@@ -41,7 +41,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
  5. 🔁 [Recuperação TWRP](#recuperacao)
  6. 🤝 [Parceiros](#parceiros)
  7. 👨🏽‍💻 [Equipe de Desenvolvimento](#equipe)
- 8. ❓ [Dúvidas e Sugestões](#duvidas)
+ 8. ❓ [Contato](#contato)
 
 [Veja nosso FAQ de Dúvidas e Dicas?](https://github.com/educabox/educabox/blob/main/instalacao/faq.md)
 
@@ -237,7 +237,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-## ⁉️ <a id="duvidas"/>Dúvidas e Sugestões
+## ⁉️ <a id="contato"/>Contato
 
 Quer fazer parte desse projeto? Entre em contato conosco:
 
