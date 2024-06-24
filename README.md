@@ -9,6 +9,11 @@
   EducaBox
   <br>
 </h1>
+
+<p align="center">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/background.png?raw=true" alt="Size Limit CLI" width="850">
+</p>
+
 <h4 align="center">O projeto "EducaBox" visa transformar dispositivos TV Box em computadores educacionais. <a href="#" target="_blank">EducaBox</a>.</h4>
 
 > Ao converter TVs Boxes em computadores educacionais, estamos democratizando o acesso ao conhecimento, especialmente em regiões onde a infraestrutura tecnológica pode ser limitada. Agora, estudantes, professores e técnicos têm a oportunidade de explorar recursos educacionais, acessar conteúdos interativos e participar de experiências de aprendizado envolventes, tudo a partir de TVs Boxes com baixo custo computacional.
