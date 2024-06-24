@@ -11,7 +11,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/background.png?raw=true" alt="Size Limit CLI" width="850">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/background.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 <h4 align="center">O projeto "EducaBox" visa transformar dispositivos TV Box em computadores educacionais. <a href="#" target="_blank">EducaBox</a>.</h4>
