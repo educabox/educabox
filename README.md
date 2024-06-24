@@ -1,6 +1,6 @@
 
 ![GitHub followers](https://img.shields.io/github/followers/educabox?style=social) ![GitHub User's stars](https://img.shields.io/github/stars/educabox?style=social) ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=educabox.repoName) <img src="https://komarev.com/ghpvc/?username=educabox" alt="educabox" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=social&logo=linux&logoColor=black" alt="educabox" />
-
+<!--
 <h1 align="center">
   <br>
   <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true&image_size=auto" width="200"></a>
@@ -9,7 +9,7 @@
   EducaBox
   <br>
 </h1>
-
+ -->
 <p align="center">
   <img src="https://github.com/educabox/educabox/blob/main/imagens/background.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
