@@ -104,7 +104,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
 ### Amlogic
 |Processador  | Função | Utilitário| Versão | Link
-|--|:--:|:--:|:--:|--|
+|--|:--:|:--:|:--:|:--:|
 | Amlogic | Instalação OTG | USB Burning Tool | `2.20` |[Link](https://chinagadgetsreviews.com/download-amlogic-usb-burning-tool-v2-2-0.html)
 | Amlogic | Instalação OTG | USB Burning Tool | `3.20` |[Link](https://chinagadgetsreviews.com/download-amlogic-usb-burning-tool-latest-version-3-2-0.html)
 | Amlogic | Licenças | USB Burning Tool | `-` |[Link](https://drive.google.com/uc?export=download&id=1SMNeypg2U2R1ZhDCGAEF1viGKsteFspF)
@@ -114,7 +114,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
 ### Allwinner
 |Processador | Função | Utilitário| Versão | Link
-|--|:--:|:--:|:--:|--|
+|--|:--:|:--:|:--:|:--:|
 | Allwinner| Instalação OTG |Phoenix Suit | `1.04 - 1.10` |[Link](https://www.phoenixsuite.org/)
 | Allwinner| Instalação OTG | PhoenixUSB Pro | `4.0.0` |[Link](https://chinagadgetsreviews.com/download-allwinner-phoenixusb-pro-v4-0-0-tool.html)
 | Allwinner| Instalação SDCard | Phoenix Card | `3.1.0` |[Link](https://chinagadgetsreviews.com/download-latest-version-phoenixcard-v3-1-0.html)
@@ -123,7 +123,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
 ### RockChip
 |Processador | Função | Utilitário| Versão | Link
-|--|:--:|:--:|:--:|--|
+|--|:--:|:--:|:--:|:--:|
 | RockChip| Instalação OTG | Android Tool Release| `2.38` |[Link](https://chinagadgetsreviews.com/download-androidtool-release-v2-38.html)
 | RockChip| Instalação OTG | Android Tool Release| `2.51` |[Link](https://chinagadgetsreviews.com/download-androidtool-release-v2-51.html)
 | RockChip| Instalação OTG | Android Tool Release| `2.61` |[Link](https://chinagadgetsreviews.com/download-androidtool-release-v2-61.html)
@@ -143,7 +143,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 ## 🔁 <a id="recuperacao"/>Recuperação TWRP
 
 |Processador  | Modelo | Versão TWRP| Android | Link
-|--|:--:|:--:|:--:|--|
+|--|:--:|:--:|:--:|:--:|
 | Amlogic | S805 |`3.0.2`|`-` |[.img](https://drive.google.com/file/d/1el0pu1lLKQitXYsIITF7fYTzbtRd5z81/view?usp=drive_link)
 | Amlogic | S905X |`3.0.2`|`-` |[.img](https://drive.google.com/file/d/1mlfXSwFB7IwS_ufO0PmtnZS8eWoALwij/view?usp=drive_link) - [.zip](https://drive.google.com/file/d/1ikgmEQ-IEJJwWFf1nptcqSkmUzKazDoT/view?usp=drive_link)
 | Amlogic | S905X2 |`3.7.0`|`9.0 (Pie)` |[.img](https://drive.google.com/file/d/1sxk-mr_QLQErB-OCmLhOgm71f8rSFr7Z/view?usp=drive_link) - [.zip](https://drive.google.com/file/d/1r2Q7nTJ_U96qj5eGFhf6gBTRJTfJEyt9/view?usp=drive_link)
