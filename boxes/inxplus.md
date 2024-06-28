@@ -53,7 +53,7 @@ Segue alguns S.Os disponíveis para download, apenas o Kernel 4 está ativo as i
  - ✅ CPU
  - ✅ GPU/HDMI   
  - ✅ USB 2.0
- - ❌ WIFI (SV6256P)
+ - ✅ WIFI (SV6256P)
  - ✅ ETHERNET
  - ✅ BLUETOOTH
  - ✅ AUDIO
