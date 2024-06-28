@@ -87,7 +87,7 @@ Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box
 5. Grave a imagem `multitool.img.xz` no cartão SDCard
 6. Espere finalizar a gravação e remova o SDCard
 7. Em seguida insira novamente o SDCard 
-8. Acesse a pasta `/backup` e copie a imagem compactada do Educabox
+8. Acesse a pasta `/backup` e copie a imagem compactada do Educabox/LXDE
 9. Feito isso remova o SDCard e insira na TV Box
 10. Inicie a TV Box com o cartão SDCard  
 11. Caso sua TV Box faça inicialização automática do SDCard o utilitário Multitool será inicializado. Se for necessário inicie a TV Box com o botão de `update` pressionado ou com um clips/palito no botão oculto na entrada `AV`
@@ -128,7 +128,7 @@ Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box
 <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/5.jpg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
-6. Selecione a imagem Armbian que foi copiada para o SDCard, uma tela da operação e progresso será exibida até que o processo de gravação seja finalizado
+6. Selecione a imagem Educabox/LXDE que foi copiada para o SDCard, uma tela da operação e progresso será exibida até que o processo de gravação seja finalizado
 
 <p align="center">
 <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/6.jpg?raw=true" alt="Size Limit CLI" width="1360">
