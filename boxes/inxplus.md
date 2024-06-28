@@ -28,6 +28,8 @@ Resolução | 720x1080
 
 Segue alguns S.Os disponíveis para download, apenas o Kernel 4 está ativo as interfaces Wifi (SV6X5X), para os demais kernels o drive está obsoleto. Há também uma versão do Educabox para TVs Boxes que possuem memória NAND.
 
+✅ **Versão Recomendada [IN XPLUS] = Kernel 4.4.194 - SV6051**
+
 | S.O | Kernel | Versão | Interface | Memória| Wifi | Download |
 |---------|:------:|:------:|:---------:|:--------:|:--------:|:--------:|
 | Educabox | 4.4.194 | 22.02.0| LXDE | eMMC |SV6X5X|[.img](https://drive.google.com/uc?export=download&id=1W3y5Y2qBDta0VSXqGam_Rt-IYZ90LjjV)|
@@ -40,6 +42,10 @@ Segue alguns S.Os disponíveis para download, apenas o Kernel 4 está ativo as i
 | Educabox | 6.6.22 | 24.2.5| XFCE | eMMC |--|[.img](https://drive.google.com/uc?export=download&id=1P1tZx27ZXoTC-0VeJA8CnlOhvgHqKkBl)|
 
 **DTB** = [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h)
+
+[Conheça nossa Imagem Educabox com LXDE para Rockchip](https://github.com/educabox/educabox/blob/main/instalacao/rk322x-lxde.md)
+
+<a href="https://github.com/educabox/educabox/blob/main/instalacao/rk322x-lxde.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_lxde.png?raw=true&image_size=auto"/>
 
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
