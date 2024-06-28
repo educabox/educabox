@@ -101,45 +101,46 @@ Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box
 1. Uma tela de boas vindas será exibida, com um teclado conectado a TV Box utilize os comandos direcionais (⮃) e botão (`Enter`, `Esc`). Digite `Enter` para avançar para próxima tela e escolha a opção `Erase flash` para formatar a unidade de armazenamento interna
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/1.jpg?raw=true" alt="Size Limit CLI" width="550">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/1.jpg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 2. Selecione seu armazenamento eMMC
+
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/2.jpg?raw=true" alt="Size Limit CLI" width="550">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/2.jpg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 3. Uma tela de sucesso será exibida caso o procedimento seja bem sucedido. Digite `Enter` para retornar a tela anterior
+
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/3.jpg?raw=true" alt="Size Limit CLI" width="550">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/3.jpg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
-4. Em seguida selecione a opção `Restore flash` para gravar uma imagem no armazenamento interno
+4. Em seguida selecione a opção `Burn image to flash` para gravar uma imagem no armazenamento interno
+
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/4.jpg?raw=true" alt="Size Limit CLI" width="550">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/4.jpg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 5. Escolha novamente a unidade de armazenamento que foi formatada recentemente
+
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/5.jpg?raw=true" alt="Size Limit CLI" width="550">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/5.jpg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
-6. Selecione a imagem Educabox que foi copiada para o SDCard
+6. Selecione a imagem Armbian que foi copiada para o SDCard, uma tela da operação e progresso será exibida até que o processo de gravação seja finalizado
+
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/6.jpg?raw=true" alt="Size Limit CLI" width="550">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/6.jpg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
-7. Um tela da operação e progresso será exibida até que o processo de gravação seja finalizado
+7. Finalizado o processo de gravação, finalize o utilitário com a opção `Shutdown`
+
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/7.jpg?raw=true" alt="Size Limit CLI" width="550">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/7.jpg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
-8. Finalizado o processo de gravação, finalize o utilitário com a opção `Shutdown`
-<p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/8.jpg?raw=true" alt="Size Limit CLI" width="550">
-</p>
-
-9. Remova o SDCard da TV Box e inicie novamente a Box.
+8. Remova o SDCard da TV Box e inicie novamente a Box.
  
 ## 1️⃣ Inicializando o Educabox pela primeira vez via eMMC
 
