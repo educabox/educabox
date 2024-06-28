@@ -1,3 +1,4 @@
+
   
 
 # 📦 TV BOX DC BOX 8K
@@ -7,14 +8,9 @@
 <p align="center">
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/20%20-%20DCBOX8K/Screenshots/DCBOX8K%20HARDWARE.png?raw=true?raw=true?raw=true" alt="Size Limit CLI" width="1500">
-
 </p>
 
-  
-
 # ⚙️ **Hardware**
-
-  
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/RK3229.png?raw=true"  align="right" alt="" width="120" height="120">
 
@@ -40,6 +36,8 @@ Resolução | 720x1280
 
 Segue alguns S.Os disponíveis para download, apenas o Kernel 4 está ativo as interfaces Wifi (SV6X5X), para os demais kernels o drive está obsoleto. Há também uma versão do Educabox para TVs Boxes que possuem memória NAND.
 
+✅ **Versão Recomendada [DC BOX 8K] = Kernel 4.4.194 - SV6256**
+
 | S.O | Kernel | Versão | Interface | Memória| Wifi | Download |
 |---------|:------:|:------:|:---------:|:--------:|:--------:|:--------:|
 | Educabox | 4.4.194 | 22.02.0| LXDE | eMMC |SV6X5X|[.img](https://drive.google.com/uc?export=download&id=1W3y5Y2qBDta0VSXqGam_Rt-IYZ90LjjV)|
@@ -52,6 +50,10 @@ Segue alguns S.Os disponíveis para download, apenas o Kernel 4 está ativo as i
 | Educabox | 6.6.22 | 24.2.5| XFCE | eMMC |--|[.img](https://drive.google.com/uc?export=download&id=1P1tZx27ZXoTC-0VeJA8CnlOhvgHqKkBl)|
 
 **DTB** = [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h)
+
+[Conheça nossa Imagem Educabox com LXDE para Rockchip](https://github.com/educabox/educabox/blob/main/instalacao/rk322x-lxde.md)
+
+<a href="https://github.com/educabox/educabox/blob/main/instalacao/rk322x-lxde.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_lxde.png?raw=true&image_size=auto"/>
 
 # 📌 Serviços Ativos/Inativos
 
@@ -96,7 +98,18 @@ Segue alguns S.Os disponíveis para download, apenas o Kernel 4 está ativo as i
 <img src="https://github.com/educabox/educabox/blob/main/imagens/20%20-%20DCBOX8K/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
-# ✅ Guia de Instalação Imagem Oficial Armbian
+
+ ## 📗 Sumário 
+
+ 1. ▶️ [Guia de Instalação Imagem Oficial Armbian](#guia)
+ 2. 0️⃣ [Pré-requisitos e Instalação Multitool via SDCard](#multitool)
+ 3. 1️⃣ [Pré-requisitos e Instalação live SDCard](#requisitos-live")
+ 4. 2️⃣ [Gravação Imagem via balenaEtcher](#gravacao)
+ 5. 3️⃣ [Configurar SDCard para Armbian](#configuracao)
+ 6. 4️⃣ [Inicializando o Armbian pela primeira vez via SDCard](#inicializacao)
+ 7. 5️⃣ [Instalação Armbian SDCard para eMMC](#instalacao)
+
+# ✅ <a id="guia"/>Guia de Instalação Imagem Oficial Armbian
 
 O guia de instalação abaixo é para criação de uma imagem limpa da [Imagem Oficial Armbian] com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [DC BOX 8K].
 
@@ -115,7 +128,7 @@ Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
   
-## 0️⃣ Pré-requisitos instalação Multitool via SDCard
+## 0️⃣ <a id="multitool"/>Pré-requisitos e Instalação Multitool via SDCard
 
 Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box sem iniciar o Armbian/Live em um SDCard siga os passos abaixo, caso contrário avance para 1️⃣ Pré-requisitos instalação live SDCard
 
@@ -181,14 +194,14 @@ Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box
 
 8. Remova o SDCard da TV Box e inicie novamente a Box.
 
-## 1️⃣ Pré-requisitos instalação live SDCard
+## 1️⃣ <a id="requisitos-live"/>Pré-requisitos instalação live SDCard
  
 
 1. Dispositivo SDCard - ```Mínimo 4GB```
 2. Software [balenaEtcher](https://etcher.balena.io/) , [Rufus](https://rufus.ie/pt_BR/) ou [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
 3. Imagem Oficial S.O Armbian
 
-## 2️⃣ Gravação Imagem via balenaEtcher
+## 2️⃣ <a id="gravacao"/>Gravação Imagem via balenaEtcher
 
 1. Execute balenaEtcher (*Preferência)
 2. Grave a imagem Armbian no cartão SDCard
@@ -199,16 +212,15 @@ Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_balena.png?raw=true&image_size=auto"/>
 
-## 3️⃣ Configurar SDCard para Armbian
+## 3️⃣ <a id="configuracao"/>Configurar SDCard para Armbian
 
 Obs: Esta etapa não é necessária para os Dispositivos Rockchip 3228, 3228A e 3229, no entanto caso seu dispositivo não seja compatível com o .dtb padrão [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h), faça a modificação para o .dtb da sua TV BOX. Os arquivos .dtb podem ser encontrados na pasta `/dtb/` na raiz do SDCard.
 
 1. Abra a partição legível do SDCard no Windows Explorer ou Finder (Ex: ```BOOT, armbian_boot```)
 2. Edite o arquivo `armbianEnv.txt` em um editor de texto:
-1. Comente as linhas com inicio `fdtfile=` adicionando #
-2. Remova o comentário das linhas com inicio `fdtfile=` removendo #
-3. Atualize/Adicione a linha FDT para apontar para um arquivo .dtb funcional para o seu dispositivo e salve o arquivo
-4. DC BOX 8K -> `fdtfile=rk322x-box.dtb` (*Remova #)
+3. Comente as linhas com inicio `fdtfile=` adicionando #
+4. Remova o comentário das linhas com inicio `fdtfile=` removendo #
+5. Atualize/Adicione a linha FDT para apontar para um arquivo .dtb funcional para o seu dispositivo e salve o arquivo
 
 ```
 verbosity=1
@@ -221,10 +233,10 @@ rootfstype=ext4
 overlays=cpu-hs emmc led-conf-default wlan-alt-wiring
 usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 ```
-4. Remova o SDCard com segurança
-5. Insira o SDCard na TV Box
+6. Remova o SDCard com segurança
+7. Insira o SDCard na TV Box
 
-## 4️⃣ Inicializando o Armbian pela primeira vez via SDCard
+## 4️⃣ <a id="inicializacao"/>Inicializando o Armbian pela primeira vez via SDCard
 
 1. Conecte o SDCard na TV Box
 2. Conecte o adaptador de energia na TV Box
@@ -234,7 +246,7 @@ usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 6. Armbian irá inicializar no ambiente de desktop
 7. Siga para - Instalação Armbian SDCard para eMMC
 
-## 5️⃣ Instalação Armbian SDCard para eMMC
+## 5️⃣ <a id="instalacao"/>Instalação Armbian SDCard para eMMC
  
 
 1. Depois que o ambiente desktop for inicializado abra o terminal de comando `Terminator`
