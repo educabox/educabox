@@ -34,7 +34,7 @@ Memória | 1GB
 Armazenamento | 8GB*
 Resolução | 720x1280  
 
-**Obs: Alguns modelos desta TV Box possuem memória interna do tipo NAND, neste casa faça instalação com Kernel 4 para placas NAND.**
+**Obs: Alguns modelos desta TV Box possuem memória interna do tipo NAND, neste caso faça instalação com Kernel 4 para placas NAND.**
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
 
