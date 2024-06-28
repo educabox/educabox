@@ -167,20 +167,19 @@ Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box
 <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/5.jpg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
-6. Selecione a imagem Armbian que foi copiada para o SDCard
+6. Selecione a imagem Armbian que foi copiada para o SDCard, uma tela da operação e progresso será exibida até que o processo de gravação seja finalizado
 
 <p align="center">
 <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/6.jpg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
-7. Um tela da operação e progresso será exibida até que o processo de gravação seja finalizado
+7. Finalizado o processo de gravação, finalize o utilitário com a opção `Shutdown`
 
 <p align="center">
 <img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/7.jpg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
-8. Finalizado o processo de gravação, finalize o utilitário com a opção `Shutdown`
-9. Remova o SDCard da TV Box e inicie novamente a Box.
+8. Remova o SDCard da TV Box e inicie novamente a Box.
 
 ## 1️⃣ Pré-requisitos instalação live SDCard
  
