@@ -30,6 +30,7 @@ Segue alguns S.Os disponíveis para download, apenas o Kernel 4 está ativo as i
 
 | S.O | Kernel | Versão | Interface | Memória| Wifi | Download |
 |---------|:------:|:------:|:---------:|:--------:|:--------:|:--------:|
+| Educabox | 4.4.194 | 22.02.0| LXDE | eMMC |SV6X5X|[.img](https://drive.google.com/uc?export=download&id=1W3y5Y2qBDta0VSXqGam_Rt-IYZ90LjjV)|
 | Educabox | 4.4.194 | 22.02.0| XFCE | NAND |SV6256|[.img](https://drive.google.com/uc?export=download&id=1VccDfPlLJgg-36uE3iX6VASHksebghIX)|
 | Educabox | 4.4.194 | 22.02.0| XFCE | eMMC |SV6051|[.img](https://drive.google.com/uc?export=download&id=1V5SxqtJUHjaYTUNQTo4uHbCtEnxeeTBL)|
 | Educabox | 4.4.194 | 22.02.0| XFCE | eMMC |SV6256|[.img](https://drive.google.com/uc?export=download&id=1WjmoRcJX92EUoaGK8ey1zZWWBSbYgqN7)|
@@ -46,7 +47,7 @@ Segue alguns S.Os disponíveis para download, apenas o Kernel 4 está ativo as i
  - ✅ CPU
  - ✅ GPU/HDMI   
  - ✅ USB 2.0
- - ❌ WIFI (SV6051P)
+ - ✅ WIFI (SV6051P)
  - ✅ ETHERNET
  - ✅ BLUETOOTH
  - ✅ AUDIO
