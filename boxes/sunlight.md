@@ -1,7 +1,7 @@
 # 📦 TV BOX SUNLIGTH
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/21%20-%20SUNLIGHT/Screenshots/HARDWARE%20SUNLIGHT.png?raw=true?raw=true?raw=true?raw=true" alt="Size Limit CLI" width="1500">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/21%20-%20SUNLIGHT/Screenshots/HARDWARE%20SUNLIGHT.png?raw=true" alt="Size Limit CLI" width="1500">
 </p>
 
 # ⚙️ **Hardware**
