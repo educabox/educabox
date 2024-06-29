@@ -95,7 +95,7 @@ Segue alguns S.Os disponíveis para download, apenas o Kernel 4 está ativo as i
 # 📝 Neofetch
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/21%20-%20SUNLIGHT/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/10%20-%20INXPLUS/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
 
