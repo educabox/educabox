@@ -22,7 +22,7 @@ Família | Cortex-A7
 Velocidade | 408 - 1200 MHz
 GPU | Mali-400 MP
 Wifi | RTL8189FTV 
-Memória | 2GB
+Memória | 1GB
 Armazenamento | 8GB
 Resolução | 720x1080
 
