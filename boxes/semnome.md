@@ -16,7 +16,7 @@ Fabricante | SEM NOME
 Modelo | SEM NOME
 Placa Mãe | S905_MXQ_V1.0
 Placa DTB | rk30sdk
-CPU | Rockchip 3229
+CPU | Rockchip 3228A
 Família | Cortex-A7
 Velocidade | 408 - 1008 MHz
 GPU | Mali-400 MP
