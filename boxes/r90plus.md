@@ -16,7 +16,7 @@ Fabricante | R90
 Modelo | R90 PLUS
 Placa Mãe | R3229Q_V8.1 2020.06.15
 Placa DTB | rk30sdk
-CPU | Rockchip 3229
+CPU | Rockchip 3228A
 Família | Cortex-A7
 Velocidade | 408 - 1008 MHz
 GPU | Mali-400 MP
