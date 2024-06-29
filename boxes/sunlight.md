@@ -15,7 +15,7 @@ Fabricante | SUNLIGHT
 Modelo | SUNLIGHT 5G
 Placa Mãe | R32Q84_V5.0 2020.07.06
 Placa DTB | rk30sdk
-CPU | Rockchip 3229
+CPU | Rockchip 3228A
 Família | Cortex-A7
 Velocidade | 408 - 1008 MHz
 GPU | Mali-400 MP
