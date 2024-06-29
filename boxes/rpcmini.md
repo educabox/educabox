@@ -15,7 +15,7 @@ Fabricante | RPC
 Modelo | MINI
 Placa Mãe | X96-MINI RH-4 94V-0
 Placa DTB | rk30sdk
-CPU | Rockchip 3229
+CPU | Rockchip 3228A
 Família | Cortex-A7
 Velocidade | 408 - 1200 MHz
 GPU | Mali-400 MP
