@@ -69,33 +69,33 @@ Segue alguns S.Os disponíveis para download, apenas o Kernel 4 está ativo as i
 
 # 📄 Geral
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/20%20-%20DCBOX8K/Screenshots/GERAL.png?raw=true" alt="Size Limit CLI" width="1280">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/21%20-%20SUNLIGHT/Screenshots/GERAL.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 🔧 SOC
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/20%20-%20DCBOX8K/Screenshots/SOC.png?raw=true" alt="Size Limit CLI" width="1280">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/21%20-%20SUNLIGHT/Screenshots/SOC.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 📲 Sistema
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/20%20-%20DCBOX8K/Screenshots/SISTEMA.png?raw=true" alt="Size Limit CLI" width="1280">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/21%20-%20SUNLIGHT/Screenshots/SISTEMA.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 🖥️ Tela
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/20%20-%20DCBOX8K/Screenshots/TELA.png?raw=true" alt="Size Limit CLI" width="1280">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/21%20-%20SUNLIGHT/Screenshots/TELA.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 💾 Memória
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/20%20-%20DCBOX8K/Screenshots/MEMORIA.png?raw=true" alt="Size Limit CLI" width="1280">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/21%20-%20SUNLIGHT/Screenshots/MEMORIA.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 📝 Neofetch
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/20%20-%20DCBOX8K/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/21%20-%20SUNLIGHT/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
 
