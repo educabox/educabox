@@ -291,7 +291,7 @@ ERROR :Bailing out.Run 'fsck /dev/mmcblk0' manually
 Execute o fsck para que o sistema de arquivos seja corrigido: 
 
 ```
-# fsck /dev/mmcblk0 manually
+# fsck /dev/mmcblk0
 ```
 Em seguida selecione a tecla (Y) ou (S) para as mensagens solicitando correções. Por fim, uma mensagem dizendo que o sistema de arquivos foi modificado será apresentada.
 
