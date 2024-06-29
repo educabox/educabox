@@ -16,7 +16,7 @@ Fabricante | MXQ
 Modelo | MXQ PRO 4K 5G
 Placa Mãe | R329Q_V8.1 2020.06.15
 Placa DTB | rk30sdk
-CPU | Rockchip 3229
+CPU | Rockchip 3228A
 Família | Cortex-A7
 Velocidade | 408 - 1008 MHz
 GPU | Mali-400 MP
