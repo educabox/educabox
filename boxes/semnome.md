@@ -20,7 +20,7 @@ CPU | Rockchip 3229
 Família | Cortex-A7
 Velocidade | 408 - 1008 MHz
 GPU | Mali-400 MP
-Wifi | SV6256P
+Wifi | SV6051P
 Memória | 1GB
 Armazenamento | 8GB*
 Resolução | 720x1280  
@@ -57,7 +57,7 @@ Segue alguns S.Os disponíveis para download, apenas o Kernel 4 está ativo as i
 - ✅ CPU
 - ✅ GPU/HDMI
 - ✅ USB 2.0
-- ✅ WIFI (SV6256P)
+- ✅ WIFI (SV6051P)
 - ✅ ETHERNET
 - ✅ BLUETOOTH
 - ✅ AUDIO
