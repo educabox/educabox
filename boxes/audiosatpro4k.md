@@ -1,5 +1,5 @@
 
-# 📦 TV BOX AUDIOSAT PRO 4H
+# 📦 TV BOX AUDIOSAT PRO 4K
 </p>
 <p align="center">
   <img src="https://github.com/educabox/educabox/blob/main/imagens/29%20-%20AUDISATPRO4K/Screenshots/HARDWARE%20AUDIOSAT.png?raw=true" alt="Size Limit CLI" width="1500">
@@ -11,9 +11,9 @@
 
 |Sumário | Detalhes|
 ---------|:--:
-Codename | AUDIOSAT PRO 4H
+Codename | AUDIOSAT PRO 4K
 Fabricante | Allwinner
-Modelo | AUDIOSAT PRO 4H
+Modelo | AUDIOSAT PRO 4K
 Placa Mãe | Q44_V4.0_20200602
 Placa DTB | dolphin
 CPU | Allwinner H3
