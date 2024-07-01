@@ -67,7 +67,7 @@ Resolução | 720x1280
 # 🖥️ Tela
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/18%20-%20ID18/Screenshots/TELA.png?raw=true" alt="Size Limit CLI" width="1280">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/19%20-%20MXQPLUS4K/Screenshots/TELA.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 💾 Memória
