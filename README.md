@@ -66,6 +66,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 | TV BOX      | Processador     | Mem     | HD    |  Wifi/Armbian    | Áudio/HDMI |  Instalação                                                                     |
 |-------------|-----------------|:-------:|:-----:|------------------|:----------:|:-------------------------------------------------------------------------------:|
+| AUDIOSAT 4K | Allwinner H3    | 1GB     | 8GB   | ❌ SV6256P       |❌          | [Link](https://github.com/educabox/educabox/blob/main/boxes/audiosatpro4k.md)   |
 | BTV11       | Amlogic S905X3  | 1GB     | 16GB  | ✅ AP6212        |❌          | [Link](https://github.com/educabox/educabox/blob/main/boxes/btv11.md)           |
 | BTVBX       | Amlogic S905X   | 2GB     | 16GB  | ✅ AP6212        |❌          | [Link](https://github.com/educabox/educabox/blob/main/boxes/btvbx.md)           |
 | BTVE10      | Amlogic S905X2  | 2GB     | 8GB   | ✅ RTL8189FTV    |✅          | [Link](https://github.com/educabox/educabox/blob/main/boxes/btve10.md)          | 
