@@ -126,17 +126,17 @@ O guia abaixo fornece instruções para injetar uma imagem Armbian via cabo USB 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/PP%20-%20RECOVERY%20LINUX/1.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
-9. Execute **sudo rk developmenttool rd 3** (se falhar, não se preocupe e **prossiga para a próxima etapa** )
+9. Execute **sudo rkdeveloptool rd 3** (se falhar, não se preocupe e **prossiga para a próxima etapa** )
 <p align="center">
 <img src="https://github.com/educabox/educabox/blob/main/imagens/PP%20-%20RECOVERY%20LINUX/2.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
-10. Execute **sudo rk developmenttool db rk 322x_loader_v1.10.238_256.bin**
+10. Execute **sudo rkdeveloptool db rk322x_loader_v1.10.238_256.bin**
 <p align="center">
 <img src="https://github.com/educabox/educabox/blob/main/imagens/PP%20-%20RECOVERY%20LINUX/3.jpg?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
-11. Execute **sudo rk developtool wl 0x0 image.img** (altere **image.img** com o nome do arquivo de imagem Armbian)
+11. Execute **sudo rkdeveloptool wl 0x0 image.img** (altere **image.img** com o nome do arquivo de imagem Armbian)
 <p align="center">
 <img src="https://github.com/educabox/educabox/blob/main/imagens/PP%20-%20RECOVERY%20LINUX/4.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
