@@ -67,7 +67,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 | TV BOX      | Processador     |    GPU   |  Mem    |   HD  |       Wifi       | Áudio |  Instalação                                                                     |
 |-------------|-----------------|:--------:|:-------:|:-----:|------------------|:-----:|:-------------------------------------------------------------------------------:|
 | AUDIOSAT 4K | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ❌ SV6256P       |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/audiosatpro4k.md)   |
-| BTV11       | Amlogic S905X3  | Mali-G31 | 1GB     | 16GB  | ✅ AP6212        |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/btv11.md)           |
+| BTV11       | Amlogic S905X3  | Mali-G31 | 2GB     | 16GB  | ✅ AP6212        |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/btv11.md)           |
 | BTVBX       | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ AP6212        |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/btvbx.md)           |
 | BTVE10      | Amlogic S905X2  | Mali-G31 | 2GB     | 8GB   | ✅ RTL8189FTV    |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/btve10.md)          | 
 | DC BOX 8K   | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/dcbox8k.md)         |
