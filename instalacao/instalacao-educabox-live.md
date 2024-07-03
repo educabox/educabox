@@ -21,7 +21,7 @@
 O guia de instalação abaixo é para instalação de uma imagem live otimizada Armbian [Pendrive, SDCard] para todas as TVs Boxes mencionadas em nosso repositório, faça o download da [Imagem Educabox] do respectivo equipamento.
 
 | TV BOX      | Processador     |    GPU   |  Mem    |   HD  |       Wifi       | Áudio |  Instalação                                                                                |
-|-------------|-----------------|:-------: |:-------:|:-----:|:----------------:|:-----:|:------------------------------------------------------------------------------------------:|
+|-------------|-----------------|:-------: |:-------:|:-----:|------------------|:-----:|:------------------------------------------------------------------------------------------:|
 | AUDIOSAT 4K | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ❌ SV6256P       |❌     | [Link](https://drive.google.com/uc?export=download&id=1yC5RHQ18KWe0IthDOr0hjjOQwAuOwbXM)   |
 | BTV11       | Amlogic S905X3  | Mali-G31 | 1GB     | 16GB  | ✅ AP6212        |❌     | [Link](https://drive.google.com/uc?export=download&id=1P6PlI_igcaHj0yJiVMpjVUaqUzfHUOHn)   |
 | BTVBX       | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ AP6212        |❌     | [Link](https://drive.google.com/uc?export=download&id=1OylWmzEJR7dbFAdDsai_5nFSM2TbXtON)   |
