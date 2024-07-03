@@ -20,27 +20,37 @@
 
 O guia de instalação abaixo é para instalação de uma imagem live otimizada Armbian [Pendrive, SDCard] para todas as TVs Boxes mencionadas em nosso repositório, faça o download da [Imagem Educabox] do respectivo equipamento.
 
-| TV Box      | Processador    | Mem | HD   | Wifi/Armbian | Áudio/HDMI | Download                                                                                    |
-|-------------|----------------|:---:|:----:|--------------|:----------:|:-------------------------------------------------------------------------------------------:|
-| BTV11       | Amlogic S905X3 | 1GB | 16GB | ✅ AP6212     | ❌        | [Link](https://drive.google.com/uc?export=download&id=1P6PlI_igcaHj0yJiVMpjVUaqUzfHUOHn)    |
-| BTVBX       | Amlogic S905X  | 2GB | 16GB | ✅ AP6212     | ❌        | [Link](https://drive.google.com/uc?export=download&id=1OylWmzEJR7dbFAdDsai_5nFSM2TbXtON)    |
-| BTVE10      | Amlogic S905X2 | 2GB | 8GB  | ✅ RTL8189FTV | ✅        | [Link](https://drive.google.com/uc?export=download&id=1GMTTM88uvnXYpHC2hlzQGaLKLA0Rq2jx)    |
-| EXTREMO     | Amlogic S905W  | 2GB | 8GB  | ❌ SV6051P    | ✅        | [Link](https://drive.google.com/uc?export=download&id=1nKIAtJosi5-9J4OkB-dwW8DhQnXG0Lwq)    |
-| HTV6+       | Amlogic S905X  | 2GB | 16GB | ✅ RTL8723BS  | ❌        | [Link](https://drive.google.com/uc?export=download&id=1OylWmzEJR7dbFAdDsai_5nFSM2TbXtON)    |
-| HTV7        | Amlogic S905X3 | 2GB | 16GB | ✅ RTL8822CS  | ❌        | [Link](https://drive.google.com/uc?export=download&id=1P6PlI_igcaHj0yJiVMpjVUaqUzfHUOHn)    |
-| ID18        | Allwinner H3   | 1GB | 8GB  | ✅ XR819      | ✅        | [Link](https://drive.google.com/uc?export=download&id=1wvsE4q5AVrB59Sg9mAmPG2Z5Kc8WCc62)    |
-| IMOVE       | Amlogic S905W  | 1GB | 8GB  | ❌ SV6051P    | ✅        | [Link](https://drive.google.com/uc?export=download&id=1nKIAtJosi5-9J4OkB-dwW8DhQnXG0Lwq)    |
-| IMOVE PRO   | Amlogic S905W  | 1GB | 8GB  | ❌ SV6051P    | ✅        | [Link](https://drive.google.com/uc?export=download&id=1nKIAtJosi5-9J4OkB-dwW8DhQnXG0Lwq)    |
-| IN X PLUS   | RockChip 3229  | 1GB | 8GB  | ❌ SV6256P    | ✅        | [Link](https://drive.google.com/uc?export=download&id=1WjmoRcJX92EUoaGK8ey1zZWWBSbYgqN7)    |
-| MXQ PRO 4K  | RockChip 3228A | 1GB | 8GB  | ❌ ESP8089    | ✅        | [Link](https://drive.google.com/uc?export=download&id=1yrbGJaaH6ONd6Td5SeE_crzek8Ebmx6F)    |
-| MXQ PLUS 4K | Allwinner H3   | 1GB | 8GB  | ❌ SV6256P    | ❌        | [Link](https://drive.google.com/uc?export=download&id=1yC5RHQ18KWe0IthDOr0hjjOQwAuOwbXM)    |
-| MY BOX TV   | Amlogic S905X  | 2GB | 16GB | ❌ AP6181     | ❌        | [Link](https://drive.google.com/uc?export=download&id=1OylWmzEJR7dbFAdDsai_5nFSM2TbXtON)    |
-| PLAY TV     | Amlogic S905X3 | 2GB | 16GB | ✅ RTL8189FTV | ❌        | [Link](https://drive.google.com/uc?export=download&id=1P6PlI_igcaHj0yJiVMpjVUaqUzfHUOHn)    |
-| R69         | Allwinner H3   | 1GB | 8GB  | ✅ XR819      | ✅        | [Link](https://drive.google.com/uc?export=download&id=1wvsE4q5AVrB59Sg9mAmPG2Z5Kc8WCc62)    | 
-| RPC 8K      | RockChip 3229  | 1GB | 8GB  | ❌ SV6051P    | ✅        | [Link](https://drive.google.com/uc?export=download&id=1V5SxqtJUHjaYTUNQTo4uHbCtEnxeeTBL)    |
-| RPC MINI    | RockChip 3229  | 1GB | 8GB  | ❌ SV6051P    | ✅        | [Link](https://drive.google.com/uc?export=download&id=1V5SxqtJUHjaYTUNQTo4uHbCtEnxeeTBL)    |
-| RPC PLUS    | RockChip 3229  | 1GB | 8GB  | ❌ SV6256P    | ✅        | [Link](https://drive.google.com/uc?export=download&id=1WjmoRcJX92EUoaGK8ey1zZWWBSbYgqN7)    |
-| TIGRE 2     | Amlogic S905X  | 2GB | 16GB | ✅ RTL8723BS  | ❌        | [Link](https://drive.google.com/uc?export=download&id=1OylWmzEJR7dbFAdDsai_5nFSM2TbXtON)    |
+| TV BOX      | Processador     |    GPU   |  Mem    |   HD  |       Wifi       | Áudio |  Instalação                                                                                |
+|-------------|-----------------|:-------: |:-------:|:-----:|:----------------:|:-----:|:------------------------------------------------------------------------------------------:|
+| AUDIOSAT 4K | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ❌ SV6256P       |❌     | [Link](https://drive.google.com/uc?export=download&id=1yC5RHQ18KWe0IthDOr0hjjOQwAuOwbXM)   |
+| BTV11       | Amlogic S905X3  | Mali-G31 | 1GB     | 16GB  | ✅ AP6212        |❌     | [Link](https://drive.google.com/uc?export=download&id=1P6PlI_igcaHj0yJiVMpjVUaqUzfHUOHn)   |
+| BTVBX       | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ AP6212        |❌     | [Link](https://drive.google.com/uc?export=download&id=1OylWmzEJR7dbFAdDsai_5nFSM2TbXtON)   |
+| BTVE10      | Amlogic S905X2  | Mali-G31 | 2GB     | 8GB   | ✅ RTL8189FTV    |✅     | [Link](https://drive.google.com/uc?export=download&id=1P6PlI_igcaHj0yJiVMpjVUaqUzfHUOHn)   |
+| DC BOX 8K   | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://drive.google.com/uc?export=download&id=1VccDfPlLJgg-36uE3iX6VASHksebghIX)   |
+| EXTREMO     | Amlogic S905W   | Mali-450 | 2GB     | 8GB   | ❌ SV6051P       |✅     | [Link](https://drive.google.com/uc?export=download&id=1OylWmzEJR7dbFAdDsai_5nFSM2TbXtON)   |
+| HTV6+       | Amlogic S905W   | Mali-450 | 2GB     | 16GB  | ✅ RTL8723BS     |❌     | [Link](https://drive.google.com/uc?export=download&id=1OylWmzEJR7dbFAdDsai_5nFSM2TbXtON)   |
+| HTV7        | Amlogic S905X3  | Mali-G31 | 2GB     | 16GB  | ✅ RTL8822CS     |❌     | [Link](https://drive.google.com/uc?export=download&id=1P6PlI_igcaHj0yJiVMpjVUaqUzfHUOHn)   |
+| I5          | RockChip 3229   | Mali-400 | 2GB     | 8GB   | ✅ RTL8723BS     |✅     | [Link](https://drive.google.com/uc?export=download&id=1P1tZx27ZXoTC-0VeJA8CnlOhvgHqKkBl)   |
+| ID18        | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ✅ XR819         |✅     | [Link](https://drive.google.com/uc?export=download&id=1wvsE4q5AVrB59Sg9mAmPG2Z5Kc8WCc62)   |
+| IMOVE       | Amlogic S905W   | Mali-450 | 1GB     | 8GB   | ❌ SV6051P       |✅     | [Link](https://drive.google.com/uc?export=download&id=1OylWmzEJR7dbFAdDsai_5nFSM2TbXtON)   |
+| IMOVE PRO   | Amlogic S905W   | Mali-450 | 1GB     | 8GB   | ❌ SV6051P       |✅     | [Link](https://drive.google.com/uc?export=download&id=1OylWmzEJR7dbFAdDsai_5nFSM2TbXtON)   |
+| IN X PLUS   | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://drive.google.com/uc?export=download&id=1VccDfPlLJgg-36uE3iX6VASHksebghIX)   |
+| MX9 4K 5G   | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ❌ SV6156P       |✅     | [Link](https://drive.google.com/uc?export=download&id=1P1tZx27ZXoTC-0VeJA8CnlOhvgHqKkBl)   |
+| MXQ PRO 4K  | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://drive.google.com/uc?export=download&id=1VccDfPlLJgg-36uE3iX6VASHksebghIX)   |
+| MXQ PRO 4K  | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ❌ ESP8089       |✅     | [Link](https://drive.google.com/uc?export=download&id=1P1tZx27ZXoTC-0VeJA8CnlOhvgHqKkBl)   |
+| MXQ PLUS 4K | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ❌ SV6256P       |❌     | [Link](https://drive.google.com/uc?export=download&id=1yC5RHQ18KWe0IthDOr0hjjOQwAuOwbXM)   |
+| MY BOX TV   | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ❌ AP6181        |❌     | [Link](https://drive.google.com/uc?export=download&id=1OylWmzEJR7dbFAdDsai_5nFSM2TbXtON)   |
+| PLAY TV     | Amlogic S905X3  | Mali-G31 | 2GB     | 16GB  | ✅ RTL8189FTV    |❌     | [Link](https://drive.google.com/uc?export=download&id=1P6PlI_igcaHj0yJiVMpjVUaqUzfHUOHn)   |
+| R69         | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ✅ XR819         |✅     | [Link](https://drive.google.com/uc?export=download&id=1wvsE4q5AVrB59Sg9mAmPG2Z5Kc8WCc62)   |
+| R90 PLUS    | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6051P       |✅     | [Link](https://drive.google.com/uc?export=download&id=1V5SxqtJUHjaYTUNQTo4uHbCtEnxeeTBL)   |
+| RPC 8K      | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6051P       |✅     | [Link](https://drive.google.com/uc?export=download&id=1V5SxqtJUHjaYTUNQTo4uHbCtEnxeeTBL)   |
+| RPC MINI    | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6051P       |✅     | [Link](https://drive.google.com/uc?export=download&id=1V5SxqtJUHjaYTUNQTo4uHbCtEnxeeTBL)   |
+| RPC PLUS    | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://drive.google.com/uc?export=download&id=1VccDfPlLJgg-36uE3iX6VASHksebghIX)   |
+| SEM NOME    | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6051P       |✅     | [Link](https://drive.google.com/uc?export=download&id=1V5SxqtJUHjaYTUNQTo4uHbCtEnxeeTBL)   |
+| SUNLIGHT    | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://drive.google.com/uc?export=download&id=1VccDfPlLJgg-36uE3iX6VASHksebghIX)   |
+| SUPER TV    | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ RTL8189FTV    |✅     | [Link](https://drive.google.com/uc?export=download&id=1P1tZx27ZXoTC-0VeJA8CnlOhvgHqKkBl)   |
+| TIGRE 2     | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ RTL8723BS     |❌     | [Link](https://drive.google.com/uc?export=download&id=1OylWmzEJR7dbFAdDsai_5nFSM2TbXtON)   |
+| UNITV S1    | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ RTW8723DS     |✅     | [Link](https://drive.google.com/uc?export=download&id=1P1tZx27ZXoTC-0VeJA8CnlOhvgHqKkBl)   |
 
 ## ▶️ <a id="aplicativos" />Aplicativos Pré-Instalados
 
