@@ -32,7 +32,7 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Customização de ROM's Android em placas RockChip (RK322X).
-- [x] Customização de S.O's Armbian em placas Amlogic e Allwiner.
+- [x] Customização de S.O's Armbian em placas Amlogic e Allwinner.
 - [x] Viabilização de S.O's (LibreElec, CoreElec, Lakka, Kodi) para uso em projetos GameLab, Totens e Painéis Digitais.
 - [ ] Criação de uma ROM própria pelo projeto EducaBox
 - [ ] Desenvolvimento de processos e repositório completo para comunidade.
