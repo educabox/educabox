@@ -97,7 +97,7 @@ O guia de instalação abaixo é para instalação de uma imagem live otimizada 
 
 ## 3️⃣ <a id="configurar-rk322x"/>Configurar SDCard ou Pendrive [RockChip RK322X]
 
-Obs: A maioria das TV Boxes com processadores RockChip permitem o uso do utilitário [Multitool](https://users.armbian.com/jock/rk322x/multitool/multitool.img.xz) na inicialização do Boot, logo é possível utilizar o passo a passo descrito na seção [Instalação Educabox Android](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-android.md) para processadores RockChip, porém ao invés de injetar a imagem Android insira a imagem [Educabox Armbian](https://drive.google.com/uc?export=download&id=1yrbGJaaH6ONd6Td5SeE_crzek8Ebmx6F).
+Obs: A maioria das TV Boxes com processadores RockChip permitem o uso do utilitário [Multitool](https://users.armbian.com/jock/rk322x/multitool/multitool.img.xz) na inicialização do Boot, logo é possível utilizar o passo a passo descrito na seção [Instalação Educabox Android](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-android.md) para processadores RockChip, porém ao invés de injetar a imagem Android insira uma imagem [Educabox Armbian](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md#-download-educabox-armbian).
 
 1. Para esses processadores nenhuma configuração adicional é necessária [Rockchip 3228, 3228A e 3229], no entanto caso seu dispositivo não seja compatível com o .dtb padrão [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h), faça a modificação para o .dtb da sua TV Box. Os arquivos .dtb podem ser encontrados na pasta `/dtb/` na raiz do SDCard ou Pendrive.
  
