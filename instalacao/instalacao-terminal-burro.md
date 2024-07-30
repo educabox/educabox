@@ -1,4 +1,5 @@
 
+
 # 📚 Montar um Terminal Burro (Thin Client Service)
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian.png?raw=true" align="right" width="120" height="178">
@@ -139,11 +140,49 @@ Se houver mais de uma interface de rede Wifi, especifique qual é a interface qu
 educabox$ $ nmcli device wifi connect <SSID|BSSID> password <password> ifname wlan1
 ```
 
-## 🔁 <a id="install-emmc"/>Instalação dos pacotes para inicialização do Rdesktop
+## 🔁 <a id="install-emmc"/>Pacotes para inicialização do Terminal
 
+Para inicialização de um terminal burro iremos utilizar os seguintes pacotes:
+
+1. **Xorg**: O X.Org Server é o servidor gráfico para o sistema X Window, que fornece a base para a interface gráfica no Linux e em outros sistemas Unix-like. Ele gerencia a exibição de gráficos e a interação com dispositivos de entrada como o teclado e o mouse.
+
+2. **LXDE**:  LXDE (Lightweight X11 Desktop Environment) é um ambiente de desktop leve e rápido para sistemas Unix-like. É projetado para ser eficiente em termos de recursos, tornando-o uma escolha popular para máquinas mais antigas ou com recursos limitados.
+
+3. **Lightdm**: LightDM é um gerenciador de exibição (display manager) leve e flexível. Ele fornece uma tela de login gráfica onde você pode inserir suas credenciais para iniciar uma sessão de desktop. É conhecido por sua simplicidade e baixa utilização de recursos.
+
+4. **Policykit**: PolicyKit (ou polkit) é um framework para definir e gerenciar permissões de usuários e processos no sistema Linux. Ele é usado para controlar o acesso a operações privilegiadas e autorizar ou negar ações com base em políticas de segurança.
+
+5. **Alsa-Utils**: Alsamixer é um conjunto de utilitários para o sistema de som ALSA (Advanced Linux Sound Architecture). Ele fornece ferramentas para configurar e gerenciar o som no Linux, como ajustar volumes e controlar dispositivos de áudio.
+
+6. **Pulseaudio**: PulseAudio é um servidor de som para sistemas Unix-like que permite o gerenciamento de áudio em uma rede e a mistura de múltiplas fontes de áudio. Ele fornece um ambiente mais avançado e flexível em comparação com o ALSA, oferecendo recursos como a capacidade de redirecionar áudio entre diferentes dispositivos.
+
+7. **RDesktop**: Rdesktop é um cliente para o protocolo Remote Desktop Protocol (RDP) da Microsoft. Ele permite que você se conecte e acesse desktops Windows remotamente a partir de sistemas Unix-like, proporcionando uma interface gráfica para interagir com máquinas Windows.
+
+## 🔁 <a id="install-emmc"/>Instação dos Pacotes 
+
+1. Com a TV Box conectada a internet, atualize a lista de pacotes do apt-get:
+
+```
+sudo apt-get update
+```
+
+2. Em seguida faça a instalação dos pacotes abaixo:
 ```
 sudo apt-get install -y xorg lxde lightdm policykit-1 alsa-utils pulseaudio rdesktop
 ```
+
+3. Habilite a inicialização do LXDE:
+```
+sudo sed -i.bak -e 's/^NotShowIn=GNOME; KDE; $/NotShowIn=LXDE; GNOME; KDE;/' /etc/xdg/autostart/lxpolkit.desktop
+```
+
+4. Configure o teclado para o idioma PT-BR:
+```
+sudo echo "setxkbmap -model abnt2 - layout br" »> ~/.bashrc
+```
+
+
+
 ## Dúvidas e Erros
 
 1. Encontrou algum erro em nossa documentação ou imagens, abra uma solicitação de problema/erro:
