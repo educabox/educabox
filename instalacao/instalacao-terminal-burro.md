@@ -184,13 +184,55 @@ sudo echo "setxkbmap -model abnt2 - layout br" »> ~/.bashrc
 
 ## 🔁 <a id="install-emmc"/>Inicialização do Ambiente LXDE e configuração do RDesktop
 
-1. Ao reiniciar a TV Box com os pacotes instalados o ambiente LXDE será inicializado, entre com ``usário: educabox`` ``senha: educabox``.
+1. Ao reiniciar a TV Box com os pacotes instalados o ambiente LXDE será inicializado, entre com ``usário: educabox`` ``senha: educabox`` (versões Educabox) ou ``usário: root`` ``senha: 1234`` (para instalações novas Armbian).
 
 <p align="center">
   <img src="https://github.com/educabox/educabox/blob/main/imagens/ZZ%20-%20LXDE/10.png?raw=true" width="720">
 </p>
 
-2. Agora vamos configurar um arquivo para inicialização do RDesktop 
+2. Agora vamos configurar um arquivo para iniciar o RDesktop assim que a sessão LXDE for iniciada, crie um arquivo de texto na pasta do usuário (ex:/home/<usuário>/remoto.sh):
+
+```
+#-------------------------------------------------------------------
+# Script de Inicialização para Conexão Remota
+#-------------------------------------------------------------------
+
+# Faça a conexão remota com seu Servidor Windows/Linux/OSX
+# -f Habilitar resolução fullscreen
+# -r Habilitar audio no lado cliente (TV Box)
+# -u Usuário
+# -p Senha
+# Insira o endereço IP, Usuário e Senha para acesso:
+rdesktop -f -r sound: local <IP SERVIDOR> -U <USUARIO> -p «SENHA>
+# Ao finalizar a conexão remota, habilitar o desligamento da TV Box
+systemctl poweroff
+
+#-------------------------------------------------------------------
+# Encerrar Sessão
+#-------------------------------------------------------------------
+```
+
+3. Altere a permissão do arquivo para executável:
+
+```
+$chmod +x /home/<usuário>/remoto.sh
+```
+
+4. Para que o arquivo ```remoto.sh``` seja executado na inicialização do LXDE faça a edição do arquivo ```autostart```, abra com um editor de texto o seguinte arquivo:
+
+```/home/<usuário>/.config/lxsession/LXDE/autostart```
+
+5. Adicione as seguintes linhas:
+
+```
+@lxpanel --profile LXDE
+@pcmanfm --desktop --profile LXDE
+@xscreensaver -no-splash
+@setxkbmap -model abnt2 -layout br
+@lxterminal -e bash /home/<usuário>/remoto.sh
+```
+
+6. As linhas adicionadas são para alteração do layout de teclado e execução do arquivo ```remoto.sh```.
 
 ## Dúvidas e Erros
 
