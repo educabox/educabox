@@ -158,7 +158,7 @@ Para inicialização de um terminal burro iremos utilizar os seguintes pacotes:
 
 7. **RDesktop**: Rdesktop é um cliente para o protocolo Remote Desktop Protocol (RDP) da Microsoft. Ele permite que você se conecte e acesse desktops Windows remotamente a partir de sistemas Unix-like, proporcionando uma interface gráfica para interagir com máquinas Windows.
 
-## 🔁 <a id="install-emmc"/>Instação dos Pacotes 
+## 🔁 <a id="install-emmc"/>Instalação dos Pacotes 
 
 1. Com a TV Box conectada a internet, atualize a lista de pacotes do apt-get:
 
@@ -180,8 +180,17 @@ sudo sed -i.bak -e 's/^NotShowIn=GNOME; KDE; $/NotShowIn=LXDE; GNOME; KDE;/' /et
 ```
 sudo echo "setxkbmap -model abnt2 - layout br" »> ~/.bashrc
 ```
+5. Depois da instalação e configurações dos pacotes, reinicie a TV Box para a próxima inicialização com interface gráfica.
 
+## 🔁 <a id="install-emmc"/>Inicialização do Ambiente LXDE e configuração do RDesktop
 
+1. Ao reiniciar a TV Box com os pacotes instalados o ambiente LXDE será inicializado, entre com ``usário: educabox`` ``senha: educabox``.
+
+<p align="center">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/ZZ%20-%20LXDE/10.png?raw=true" width="720">
+</p>
+
+2. Agora vamos configurar um arquivo para inicialização do RDesktop 
 
 ## Dúvidas e Erros
 
