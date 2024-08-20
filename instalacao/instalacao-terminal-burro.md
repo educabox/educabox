@@ -192,6 +192,9 @@ sudo echo "setxkbmap -model abnt2 - layout br" »> ~/.bashrc
 
 2. Agora vamos configurar um arquivo para iniciar o RDesktop assim que a sessão LXDE for iniciada, crie um arquivo de texto na pasta do usuário (ex:/home/<usuário>/remoto.sh):
 
+   - Adicione o IP do Servidor/Máquina do Windows
+   - Usuário e Senha do Servidor/Máquina do Windows
+
 ```
 #-------------------------------------------------------------------
 # Script de Inicialização para Conexão Remota
@@ -234,6 +237,20 @@ $chmod +x /home/<usuário>/remoto.sh
 
 6. As linhas adicionadas são para alteração do layout de teclado e execução do arquivo ```remoto.sh```.
 
+7. Reinicie a TV Box e faça a inicialização com login e senha da instalação local com ``usário: educabox`` ``senha: educabox`` (versões Educabox) ou ``usário: root`` ``senha: 1234`` (para instalações novas Armbian).
+8. Caso o Servidor/Máquina (Windows) esteja ativo na mesma rede (Cabo/Wi-fi) da TV Box o RDesktop fará a conexão remota e uma janela (fullscreen) será exibida no ambiente LXDE.
+
+<p align="center">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/ZZ%20-%20LXDE/11.png?raw=true" width="720">
+</p>
+
+9. Ao finalizar as atividades no Servidor/Máquina remota, clique em ```logoff``` ou ```encerrar sessão``` e automaticamente a TV Box será desligada, caso ainda deseje utilizar o ambiente LXDE localmente remova a última linha do arquivo ```remoto.sh```:
+
+```
+systemctl poweroff
+```
+   
+   
 ## Dúvidas e Erros
 
 1. Encontrou algum erro em nossa documentação ou imagens, abra uma solicitação de problema/erro:
