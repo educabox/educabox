@@ -1,0 +1,29 @@
+{
+    "PainelWeb": {
+        "title": "Panel Web | Novo SGA",
+        "configuration": "Configuración",
+        "fullscreen": "Pantalla completa",
+        "sounds": "Sonidos",
+        "URL": "URL",
+        "units": "Unidades",
+        "services": "Servicios",
+        "alert": "Alerta",
+        "playsound": "Probar audio",
+        "vocalize": "Vocalizar",
+        "active": "Activo",
+        "zero_left": "Cero a la izquierda",
+        "local": "Centro de atención",
+        "language": "Idioma",
+        "key_sample": "Ticket: A001 / Ventanilla: 1",
+        "close" : "Cerrar",
+        "save": "Guardar",
+        "select": "Seleccione",
+        "test_priority_normal": "Normal",
+        "test_local":"Ventanilla",
+        "Convencional": "Normal",
+        "error": {
+            "title": "Erro",
+            "invalid_url": "A URL informada não é válida. Favor tentar novamente."
+        }
+    }
+}
