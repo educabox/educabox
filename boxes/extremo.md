@@ -24,16 +24,6 @@ Memória | 2GB
 Armazenamento | 8GB
 Resolução | 1080X1920
 
-# ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
-
-| S.O | Kernel | Versão | Interface | Download |
-|---------|:------:|:------:|:---------:|:--------:|
-| Educabox | 6.1.50 | 23.8.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1nKIAtJosi5-9J4OkB-dwW8DhQnXG0Lwq)|
-| Armbian | 6.1.50 | 23.8.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=16XfAspTprQX2QKNFBrFKEcHLAQbMXLjE)|
-| Armbian | 6.1.50 | 23.8.1| XFCE | [Torrent](https://drive.google.com/uc?export=download&id=10nbA5OmPXiTydt9d8HHTb1Cm_RJv1YWm)|
-
-**DTB** = [meson-gxl-s905w-p281.dtb](https://drive.google.com/uc?export=download&id=1sxFmf05YRUHH6osUPyVq6ZUMxfWzpNE9)
-
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
 
@@ -59,10 +49,13 @@ Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o
 
 | S.O | Kernel | Versão | Interface | Download |
 |---------|:------:|:------:|:---------:|:--------:|
-| Armbian | 6.1.63 | 23.11.1| XFCE |[.img](https://drive.google.com/uc?export=download&id=1cZzKVb4iwia0aPONmyD_bFzK2FwtRN-r)|
-| Armbian | 6.1.63 | 23.11.1| XFCE |[Torrent](https://drive.google.com/uc?export=download&id=1c1b4kldMVfyZwS0YkZXywP_6S2TaOpvO)|
+| Educabox | 6.1.50 | 23.8.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1nKIAtJosi5-9J4OkB-dwW8DhQnXG0Lwq)|
+| Ubuntu 26.04 | 6.18.43 | 26.11.0| XFCE |[.img](https://dl.armbian.com/aml-s9xx-box/Resolute_current_xfce)|
+| Ubuntu 26.04 | 6.18.43 | 26.11.0| XFCE |[Torrent](https://dl.armbian.com/aml-s9xx-box/Resolute_current_xfce.torrent)|
+| Debian 13 | 6.18.43 | 26.11.0| MINIMAL |[.img](https://dl.armbian.com/aml-s9xx-box/Trixie_current_minimal)|
+| Debian 13 | 6.18.43 | 26.11.0| MINIMAL |[Torrent](https://dl.armbian.com/aml-s9xx-box/Trixie_current_minimal.torrent)|
 
-**Outras Versões** = [Repositório Oficial Armbian](https://imola.armbian.com/archive/aml-s9xx-box/archive/)
+<!-- **Outras Versões** = [Repositório Oficial Armbian](https://imola.armbian.com/archive/aml-s9xx-box/archive/)                       link quebrado --> 
 
 **DTB** = [meson-gxl-s905w-p281.dtb](https://drive.google.com/uc?export=download&id=1sxFmf05YRUHH6osUPyVq6ZUMxfWzpNE9)
 
@@ -73,7 +66,7 @@ Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o
 ## 1️⃣ Pré-requisitos
 
 1. Dispositivo USB (Pendrive) - ```Mínimo 8GB```
-2. Software [balenaEtcher](https://etcher.balena.io/) , [Rufus](https://rufus.ie/pt_BR/) ou [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
+2. Software [balenaEtcher](https://etcher.balena.io/) , [Rufus](https://rufus.ie/pt_BR/), [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) ou [software oficial da Armbian](https://imager.armbian.com/#downloads)
 3. Imagem Oficial S.O Armbian
  
 ## 2️⃣ Gravação Imagem
@@ -90,13 +83,14 @@ Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o
 ## 3️⃣ Configurar SDCard ou Pendrive para Armbian
 
 1.  Abra a partição legível do pendrive no Windows Explorer ou Finder (Ex: ```BOOT, armbian_boot```)
-2.  Renomeie o arquivo apropriado abaixo para ```u-boot.ext``` na raiz do Pendrive:
-    
-    ~~u-boot-s905 (para s905)~~  
+2.  Copie o arquivo ```u-boot-s905x-s912``` (para s905x, S905w e s912) para a raíz do pendrive
+3.  Renomeie o arquivo para ```u-boot.ext``` 
+   <!-- ~~u-boot-s905 (para s905)~~  
     ```u-boot-s905x-s912 (para s905x, S905w e s912)``` (Altere esse arquivo) p/ ```u-boot.ext``` <br>
-    ~~u-boot-s905x2-s922 (para s905x2, s905x3 e s922)~~
-    
-3.  Edite o arquivo /extlinux/extlinux.conf em um editor de texto:
+    ~~u-boot-s905x2-s922 (para s905x2, s905x3 e s922)~~ --> 
+<!-- 4.  Edite o arquivo /extlinux/extlinux.conf em um editor de texto:                                                !!!!!  Nota: o arquivo que já vem com o download está correto, não necessitando de alterações. Se realizar as alterações, o sistema não dá boot.
+
+
     
     1.  Comente as linhas com inicio FDT adicionando #
     2.  Remova o comentário das linhas aml s9xx FDT removendo #
@@ -116,9 +110,7 @@ INITRD /uInitrd
 FDT /dtb/amlogic/meson-gxl-s905w-p281.dtb 
 
 APPEND root=LABEL=ROOT_EMMC rootflags=data=writeback rw console=ttyAML0,115200n8 
-console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
-```
-    
+console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0 ``` -->   
 4.  Remova o Pendrive com segurança
 5.  Insira o Pendrive na TV Box
 
