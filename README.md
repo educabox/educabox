@@ -20,7 +20,7 @@
 
 
 ## 📸 Demonstração Visual
-![Armbian](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/5.png?raw=true)
+![Armbian](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/1.png?raw=true)
 
 | EducaBox Armbian | Aplicativos | Navegador | 
 | :---: | :---: |:---: |
