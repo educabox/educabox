@@ -18,13 +18,15 @@
 
 > Ao converter TVs Boxes em computadores educacionais, estamos democratizando o acesso ao conhecimento, especialmente em regiões onde a infraestrutura tecnológica pode ser limitada. Agora, estudantes, professores e técnicos têm a oportunidade de explorar recursos educacionais, acessar conteúdos interativos e participar de experiências de aprendizado envolventes, tudo a partir de TVs Boxes com baixo custo computacional.
 
-<p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/1.png?raw=true" alt="Size Limit CLI" width="1280">
-</p>
 
-| EducaBox Armbian | EducaBox Android |
-| ----------- | ----------- |
-|<img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/5.png?raw=true&image_size=auto"/>|<img src="https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/7.png?raw=true&image_size=auto"/>|
+## 📸 Demonstração Visual
+![Armbian](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/5.png?raw=true)
+
+| EducaBox Armbian | Aplicativos | Navegador | 
+| :---: | :---: |:---: |
+| ![Armbian](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/6.png?raw=true) | ![Android](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/7.png?raw=true) |![Android](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/8.png?raw=true)|
+---
+
 
 
 ### Ajustes e melhorias
