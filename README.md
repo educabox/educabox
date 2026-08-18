@@ -96,9 +96,9 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
  
 |Processador  | Modelo | Fabricante
 |--|:--:|:--:|
-|<img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/amlogic.png?raw=true" alt="Size Limit CLI" width="150"> | S805, S905X, S905X2, S905X3, S905W | [Link](https://www.amlogic.com/)
-| <img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/allwinner.png?raw=true" alt="Size Limit CLI" width="150">| H3, H6 | [Link](https://www.allwinnertech.com/)
-| <img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/rockchip.png?raw=true" alt="Size Limit CLI" width="150">| RK3228A, RK3228B, RK3229 | [Link](https://www.rock-chips.com/)
+|<img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/amlogic.png?raw=true" alt="Size Limit CLI" width="150"> | S805, S905X, S905X2, S905X3, S905W | [Link](https://www.amlogic.com/)|
+|<img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/allwinner.png?raw=true" alt="Size Limit CLI" width="150">| H3, H6 | [Link](https://www.allwinnertech.com/)|
+|<img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/rockchip.png?raw=true" alt="Size Limit CLI" width="150">| RK3228A, RK3228B, RK3229 | [Link](https://www.rock-chips.com/)|
   
  2. Faça um backup da sua ROM atual em caso de possíveis erros ou aparelhos brickados.
 
@@ -109,6 +109,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 |--|:--:|:--:|:--:|:--:|
 | Amlogic | Instalação OTG | USB Burning Tool | `2.20` |[Link](https://chinagadgetsreviews.com/download-amlogic-usb-burning-tool-v2-2-0.html)
 | Amlogic | Instalação OTG | USB Burning Tool | `3.20` |[Link](https://chinagadgetsreviews.com/download-amlogic-usb-burning-tool-latest-version-3-2-0.html)
+| Amlogic | Instalação OTG | USB Burning Tool | `3.28` |[Link](https://chinagadgetsreviews.com/download-amlogic-usb-burning-tool-latest-version-3-2-8.html)
 | Amlogic | Licenças | USB Burning Tool | `-` |[Link](https://drive.google.com/uc?export=download&id=1SMNeypg2U2R1ZhDCGAEF1viGKsteFspF)
 | Amlogic | Instalação SDCard | Amlogic Burn Card Maker | `2.0.2` |[Link](https://chinagadgetsreviews.com/download-amlogic-burn_card_maker-v2-0-2.html)
 | Amlogic | Instalação e Recovery | Amlogic Customization Tool | `6.0.0` |[Link](https://chinagadgetsreviews.com/download-amlogic-customization-tool-v6-0-0.html)
@@ -121,7 +122,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | Allwinner| Instalação OTG | PhoenixUSB Pro | `4.0.0` |[Link](https://chinagadgetsreviews.com/download-allwinner-phoenixusb-pro-v4-0-0-tool.html)
 | Allwinner| Instalação SDCard | Phoenix Card | `3.1.0` |[Link](https://chinagadgetsreviews.com/download-latest-version-phoenixcard-v3-1-0.html)
 | Allwinner| Instalação SDCard | Phoenix Card | `4.2.4` |[Link](https://chinagadgetsreviews.com/download-latest-version-of-phoenixcard-v4-2-4.html)
-| Allwinner| Instalação e Drives| LiveSuit e Drives | `1.1.0` |[Link](https://androidmtk.com/download-livesuit-all-versions)
+| Allwinner| Instalação e Drives| LiveSuit e Drives | `1.11` |[Link](https://androidmtk.com/download-livesuit-all-versions)
 
 ### RockChip
 |Processador | Função | Utilitário| Versão | Link
@@ -137,7 +138,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | RockChip| Instalação OTG | Rockchip Batch Tool | `1.8` |[Link](https://chinagadgetsreviews.com/hot-download-rockchip-batch-tool-v1-8.html)
 | RockChip| Instalação SDCard| Rockchip Create Upgrade Disk Tool | `1.7` |[Link](https://chinagadgetsreviews.com/download-latest-rockchip-create-upgrade-disk-tool-v1-7.html)
 | RockChip| Instalação SDCard| Rockchip Create Upgrade Disk Tool | `1.59` |[Link](https://chinagadgetsreviews.com/download-rockchip-create-upgrade-disk-tool-v1-59.html)
-| RockChip| Instalação SDCard| Multitool | `--` |[Link](https://users.armbian.com/jock/rk322x/multitool/multitool.img.xz)
+| RockChip| Instalação SDCard| Multitool | `--` |[Link](https://apt.undo.it:7243/multitool-rk322x.xz)
 | RockChip| Drives | Rockchip Driver Assistant | `4.5.0` |[Link](https://chinagadgetsreviews.com/download-rockchip-driver-assistant-v4-5.html)
 | RockChip| Drives | Rockchip Driver Assistant | `4.8.0` |[Link](https://chinagadgetsreviews.com/download-rockchip-driver-assistant-v4-8.html)
 | RockChip| Drives | Rockchip Driver Assistant | `5.1.1` |[Link](https://chinagadgetsreviews.com/download-rockchip-driver-assistant-v5-1-1.html)
@@ -146,17 +147,17 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
 |Processador  | Modelo | Versão TWRP| Android | Link
 |--|:--:|:--:|:--:|:--:|
-| Amlogic | S805 |`3.0.2`|`-` |[.img](https://drive.google.com/file/d/1el0pu1lLKQitXYsIITF7fYTzbtRd5z81/view?usp=drive_link)
-| Amlogic | S905X |`3.0.2`|`-` |[.img](https://drive.google.com/file/d/1mlfXSwFB7IwS_ufO0PmtnZS8eWoALwij/view?usp=drive_link) - [.zip](https://drive.google.com/file/d/1ikgmEQ-IEJJwWFf1nptcqSkmUzKazDoT/view?usp=drive_link)
-| Amlogic | S905X2 |`3.7.0`|`9.0 (Pie)` |[.img](https://drive.google.com/file/d/1sxk-mr_QLQErB-OCmLhOgm71f8rSFr7Z/view?usp=drive_link) - [.zip](https://drive.google.com/file/d/1r2Q7nTJ_U96qj5eGFhf6gBTRJTfJEyt9/view?usp=drive_link)
-| Amlogic | S905X3 |`3.7.0`|`9.0 (Pie)` |[.img](https://drive.google.com/file/d/1sxk-mr_QLQErB-OCmLhOgm71f8rSFr7Z/view?usp=drive_link) - [.zip](https://drive.google.com/file/d/1r2Q7nTJ_U96qj5eGFhf6gBTRJTfJEyt9/view?usp=drive_link)
-| Amlogic | S905W |`3.0.2`|`-` |[.img](https://drive.google.com/uc?export=download&id=1p5vziF86DJspxG2nlJq51k_LoEF03pUz) - [.zip](https://drive.google.com/file/d/1KKFMqGhu0OFElQhOFK8ovwnwqQX_gUMZ/view?usp=drive_link)
-| Amlogic | S912 |`-`|`-`|[.img](https://drive.google.com/file/d/1OPunnOo7Fl7zX3CjjnqjAwRDF5lM2Nu6/view?usp=drive_link)
-| Amlogic | S922X w400 |`3.7.0`|`9.0 (Pie)` |[.img](https://drive.google.com/file/d/1BloDo99bkHIiwZsYGuKdXS8c5Tghn3qz/view?usp=drive_link) - [.zip](https://drive.google.com/file/d/1PG6dtmh95DcUMEqEx7GleFOOxTxRxmGD/view?usp=drive_link)
-| Amlogic | K200 |`2.8.5.1`|`-` |[.img](https://drive.google.com/file/d/1OPunnOo7Fl7zX3CjjnqjAwRDF5lM2Nu6/view?usp=drive_link)
-| Amlogic | u212 - X96 Max | `3.7.0`|`-` |[.img](https://drive.google.com/file/d/1RxzcR4rUxsy5LqDf7ZSMdZVrJAocHMoJ/view?usp=drive_link)
-| Allwinner | H3 MXQ-4K | `-`|`-` |[.img](https://drive.google.com/file/d/1oRIa-e7O0zuLEBhTFHQ9F9wN2YC0Jd5V/view?usp=drive_link)
-| RockChip| RK3399 | `3.2.3`|`-` |[.img](https://drive.google.com/file/d/1rZuSeMsHrFnCqi394zCgKOPfb18Z-rDT/view?usp=drive_link)
+| Amlogic | S805 |`3.0.2`|`-` |[.img](https://drive.google.com/uc?export=download&id=1WEpjQOAS7kUIlXpxFSWjI8vHBD9X1SDp)
+| Amlogic | S905X |`3.0.2`|`-` |[.img](https://drive.google.com/uc?export=download&id=180mwLSj7I2I4DFsAvAULWglbx2AAgETc) - [.zip](https://drive.google.com/uc?export=download&id=1aomfwa-uibgUIKsVjmXfke625AoGDd0c)
+| Amlogic | S905X2 |`3.7.0`|`9.0 (Pie)` |[.img](https://drive.google.com/uc?export=download&id=1YEL_Ym2PAmzprMLj1lBKk57ip2LpXps_) - [.zip](https://drive.google.com/uc?export=download&id=1hqm5K1azUJ0lyuTmeNKmxkd8hy4ImRQ5)
+| Amlogic | S905X3 |`3.7.0`|`9.0 (Pie)` |[.img](https://drive.google.com/uc?export=download&id=1YEL_Ym2PAmzprMLj1lBKk57ip2LpXps_) - [.zip](https://drive.google.com/uc?export=download&id=1hqm5K1azUJ0lyuTmeNKmxkd8hy4ImRQ5)
+| Amlogic | S905W |`3.0.2`|`-` |[.img](https://drive.google.com/file/d/14ZQEz_-mRby1BJEYCvZREFP7_lgHegWh/view?usp=drive_link) - [.zip](https://drive.google.com/uc?export=download&id=125Nh4GlGvud_NRs3VFd9DjEG6JItvbdh)
+| Amlogic | S912 |`-`|`-`|[.img](https://drive.google.com/uc?export=download&id=1fB7_KivNNlLg8G5WOxvesyUFShkJCghj)
+| Amlogic | S922X w400 |`3.7.0`|`9.0 (Pie)` |[.img](https://drive.google.com/uc?export=download&id=1my2ReGFwgKwjSyrzFWxE1JnxxW4VOzSj) - [.zip](https://drive.google.com/uc?export=download&id=1t3MxblqXNr5uszBkxcJByN_5iV7Oq4KV)
+| Amlogic | K200 |`2.8.5.1`|`-` |[.img](https://drive.google.com/uc?export=download&id=15FJhnJWInN8wFExLODJ29NVeT2HUMH4U)
+| Amlogic | u212 - X96 Max | `3.7.0`|`-` |[.img](https://drive.google.com/uc?export=download&id=1qnDTRAN1Vykz8OnBg_aAZ__TgwGwHeUd)
+| Allwinner | H3 MXQ-4K | `-`|`-` |[.img](https://drive.google.com/uc?export=download&id=1WFxtypxcsSDP3MwNcxryFWQ3wpOBKyuP)
+| RockChip| RK3399 | `3.2.3`|`-` |[.img](https://drive.google.com/uc?export=download&id=1x4meJC5Kpj2tpW9zFfjAwqSSiLKa83Gh)
 ---
 ### 🎯 Ajustes e melhorias
 
