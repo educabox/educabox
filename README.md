@@ -1,9 +1,8 @@
 
 # 📦 EducaBox
 
-![GitHub followers](https://img.shields.io/github/followers/educabox?style=flat-square&color=blue)
-![GitHub stars](https://img.shields.io/github/stars/educabox?style=flat-square&color=yellow)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+![GitHub followers](https://img.shields.io/github/followers/educabox?style=social) ![GitHub User's stars](https://img.shields.io/github/stars/educabox?style=social) ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=educabox.repoName) <img src="https://komarev.com/ghpvc/?username=educabox" alt="educabox" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=social&logo=linux&logoColor=black" alt="educabox" />
 
 ![EducaBox Banner](https://github.com/educabox/educabox/blob/main/imagens/background.png?raw=true)
 
