@@ -1,4 +1,5 @@
 
+
 ![GitHub followers](https://img.shields.io/github/followers/educabox?style=social) ![GitHub User's stars](https://img.shields.io/github/stars/educabox?style=social) ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=educabox.repoName) <img src="https://komarev.com/ghpvc/?username=educabox" alt="educabox" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=social&logo=linux&logoColor=black" alt="educabox" />
 <!--
 <h1 align="center">
@@ -24,31 +25,20 @@
 
 | EducaBox Armbian | Aplicativos | Navegador | 
 | :---: | :---: |:---: |
-| ![Armbian](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/6.png?raw=true) | ![Android](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/7.png?raw=true) |![Android](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/8.png?raw=true)|
----
-
-
-
-### 🎯 Ajustes e melhorias
-
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
-
-- [x] Customização de ROM's Android em placas RockChip (RK322X).
-- [x] Customização de S.O's Armbian em placas Amlogic e Allwinner.
-- [x] Viabilização de S.O's (LibreElec, CoreElec, Lakka, Kodi) para uso em projetos GameLab, Totens e Painéis Digitais.
-- [ ] Criação de uma ROM própria pelo projeto EducaBox
-- [ ] Desenvolvimento de processos e repositório completo para comunidade.
-
+| ![Armbian](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/6.png?raw=true) | ![Aplicativos](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/7.png?raw=true) |![Navegador](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/8.png?raw=true)|
 ## 📗 Sumário
 
- 1. 📝 [Tutorial Instalação Imagem EducaBox [Armbian/Android]](#tutorial)
- 2. 🚀 [Tutorial Instalação Imagem Oficial Armbiam](#download)
- 3. 🔍 [Pré-Requisito](#pre-requisito)
- 4. ⚙️ [Utilitários](#utilitario)
- 5. 🔁 [Recuperação TWRP](#recuperacao)
- 6. 🤝 [Parceiros](#parceiros)
- 7. 👨🏽‍💻 [Equipe de Desenvolvimento](#equipe)
- 8. ✉️ [Contato](#contato)
+| Item | <center>Seção</center> |
+| :-: | :-- |
+| 1️⃣ | 📝 [Tutorial Instalação Imagem EducaBox [Armbian/Android]](#tutorial)|
+| 2️⃣ | 🚀 [Tutorial Instalação Imagem Oficial Armbiam](#download) |
+| 3️⃣ | 🔍 [Pré-Requisito](#pre-requisito) |
+| 4️⃣ | ⚙️ [Utilitários](#utilitario) |
+| 5️⃣ | 🔁 [Recuperação TWRP](#recuperacao) |
+| 6️⃣ | 🤝 [Parceiros](#parceiros) |
+| 7️⃣ | 👨🏽‍💻 [Equipe de Desenvolvimento](#equipe) |
+| 8️⃣ | ✉️ [Contato](#contato) |
+
 
 [Veja nosso FAQ de Dúvidas e Dicas?](https://github.com/educabox/educabox/blob/main/instalacao/faq.md)
 
@@ -105,10 +95,10 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
  1. Verifique a compatibilidade da sua TV Box com os processadores e dispositivos disponíveis em nosso repositório.
  
 |Processador  | Modelo | Fabricante
-|--|:--:|--|
-| Amlogic | S805, S905X, S905X2, S905X3, S905W | [Link](https://www.amlogic.com/)
-| Allwinner| H3, H6 | [Link](https://www.allwinnertech.com/)
-| RockChip| RK3228A, RK3228B, RK3229 | [Link](https://www.rock-chips.com/)
+|--|:--:|:--:|
+|<img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/amlogic.png?raw=true" alt="Size Limit CLI" width="150"> | S805, S905X, S905X2, S905X3, S905W | [Link](https://www.amlogic.com/)
+| <img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/allwinner.png?raw=true" alt="Size Limit CLI" width="150">| H3, H6 | [Link](https://www.allwinnertech.com/)
+| <img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/rockchip.png?raw=true" alt="Size Limit CLI" width="150">| RK3228A, RK3228B, RK3229 | [Link](https://www.rock-chips.com/)
   
  2. Faça um backup da sua ROM atual em caso de possíveis erros ou aparelhos brickados.
 
@@ -167,6 +157,16 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | Amlogic | u212 - X96 Max | `3.7.0`|`-` |[.img](https://drive.google.com/file/d/1RxzcR4rUxsy5LqDf7ZSMdZVrJAocHMoJ/view?usp=drive_link)
 | Allwinner | H3 MXQ-4K | `-`|`-` |[.img](https://drive.google.com/file/d/1oRIa-e7O0zuLEBhTFHQ9F9wN2YC0Jd5V/view?usp=drive_link)
 | RockChip| RK3399 | `3.2.3`|`-` |[.img](https://drive.google.com/file/d/1rZuSeMsHrFnCqi394zCgKOPfb18Z-rDT/view?usp=drive_link)
+---
+### 🎯 Ajustes e melhorias
+
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
+- [x] Customização de ROM's Android em placas RockChip (RK322X).
+- [x] Customização de S.O's Armbian em placas Amlogic e Allwinner.
+- [x] Viabilização de S.O's (LibreElec, CoreElec, Lakka, Kodi) para uso em projetos GameLab, Totens e Painéis Digitais.
+- [X] Criação de uma ROM própria pelo projeto EducaBox
+- [ ] Desenvolvimento de processos e repositório completo para comunidade.
 
 ## 🤝 <a id="parceiros"/>Parceiros
 
