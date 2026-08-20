@@ -94,7 +94,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
  1. Verifique a compatibilidade da sua TV Box com os processadores e dispositivos disponíveis em nosso repositório.
  
-|Processador  | Modelo | Fabricante
+|⚡️ Processador  | 🎛️ Modelo | ⚙️ Fabricante
 |--|:--:|:--:|
 |<img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/amlogic.png?raw=true" alt="Size Limit CLI" width="150"> | S805, S905X, S905X2, S905X3, S905W | [Link](https://www.amlogic.com/)|
 |<img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/allwinner.png?raw=true" alt="Size Limit CLI" width="150">| H3, H6 | [Link](https://www.allwinnertech.com/)|
@@ -105,7 +105,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 ## ⚙️ <a id="utilitario"/>Utilitários 
 
 ### Amlogic
-|Processador  | Função | Utilitário| Versão | Link
+|⚡️ Processador  | ⚙️ Função | 🛠️ Utilitário| 🔢 Versão | 📲 Link
 |--|:--:|:--:|:--:|:--:|
 | Amlogic | Instalação OTG | USB Burning Tool | `2.20` |[Link](https://chinagadgetsreviews.com/download-amlogic-usb-burning-tool-v2-2-0.html)
 | Amlogic | Instalação OTG | USB Burning Tool | `3.20` |[Link](https://chinagadgetsreviews.com/download-amlogic-usb-burning-tool-latest-version-3-2-0.html)
@@ -116,7 +116,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | Amlogic | Instalação e Recovery |Amlogic Customization Tool | `7.1.0` |[Link](https://chinagadgetsreviews.com/download-amlogic-customization-tool-v7-1-0.html)
 
 ### Allwinner
-|Processador | Função | Utilitário| Versão | Link
+|⚡️ Processador  | ⚙️ Função | 🛠️ Utilitário| 🔢 Versão | 📲 Link
 |--|:--:|:--:|:--:|:--:|
 | Allwinner| Instalação OTG |Phoenix Suit | `1.04 - 1.10` |[Link](https://www.phoenixsuite.org/)
 | Allwinner| Instalação OTG | PhoenixUSB Pro | `4.0.0` |[Link](https://chinagadgetsreviews.com/download-allwinner-phoenixusb-pro-v4-0-0-tool.html)
@@ -125,7 +125,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | Allwinner| Instalação e Drives| LiveSuit e Drives | `1.11` |[Link](https://androidmtk.com/download-livesuit-all-versions)
 
 ### RockChip
-|Processador | Função | Utilitário| Versão | Link
+|⚡️ Processador  | ⚙️ Função | 🛠️ Utilitário| 🔢 Versão | 📲 Link
 |--|:--:|:--:|:--:|:--:|
 | RockChip| Instalação OTG | Android Tool Release| `2.38` |[Link](https://chinagadgetsreviews.com/download-androidtool-release-v2-38.html)
 | RockChip| Instalação OTG | Android Tool Release| `2.51` |[Link](https://chinagadgetsreviews.com/download-androidtool-release-v2-51.html)
@@ -145,7 +145,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
 ## 🔁 <a id="recuperacao"/>Recuperação TWRP
 
-|Processador  | Modelo | Versão TWRP| Android | Link
+|⚡️ Processador  | 🎛️ Modelo | 🔢 Versão TWRP| 🤖 Android | 📲 Link
 |--|:--:|:--:|:--:|:--:|
 | Amlogic | S805 |`3.0.2`|`-` |[.img](https://drive.google.com/uc?export=download&id=1WEpjQOAS7kUIlXpxFSWjI8vHBD9X1SDp)
 | Amlogic | S905X |`3.0.2`|`-` |[.img](https://drive.google.com/uc?export=download&id=180mwLSj7I2I4DFsAvAULWglbx2AAgETc) - [.zip](https://drive.google.com/uc?export=download&id=1aomfwa-uibgUIKsVjmXfke625AoGDd0c)
