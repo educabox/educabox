@@ -23,12 +23,12 @@
 ## 📸 Demonstração Visual
 ![Armbian](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/1.png?raw=true)
 
-| EducaBox Armbian | Aplicativos | Navegador | 
+| 📦 EducaBox Armbian | 📱 Aplicativos | 🛜 Navegador | 
 | :---: | :---: |:---: |
 | ![Armbian](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/6.png?raw=true) | ![Aplicativos](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/7.png?raw=true) |![Navegador](https://github.com/educabox/educabox/blob/main/imagens/EDUCABOX/PRINTSCREEN/8.png?raw=true)|
 ## 📗 Sumário
 
-| Item | <center>Seção</center> |
+| 🔢 Item | 📚 Seção |
 | :-: | :-- |
 | 1️⃣ | 📝 [Tutorial Instalação Imagem EducaBox [Armbian/Android]](#tutorial)|
 | 2️⃣ | 🚀 [Tutorial Instalação Imagem Oficial Armbiam](#download) |
