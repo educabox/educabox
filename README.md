@@ -104,7 +104,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 
 ## ⚙️ <a id="utilitario"/>Utilitários 
 
-### Amlogic
+### 🖲️ Amlogic
 |⚡️ Processador  | ⚙️ Função | 🛠️ Utilitário| 🔢 Versão | 📲 Link
 |--|:--:|:--:|:--:|:--:|
 | Amlogic | Instalação OTG | USB Burning Tool | `2.20` |[Link](https://chinagadgetsreviews.com/download-amlogic-usb-burning-tool-v2-2-0.html)
@@ -115,7 +115,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | Amlogic | Instalação e Recovery | Amlogic Customization Tool | `6.0.0` |[Link](https://chinagadgetsreviews.com/download-amlogic-customization-tool-v6-0-0.html)
 | Amlogic | Instalação e Recovery |Amlogic Customization Tool | `7.1.0` |[Link](https://chinagadgetsreviews.com/download-amlogic-customization-tool-v7-1-0.html)
 
-### Allwinner
+### 🖲️ Allwinner
 |⚡️ Processador  | ⚙️ Função | 🛠️ Utilitário| 🔢 Versão | 📲 Link
 |--|:--:|:--:|:--:|:--:|
 | Allwinner| Instalação OTG |Phoenix Suit | `1.04 - 1.10` |[Link](https://www.phoenixsuite.org/)
@@ -124,7 +124,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 | Allwinner| Instalação SDCard | Phoenix Card | `4.2.4` |[Link](https://chinagadgetsreviews.com/download-latest-version-of-phoenixcard-v4-2-4.html)
 | Allwinner| Instalação e Drives| LiveSuit e Drives | `1.11` |[Link](https://androidmtk.com/download-livesuit-all-versions)
 
-### RockChip
+### 🖲️ RockChip
 |⚡️ Processador  | ⚙️ Função | 🛠️ Utilitário| 🔢 Versão | 📲 Link
 |--|:--:|:--:|:--:|:--:|
 | RockChip| Instalação OTG | Android Tool Release| `2.38` |[Link](https://chinagadgetsreviews.com/download-androidtool-release-v2-38.html)
