@@ -116,28 +116,16 @@ O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Ima
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_balena.png?raw=true&image_size=auto"/>
  
-
 ## 2️⃣ Gravação da imagem
 
-  
-
 1. Execute o balenaEtcher (preferencialmente)
-
 2. Grave a imagem do Armbian no pendrive USB
-
 3. Remova com segurança o pendrive e insira-o novamente
-
 4. Ignore/feche as caixas de diálogo do Windows/macOS que solicitarem a formatação do pendrive inserido
-
-  
 
 [Como gravar uma imagem no balenaEtcher?](https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md)
 
-  
-
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_balena.png?raw=true&image_size=auto"/>
-
-  
 
 ## 3️⃣ Configurar o SD Card ou pendrive para o Armbian
 
@@ -246,5 +234,3 @@ $sudo blkid
 <p align="center">
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian_branco.png?raw=true" alt="Size Limit CLI" width="240">
 </p>
-
-
