@@ -11,10 +11,10 @@
 
 |Sumário | Detalhes|
 ---------|:--:
-📦 Codename | IMOVE
-🤖 Fabricante | streambus
-🎛️ Modelo | it01
-⚙️ Placa Mãe | S908X4 MINI_V3.0 2019.01.14
+📦 Codename | IMOVE PRO
+🤖 Fabricante | AB
+🎛️ Modelo | iMOVE
+⚙️ Placa Mãe | JNMBS905W_4BIT.JNFOURLED.VER1.0 2020-10-30
 📝 Placa DTB | glx_p281_1g
 🖲️ CPU | Amlogic S905W
 ⚡️ Família | Cortex-A53
