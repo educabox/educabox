@@ -93,7 +93,7 @@ Verifique a compatibilidade com um desses DTBs:
 
 # ✅ Guia de instalação da imagem oficial do Armbian
 
-O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Imagem Oficial do Armbian]**](https://archive.armbian.com/), com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [**BTV11**].
+O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Imagem Oficial do Armbian]**](https://archive.armbian.com/), com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [**HTV7**].
 
 **Outras versões** = [Repositório Oficial Armbian](https://archive.armbian.com/)
 
