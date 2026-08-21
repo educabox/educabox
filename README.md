@@ -1,6 +1,3 @@
-
-
-
 ![GitHub followers](https://img.shields.io/github/followers/educabox?style=social) ![GitHub User's stars](https://img.shields.io/github/stars/educabox?style=social) ![Visitor](https://visitor-badge.laobi.icu/badge?page_id=educabox.repoName) <img src="https://komarev.com/ghpvc/?username=educabox" alt="educabox" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=social&logo=linux&logoColor=black" alt="educabox" />
 <!--
 <h1 align="center">
@@ -205,6 +202,14 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
         <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-ifms.png?raw=true" width="125px;" alt="IFMS"/><br>
         <sub>
         <br>
+          <b></b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.gov.br/receitafederal/">
+        <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-ifmaker.png?raw=true" width="125px;" alt="Receita Federal"/><br>
+        <sub>
           <b></b>
         </sub>
       </a>
