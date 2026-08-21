@@ -40,8 +40,10 @@
 
 Verifique a compatibilidade com um desses DTBs:
 
-**DTB** = [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17aoHwUOW1su-vBiLBEOCE9eV0uP59Bfw)<br> 
-**DTB** = [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) - Créditos: [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
+**DTB** = [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=1ZgPUuQV74qES5kU_G9zLWQ9eJ10wLGjo)<br> 
+**DTB** = [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1NFg85c72qD5VoCjJ7RpZ1Hf3i3FbcP3w) - Créditos: [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)<br> 
+**DTB** = [meson-sm1-sei610-qca9377-bt.dtb](https://drive.google.com/uc?export=download&id=1oP1vRATdN6f672hbW44prgmG7x8pP_hL)<br> 
+**DTB** = [meson-sm1-sei610_578.dtb](https://drive.google.com/uc?export=download&id=1mWu1Tjv_iuKL8jKSjvZ_WTfpqjpjcyxI)<br> 
 
 # 📌 Serviços ativos/inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
@@ -92,11 +94,11 @@ Verifique a compatibilidade com um desses DTBs:
 
 # ✅ Guia de instalação da imagem oficial do Armbian
 
-O guia de instalação abaixo é para a criação de uma imagem limpa da **[Imagem Oficial do Armbian]**, com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box BTV11.
+O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Imagem Oficial do Armbian]**](https://archive.armbian.com/), com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [**BTV11**].
 
 **Outras versões** = [Repositório Oficial Armbian](https://archive.armbian.com/)
 
-🔴 Caso deseje obter uma instalação pronta e otimizada para esta TV Box, faça o download da [**Imagem Educabox**](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) correspondente a este equipamento.
+🔴 Caso deseje obter uma instalação pronta e otimizada para esta TV Box, faça o download da [[**Imagem Educabox**]](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) correspondente a este equipamento.
 
 [Como instalar nossa imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
 
@@ -125,18 +127,22 @@ Obs.: Para esta TV Box, não é necessário editar o arquivo `u-boot` do Armbian
 
 Funciona para os seguintes processadores:
 - S905x (GXL)
+- S905W (GXL)
 - S912 (GXM)
 - S905x2 (G12A)
 - S922X (G12B)
 - S905X3 (SM1)
+- S905X4 (SC2)
+- S905W2 (S4)
 
 Basta copiar os arquivos disponibilizados para a partição de `boot` da imagem do Armbian após gravar a imagem em um disco USB:
 
 1. Abra a partição legível do pendrive no Windows Explorer ou Finder (ex.: ``BOOT, armbian_boot``)
 2. Exclua ou faça backup dos arquivos [aml_autoscript] e [s905_autoscript] existentes na raiz do pendrive.
-3. Copie os arquivos [[aml_autoscript]](https://drive.google.com/uc?export=download&id=11_2ED60PkU16qWI3BMhDq8P7ddh0XC52) e [[s905_autoscript]](https://drive.google.com/uc?export=download&id=10LiKlvmS6M29tFIWwuJT1Vy0eWQJEl0o) para a raiz do pendrive.
-4. Crie um novo arquivo chamado ``armbianEnv.txt`` na raiz do pendrive
-5. Edite o arquivo em um editor de texto e cole o código abaixo. Créditos: [[Devmfc]](https://forum.armbian.com/topic/30245-cant-boot-with-2305-or-later-builds-on-s905x2-g12a-or-s905x3-sm1/?do=findComment&comment=171830):
+3. Baixe a última versão do BootScripts disponibilizada pelo - [[Devmfc - Link]](https://github.com/devmfc/amlogic-bootscripts-Armbian/releases).
+4. Extraia e copie os arquivos **[aml_autoscript, armbianEnv.txt, gxl-fixup.scr, s905_autoscript]** para a raiz do pendrive.
+5. Abra o arquivo ``armbianEnv.txt`` na raiz do pendrive
+6. Edite o arquivo em um editor de texto e substitua o arquivo [.dtb] para versão da sua TV BOX: 
 
 ```text
 extraargs=earlycon rootflags=data=writeback rw no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
@@ -145,18 +151,19 @@ verbosity=7
 usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 console=both
 
-# DTB file for this tvbox
+# Arquivo DTB para esta TV Box
 fdtfile=amlogic/meson-sm1-sei610.dtb
 
-# set this to the UUID of the root partition (value can be found 
-# in /extlinux/extlinux.conf after APPEND root= or with blkid)
-rootdev=UUID=92139c84-3871-41d7-a3f2-e8a943cbfa87
+# Defina isto como o UUID da partição raiz
+# (o valor pode ser encontrado em /extlinux/extlinux.conf depois de APPEND root=
+# ou usando blkid)
+#rootdev=UUID=92139c84-3871-41d7-a3f2-e8a943cbfa87
+# ou use o rótulo padrão da partição:
+#rootdev=LABEL=armbi_root
 
-# Enable ONLY for gxbb (S905) / gxl (S905X/L/W) to create fake u-boot header
+# Ative SOMENTE para gxbb (S905) / gxl (S905X/L/W)
+# para criar um cabeçalho U-Boot falso
 #soc_fixup=gxl-
-
-APPEND root=LABEL=ROOT_EMMC rootflags=data=writeback rw console=ttyAML0,115200n8 
-console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
 ```
 
 6. Altere ``rootdev=`` para o UUID do seu pendrive. Para isso, acesse o arquivo no pendrive ```/extlinux/extlinux.conf``` e copie o UUID correto.
@@ -192,7 +199,7 @@ console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.
 1. Depois que o ambiente desktop for inicializado, abra o terminal `Terminator`
 2. No terminal, digite: `root\install-aml.sh`
 3. O script fará uma cópia do u-boot original da TV Box e depois instalará o Armbian
-4. Diferentemente de outras TV Boxes, os processadores Amlogic **não são compatíveis** com a instalação padrão do Armbian `armbian-install`; **por isso, não tente utilizar** o comando padrão do Armbian para instalação em TV Boxes com processadores Amlogic.
+4. Diferentemente de outras TV Boxes, os processadores Amlogic **não são compatíveis** com a instalação padrão do Armbian `armbian-install`, **por isso, não tente utilizar** o comando padrão do Armbian para instalação em TV Boxes com processadores Amlogic.
 
 **Obs.: Antes de reiniciar novamente o Armbian, faça as alterações abaixo para que a próxima inicialização ocorra pelo armazenamento eMMC.**
 
