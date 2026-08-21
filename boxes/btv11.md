@@ -1,4 +1,5 @@
 
+
 # 📦 TV BOX BTV 11 
 </p>
 <p align="center">
@@ -26,6 +27,8 @@
 🌁 Resolução | 1080x1920
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
+
+<img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian.png?raw=true" align="right" alt="" width="120" height="178">
 
 | 📱 S.O. | 🔢 Kernel | 📶 Versão | 🖥️ Interface | ⬇️ Download |
 |---------|:------:|:------:|:---------:|:--------:|
@@ -89,25 +92,15 @@ Verifique a compatibilidade com um desses DTBs:
 
 # ✅ Guia de instalação da imagem oficial do Armbian
 
-O guia de instalação abaixo é para a criação de uma imagem limpa da **[imagem oficial do Armbian]**, com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box BTV11.
+O guia de instalação abaixo é para a criação de uma imagem limpa da **[Imagem Oficial do Armbian]**, com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box BTV11.
 
 **Outras versões** = [Repositório Oficial Armbian](https://archive.armbian.com/)
 
-Verifique a compatibilidade com um desses DTBs:
-
-
-**DTB** = [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17aoHwUOW1su-vBiLBEOCE9eV0uP59Bfw)
-**DTB** = [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) - Créditos: [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
-
----
-Caso deseje obter uma instalação pronta e otimizada para esta TV Box, faça o download da **[imagem Educabox]**(https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) correspondente a este equipamento.
+🔴 Caso deseje obter uma instalação pronta e otimizada para esta TV Box, faça o download da [**Imagem Educabox**](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) correspondente a este equipamento.
 
 [Como instalar nossa imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
-
----
-
 
 ## 1️⃣ Pré-requisitos
 
@@ -225,5 +218,5 @@ $sudo blkid
 8. Reinicie a TV Box
 ---
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/armbian.png?raw=true" alt="Size Limit CLI" width="738">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian_branco.png?raw=true" alt="Size Limit CLI" width="240">
 </p>
