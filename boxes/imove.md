@@ -89,7 +89,7 @@
 
 # ✅ Guia de instalação da imagem oficial do Armbian
 
-O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Imagem Oficial do Armbian]**](https://archive.armbian.com/), com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [**BTV11**].
+O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Imagem Oficial do Armbian]**](https://archive.armbian.com/), com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [**IMOVE**].
 
 **Outras versões** = [Repositório Oficial Armbian](https://archive.armbian.com/)
 
