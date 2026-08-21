@@ -27,6 +27,8 @@
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
 
+<img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian.png?raw=true" align="right" alt="" width="120" height="178">
+
 | 📱 S.O. | 🔢 Kernel | 📶 Versão | 🖥️ Interface | ⬇️ Download |
 |---------|:------:|:------:|:---------:|:--------:|
 | Educabox | 6.1.50 | 23.8.1 | XFCE | [.img](https://drive.google.com/uc?export=download&id=1wKIrC-eo3MBKHRaaKdOrGqzVMo95-Nrs)|
