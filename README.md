@@ -207,7 +207,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="https://www.gov.br/receitafederal/">
+      <a href="https://integra.ifms.edu.br/portfolio/laboratorios/ifmaker-campus-ponta-pora-338">
         <img src="https://github.com/educabox/educabox/blob/main/imagens/XX%20-%20COLABORADORES/logo-ifmaker.png?raw=true" width="125px;" alt="Receita Federal"/><br>
         <sub>
           <b></b>
