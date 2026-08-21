@@ -1,3 +1,4 @@
+
 # 📦 TV BOX HTV7 
 </p>
 <p align="center">
@@ -10,32 +11,37 @@
 
 |Sumário  |  Detalhes|
 ---------|:--:
-Codename  |  HTV7
-Fabricante  |  HTV
-Modelo  |  7
-Placa  Mãe  |  HD.1330.03  2020.06.24
-Placa  DTB  | sm1_ac213_2g
-CPU  |  Amlogic  S905X3
-Família  |  Cortex-A55
-Velocidade  |  100  -  1908  MHz
-GPU  |  Mali-G31  MC1
-Wifi  |  RTL8822CS
-Memória  | 2GB
-Armazenamento  | 16GB
-Resolução  | 1080x1920
+📦 Codename  |  HTV7
+🤖 Fabricante  |  HTV
+🎛️ Modelo  |  7
+⚙️ Placa  Mãe  |  HD.1330.03  2020.06.24
+📝 Placa  DTB  | sm1_ac213_2g
+🖲️ CPU  |  Amlogic  S905X3
+⚡️ Família  |  Cortex-A55
+🧭 Velocidade  |  100  -  1908  MHz
+📟 GPU  |  Mali-G31  MC1
+🛜 Wifi  |  RTL8822CS
+🗃️ Memória  | 2GB
+💾 Armazenamento  | 16GB
+🌁 Resolução  | 1080x1920
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
+<img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian.png?raw=true"  align="right" alt="" width="120" height="178">
 
-| S.O | Kernel | Versão | Interface | Download |
+| 📱 S.O. | 🔢 Kernel | 📶 Versão | 🖥️ Interface | ⬇️ Download |
 |---------|:------:|:------:|:---------:|:--------:|
-| Educabox | 6.1.50 | 23.8.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1P6PlI_igcaHj0yJiVMpjVUaqUzfHUOHn)|
-| Armbian | 6.1.50 | 23.8.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=16XfAspTprQX2QKNFBrFKEcHLAQbMXLjE)|
-| Armbian | 6.1.50 | 23.8.1| XFCE | [Torrent](https://drive.google.com/uc?export=download&id=10nbA5OmPXiTydt9d8HHTb1Cm_RJv1YWm)|
+| Educabox | 6.1.50 | 23.8.1 | XFCE | [.img](https://drive.google.com/uc?export=download&id=1wKIrC-eo3MBKHRaaKdOrGqzVMo95-Nrs)|
+| Educabox | 6.18.35 | 26.8.0 | XFCE | [.img](https://drive.google.com/uc?export=download&id=19OqWtYmzMLA0df238TVcSRPjkraTR9ct)|
+| Educabox | 6.18.38 | 26.8.0 | XFCE | [.img](https://drive.google.com/uc?export=download&id=1TdwWDQtmJLtLpqEkdjZWG51VgbeDo_Gf)|
+| Armbian | 6.1.50 | 23.8.1 | XFCE | [.img](https://k-space.ee.armbian.com/archive/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_jammy_current_6.1.50_xfce_desktop.img.xz)|
+| Armbian | Atual | Atual | XFCE | [.img](https://armbian.com/pt/boards/aml-s9xx-box)|
 
 Verifique a compatibilidade com um desses DTBs:
 
-**DTB** = [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17aoHwUOW1su-vBiLBEOCE9eV0uP59Bfw)<br />
-**DTB** = [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) - Créditos [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
+**DTB** = [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=1ZgPUuQV74qES5kU_G9zLWQ9eJ10wLGjo)<br>
+**DTB** = [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1NFg85c72qD5VoCjJ7RpZ1Hf3i3FbcP3w) - Créditos: [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)<br>
+**DTB** = [meson-sm1-sei610-qca9377-bt.dtb](https://drive.google.com/uc?export=download&id=1oP1vRATdN6f672hbW44prgmG7x8pP_hL)<br>
+**DTB** = [meson-sm1-sei610_578.dtb](https://drive.google.com/uc?export=download&id=1mWu1Tjv_iuKL8jKSjvZ_WTfpqjpjcyxI)<br>
 
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
@@ -84,28 +90,18 @@ Verifique a compatibilidade com um desses DTBs:
   <img src="https://github.com/educabox/educabox/blob/main/imagens/06%20-%20HTV7/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
-# ✅ Guia de Instalação Imagem Oficial Armbian
 
-O guia de instalação abaixo é para criação de uma imagem limpa da [Imagem Oficial Armbian] com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [HTV7].
+# ✅ Guia de instalação da imagem oficial do Armbian
 
-Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) do respectivo equipamento.
+O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Imagem Oficial do Armbian]**](https://archive.armbian.com/), com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [**BTV11**].
 
-| S.O | Kernel | Versão | Interface | Download |
-|---------|:------:|:------:|:---------:|:--------:|
-| Armbian | 6.1.63 | 23.11.1| XFCE |[.img](https://drive.google.com/uc?export=download&id=1cZzKVb4iwia0aPONmyD_bFzK2FwtRN-r)|
-| Armbian | 6.1.63 | 23.11.1| XFCE |[Torrent](https://drive.google.com/uc?export=download&id=1c1b4kldMVfyZwS0YkZXywP_6S2TaOpvO)|
+**Outras versões** = [Repositório Oficial Armbian](https://archive.armbian.com/)
 
-**Outras Versões** = [Repositório Oficial Armbian](https://imola.armbian.com/archive/aml-s9xx-box/archive/)
+🔴 Caso deseje obter uma instalação pronta e otimizada para esta TV Box, faça o download da [[**Imagem Educabox**]](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) correspondente a este equipamento.
 
-Verifique a compatibilidade com um desses DTBs:
-
-**DTB** = [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=17aoHwUOW1su-vBiLBEOCE9eV0uP59Bfw)<br />
-**DTB** = [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) - Créditos [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)
-
-[Como Instalar nossa Imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
+[Como instalar nossa imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
-
 ## 1️⃣ Pré-requisitos
 
  1. Dispositivo USB (Pendrive) - ```Mínimo 8GB```
@@ -123,50 +119,56 @@ Verifique a compatibilidade com um desses DTBs:
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_balena.png?raw=true&image_size=auto"/>
  
-## 3️⃣ Configurar SDCard ou Pendrive para Armbian
 
-Obs: Para esta Box não é necessário editar o arquivo `u-boot` do Armbian. Portanto, eles não são necessários. Basta algumas modificações simples para inicializar o Armbian.
+## 3️⃣ Configurar o SD Card ou pendrive para o Armbian
+
+Obs.: Para esta TV Box, não é necessário editar o arquivo `u-boot` do Armbian. Portanto, esse arquivo não precisa ser modificado. Bastam algumas modificações simples para inicializar o Armbian.
 
 Funciona para os seguintes processadores:
--   S905x (GXL)
--   S912 (GXM)
--   S905x2 (G12A)
--   S922X (G12B)
--   S905X3 (SM1)
+- S905x (GXL)
+- S905W (GXL)
+- S912 (GXM)
+- S905x2 (G12A)
+- S922X (G12B)
+- S905X3 (SM1)
+- S905X4 (SC2)
+- S905W2 (S4)
 
-Basta copiar os arquivos anexados para a partição de `boot` da imagem Armbian após gravar a imagem em um disco USB:
+Basta copiar os arquivos disponibilizados para a partição de `boot` da imagem do Armbian após gravar a imagem em um disco USB:
 
-1.  Abra a partição legível do Pendrive no Windows Explorer ou Finder (Ex: ``BOOT, armbian_boot``)
-2. Delete ou faça um Backup dos arquivos [aml_autoscript] e [s905_autoscript] existentes na raiz do Pendrive.
-3. Copie os arquivos [[aml_autoscript]](https://drive.google.com/uc?export=download&id=11_2ED60PkU16qWI3BMhDq8P7ddh0XC52) e [[s905_autoscript]](https://drive.google.com/uc?export=download&id=10LiKlvmS6M29tFIWwuJT1Vy0eWQJEl0o) para raiz do Pendrive.
-4.  Copie o arquivo [.dtb](https://drive.google.com/uc?export=download&id=1C-LhDLrU13QZ3Ei-bLLPQ85l6inWfb_W) ``meson-sm1-sei610-ethfix.dtb`` para ``/dtb/amlogic/``
-5. Crie um novo arquivo chamado ``armbianEnv.txt`` na raiz do Pendrive         
-6.  Edite o arquivo em um editor de texto e cole o código abaixo - Créditos [[Devmfc]](https://forum.armbian.com/topic/30245-cant-boot-with-2305-or-later-builds-on-s905x2-g12a-or-s905x3-sm1/?do=findComment&comment=171830):
-        
-```
+1. Abra a partição legível do pendrive no Windows Explorer ou Finder (ex.: ``BOOT, armbian_boot``)
+2. Exclua ou faça backup dos arquivos [aml_autoscript] e [s905_autoscript] existentes na raiz do pendrive.
+3. Baixe a última versão do BootScripts disponibilizada pelo - [[Devmfc - Link]](https://github.com/devmfc/amlogic-bootscripts-Armbian/releases).
+4. Extraia e copie os arquivos **[aml_autoscript, armbianEnv.txt, gxl-fixup.scr, s905_autoscript]** para a raiz do pendrive.
+5. Abra o arquivo ``armbianEnv.txt`` na raiz do pendrive
+6. Edite o arquivo em um editor de texto e substitua o arquivo [.dtb] para versão da sua TV BOX:
+
+```text
 extraargs=earlycon rootflags=data=writeback rw no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
 bootlogo=false
 verbosity=7
 usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 console=both
 
-# DTB file for this tvbox
-fdtfile=amlogic/meson-sm1-sei610-ethfix.dtb
+# Arquivo DTB para esta TV Box
+fdtfile=amlogic/meson-sm1-sei610.dtb
 
-# set this to the UUID of the root partition (value can be found 
-# in /extlinux/extlinux.conf after APPEND root= or with blkid)
-rootdev=UUID=92139c84-3871-41d7-a3f2-e8a943cbfa87
+# Defina isto como o UUID da partição raiz
+# (o valor pode ser encontrado em /extlinux/extlinux.conf depois de APPEND root=
+# ou usando blkid)
+#rootdev=UUID=00000000-0000-0000-0000-000000000000
+# ou use o rótulo padrão da partição:
+#rootdev=LABEL=armbi_root
 
-# Enable ONLY for gxbb (S905) / gxl (S905X/L/W) to create fake u-boot header
+# Ative SOMENTE para gxbb (S905) / gxl (S905X/L/W)
+# para criar um cabeçalho U-Boot falso
 #soc_fixup=gxl-
-
-APPEND root=LABEL=ROOT_ rootflags=data=writeback rw console=ttyAML0,115200n8 
-console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
 ```
-7. Altere ``rootdev=`` para o UUID do seu Pendrive. Para isso acesse o arquivo no Pendrive ```/extlinux/extlinux.conf``` e copie o UUID correto.
-8. Somente se sua caixa possuir um SOC GXBB (S905) ou GXL (S905X/W/L), remova o comentário da linha `soc_fixup=gxl-`
-9. Remova o Pendrive com segurança
-10. Insira o Pendrive na TV Box
+
+6. Altere ``rootdev=`` para o UUID do seu pendrive. Para isso, acesse o arquivo no pendrive ```/extlinux/extlinux.conf``` e copie o UUID correto.
+7. Somente se sua caixa possuir um SOC GXBB (S905) ou GXL (S905X/W/L), descomente a linha `soc_fixup=gxl-`
+8. Remova o pendrive com segurança
+9. Insira o pendrive na TV Box
 
 ## ▶️ Inicializando no Armbian pela primeira vez via Pendrive
 
@@ -221,5 +223,5 @@ $sudo blkid
 8. Reinicie a TV BOX
 ---
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/armbian.png?raw=true" alt="Size Limit CLI" width="738">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian_branco.png?raw=true" alt="Size Limit CLI" width="240">
 </p>
