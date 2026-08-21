@@ -152,7 +152,7 @@ fdtfile=amlogic/meson-gxl-s905x-p212.dtb
 # Defina isto como o UUID da partição raiz
 # (o valor pode ser encontrado em /extlinux/extlinux.conf depois de APPEND root=
 # ou usando blkid)
-#rootdev=UUID=92139c84-3871-41d7-a3f2-e8a943cbfa87
+#rootdev=UUID=00000000-0000-0000-0000-000000000000
 # ou use o rótulo padrão da partição:
 #rootdev=LABEL=armbi_root
 
@@ -189,15 +189,35 @@ soc_fixup=gxl-
 8. Armbian irá inicializar no ambiente de desktop
 9. Siga para - Instalação Armbian Pendrive para eMMC
 
-## #️⃣ Instalação Armbian Pendrive para eMMC
+## #️⃣ Instalação do Armbian do pendrive para o eMMC
 
- 1. Depois que o ambiente desktop for inicializado abra o terminal de comando `Terminator` 
- 2. No terminal digite: `\root\install-aml.sh` 
- 3. O script fará uma cópia do u-boot original da TV Box e depois a instalação do Armbian 
- 4. Diferente de outras TVs Boxes processadores Amlogic **não tem compatibilidade** com a instalação padrão do 
-    Armbian `armbian-install`, **por isso não tente utilizar** o comando padrão do Armbian para instalação em TVs Boxes com processadores Amlogic
- 5. Remova o Pendrive com segurança
- 6. Reinicie a TV BOX
+1. Depois que o ambiente desktop for inicializado, abra o terminal `Terminator`
+2. No terminal, digite: `root\install-aml.sh`
+3. O script fará uma cópia do u-boot original da TV Box e depois instalará o Armbian
+4. Diferentemente de outras TV Boxes, os processadores Amlogic **não são compatíveis** com a instalação padrão do Armbian `armbian-install`, **por isso, não tente utilizar** o comando padrão do Armbian para instalação em TV Boxes com processadores Amlogic.
+
+**Obs.: Antes de reiniciar novamente o Armbian, faça as alterações abaixo para que a próxima inicialização ocorra pelo armazenamento eMMC.**
+
+1. Abra o gerenciador de arquivos e acesse a nova partição `BOOT_EMMC` no armazenamento eMMC.
+2. Exclua ou faça backup do arquivo `emmc_autoscript`
+3. Copie do pendrive de instalação o arquivo `s905_autoscript` para a raiz da partição `BOOT_EMMC` e renomeie o arquivo para `emmc_autoscript`.
+4. Ainda dentro da partição `BOOT_EMMC`, abra o arquivo ``armbianEnv.txt``
+5. Altere ``rootdev=`` para o UUID da sua partição eMMC. Para isso, abra o terminal `Terminator` e digite:
+
+```text
+$sudo blkid
+
+/dev/mmcblk2p2: LABEL="ROOT_EMMC" UUID="44e4b9db-bb4a-49b6-b275-dee012310c92" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="a62ce241-02"
+/dev/mmcblk2p1: SEC_TYPE="msdos" LABEL_FATBOOT="BOOT_EMMC" LABEL="BOOT_EMMC" UUID="105D-4029" BLOCK_SIZE="512" TYPE="vfat" PARTUUID="a62ce241-01"
+/dev/zram1: LABEL="log2ram" UUID="8fab92bb-a90a-4217-945b-2c5f31e79b66" BLOCK_SIZE="4096" TYPE="ext4"
+/dev/zram0: UUID="da778ae9-a60e-4fb8-943c-aa4fd5cf5efb" TYPE="swap"
+```
+
+**Obs.:** O comando ``blkid`` pode apresentar várias partições. Em geral, os armazenamentos eMMC e SD Cards possuem a nomenclatura ``[mmcblk1, mmclk2]``, enquanto pendrives e HDs externos são listados com ``[sda, sdb, ..., sdx]``. Sempre que for atualizar o UUID do seu dispositivo em um arquivo ``extlinux.conf`` ou ``armbianEnv.txt``, verifique qual dispositivo de armazenamento você deseja atualizar: eMMC ou pendrive/SD Card.
+
+6. Copie o UUID da partição `LABEL="ROOT_EMMC"` e edite o `rootdev=` em ``\BOOT_EMMC\armbianEnv.txt``
+7. Remova o pendrive com segurança
+8. Reinicie a TV Box
      
    ---
 <p align="center">
