@@ -159,13 +159,15 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
 ---
 ### 🎯 Ajustes e melhorias
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+O projeto encontra-se em constante desenvolvimento, e as próximas atualizações estarão concentradas nas seguintes etapas:
 
-- [x] Customização de ROM's Android em placas RockChip (RK322X).
-- [x] Customização de S.O's Armbian em placas Amlogic e Allwinner.
-- [x] Viabilização de S.O's (LibreElec, CoreElec, Lakka, Kodi) para uso em projetos GameLab, Totens e Painéis Digitais.
-- [X] Criação de uma ROM própria pelo projeto EducaBox
-- [ ] Desenvolvimento de processos e repositório completo para comunidade.
+- [x] Customização de ROMs Android para placas baseadas no chipset Rockchip RK322X.
+- [x] Customização de sistemas operacionais Armbian para placas baseadas em chipsets Amlogic e Allwinner.
+- [x] Adaptação e disponibilização de sistemas operacionais como LibreELEC, CoreELEC, Lakka e Kodi para utilização em projetos GameLab, totens interativos e painéis digitais.
+- [X] Desenvolvimento de uma ROM própria para o projeto EducaBox.
+- [ ] Desenvolvimento e organização de processos, documentação e um repositório completo para a comunidade.
+
+🛠️ Obs: Novas funcionalidades, melhorias e recursos serão incorporados gradualmente, conforme o avanço do projeto.
 
 ## 🤝 <a id="parceiros"/>Parceiros
 
