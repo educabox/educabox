@@ -157,7 +157,7 @@ fdtfile=amlogic/meson-sm1-sei610.dtb
 # Defina isto como o UUID da partição raiz
 # (o valor pode ser encontrado em /extlinux/extlinux.conf depois de APPEND root=
 # ou usando blkid)
-#rootdev=UUID=92139c84-3871-41d7-a3f2-e8a943cbfa87
+#rootdev=UUID=00000000-0000-0000-0000-000000000000
 # ou use o rótulo padrão da partição:
 #rootdev=LABEL=armbi_root
 
