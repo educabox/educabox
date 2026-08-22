@@ -130,7 +130,7 @@ fdtfile=amlogic/meson-gxl-s905w-p281.dtb
 ```
 
 6. Altere ``rootdev=`` para o UUID do seu pendrive. Para isso, acesse o arquivo no pendrive ```/extlinux/extlinux.conf``` e copie o UUID correto.
-7. Somente se sua caixa possuir um SOC GXBB (S905) ou GXL (S905X/W/L), descomente a linha `soc_fixup=gxl-`
+7. Somente se sua caixa possuir um SOC GXBB (S905) ou GXL (S905X/W/L), descomente a linha `soc_fixup=gxl-`. **Para esta TV Box, essa linha deve ser descomentada.**.
 8. Remova o pendrive com segurança
 9. Insira o pendrive na TV Box
 
