@@ -33,7 +33,7 @@
 | Armbian | 6.1.50 | 23.8.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=16XfAspTprQX2QKNFBrFKEcHLAQbMXLjE)|
 | Armbian | 6.1.50 | 23.8.1| XFCE | [Torrent](https://drive.google.com/uc?export=download&id=10nbA5OmPXiTydt9d8HHTb1Cm_RJv1YWm)|
 
-**DTB** = [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=1DOmjTFgb4NfTOwKvHHMnvDDkN8xAMonf)
+**DTB** = [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=1rhUQrd-N78doZSm45vfGdG4xcZfkenx3)
 
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
