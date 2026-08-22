@@ -137,7 +137,7 @@ fdtfile=amlogic/meson-gxl-s905w-p281.dtb
 ## ▶️ Inicializando no Armbian pela primeira vez via Pendrive
 
  1. Conecte o Pendrive na `porta USB1 ou USB2`
- 2. Pressione com um clips/palito o botão oculto na entrada `AV`. 
+ 2. Pressione com um clipe/palito o botão oculto na entrada `AV`. 
  3. Conecte o adaptador de energia na TV Box até a tela apagar e reiniciar o equipamento
  4. O sistema será reinicializado e deverá então começar a inicializar o Armbian a partir do Pendrive
  5. Você deverá ver o terminal Armbian executando scripts de inicialização
