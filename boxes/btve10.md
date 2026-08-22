@@ -9,7 +9,7 @@
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/S905X2.png?raw=true" align="right" alt="" width="120" height="120">
 
-|Sumário | Detalhes|
+|📚 Sumário | 📋 Detalhes|
 ---------|:--:
 📦 Codename | BTVE10
 🤖 Fabricante | BTV
