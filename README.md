@@ -219,6 +219,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
+<!--
 ### 👨🏽‍💻👩🏼‍💻 <a id="equipe"/>Equipe de Desenvolvimento
 
 <table>
@@ -262,6 +263,7 @@ Agradecemos os seguintes órgãos e pessoas que contribuíram para este projeto:
     </td>
   </tr>
 </table>
+-->
 
 ## ✉️ <a id="contato"/>Contato
 
