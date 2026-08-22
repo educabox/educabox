@@ -37,7 +37,7 @@
 | Armbian | 6.1.50 | 23.8.1 | XFCE | [.img](https://k-space.ee.armbian.com/archive/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_jammy_current_6.1.50_xfce_desktop.img.xz)|
 | Armbian | Atual | Atual | XFCE | [.img](https://armbian.com/pt/boards/aml-s9xx-box)|
 
-**DTB** = [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=1DOmjTFgb4NfTOwKvHHMnvDDkN8xAMonf)
+**DTB** = [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=1rhUQrd-N78doZSm45vfGdG4xcZfkenx3)
 
 
 # 📌 Serviços Ativos/Inativos 
