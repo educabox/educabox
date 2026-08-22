@@ -94,7 +94,7 @@ Antes de começar, verifique se o seu dispositivo atende aos seguintes requisito
  
 |⚡️ Processador  | 🎛️ Modelo | ⚙️ Fabricante
 |--|:--:|:--:|
-|<img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/amlogic.png?raw=true" alt="Size Limit CLI" width="150"> | S805, S905X, S905X2, S905X3, S905W | [Link](https://www.amlogic.com/)|
+|<img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/amlogic.png?raw=true" alt="Size Limit CLI" width="150"> | S805, S905X, S905X2, S905X3, S905X4, S905W, S905W2 | [Link](https://www.amlogic.com/)|
 |<img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/allwinner.png?raw=true" alt="Size Limit CLI" width="150">| H3, H6 | [Link](https://www.allwinnertech.com/)|
 |<img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/rockchip.png?raw=true" alt="Size Limit CLI" width="150">| RK3228A, RK3228B, RK3229 | [Link](https://www.rock-chips.com/)|
   
