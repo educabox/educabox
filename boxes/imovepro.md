@@ -9,29 +9,33 @@
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/S905W.png?raw=true" align="right" alt="" width="120" height="120">
 
-|Sumário | Detalhes|
+|📚 Sumário | 📋 Detalhes|
 ---------|:--:
-Codename | IMOVE PRO
-Fabricante | AB
-Modelo | iMOVE
-Placa Mãe | JNMBS905W_4BIT.JNFOURLED.VER1.0 2020-10-30
-Placa DTB | glx_p281_1g
-CPU | Amlogic S905W
-Família | Cortex-A53
-Velocidade | 100 - 1200 MHz
-GPU | Mali-450 MP
-Wifi | SV6051P 
-Memória | 1GB
-Armazenamento | 8GB
-Resolução | 720x1080
+📦 Codename | IMOVE PRO
+🤖 Fabricante | AB
+🎛️ Modelo | iMOVE
+⚙️ Placa Mãe | JNMBS905W_4BIT.JNFOURLED.VER1.0 2020-10-30
+📝 Placa DTB | glx_p281_1g
+🖲️ CPU | Amlogic S905W
+⚡️ Família | Cortex-A53
+🧭 Velocidade | 100 - 1200 MHz
+📟 GPU | Mali-450 MP
+🛜 Wifi | SV6051P 
+🗃️ Memória | 1GB
+💾 Armazenamento | 8GB
+🌁 Resolução | 720x1080
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
 
-| S.O | Kernel | Versão | Interface | Download |
+<img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian.png?raw=true" align="right" alt="" width="120" height="178">
+
+| 📱 S.O. | 🔢 Kernel | 📶 Versão | 🖥️ Interface | ⬇️ Download |
 |---------|:------:|:------:|:---------:|:--------:|
-| Educabox | 6.1.50 | 23.8.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1nKIAtJosi5-9J4OkB-dwW8DhQnXG0Lwq)|
-| Armbian | 6.1.50 | 23.8.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=16XfAspTprQX2QKNFBrFKEcHLAQbMXLjE)|
-| Armbian | 6.1.50 | 23.8.1| XFCE | [Torrent](https://drive.google.com/uc?export=download&id=10nbA5OmPXiTydt9d8HHTb1Cm_RJv1YWm)|
+| Educabox | 6.1.50 | 23.8.1 | XFCE | [.img](https://drive.google.com/uc?export=download&id=1wKIrC-eo3MBKHRaaKdOrGqzVMo95-Nrs)|
+| Educabox | 6.18.35 | 26.8.0 | XFCE | [.img](https://drive.google.com/uc?export=download&id=19OqWtYmzMLA0df238TVcSRPjkraTR9ct)|
+| Educabox | 6.18.38 | 26.8.0 | XFCE | [.img](https://drive.google.com/uc?export=download&id=1TdwWDQtmJLtLpqEkdjZWG51VgbeDo_Gf)|
+| Armbian | 6.1.50 | 23.8.1 | XFCE | [.img](https://k-space.ee.armbian.com/archive/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_jammy_current_6.1.50_xfce_desktop.img.xz)|
+| Armbian | Atual | Atual | XFCE | [.img](https://armbian.com/pt/boards/aml-s9xx-box)|
 
 **DTB** = [meson-gxl-s905w-p281.dtb](https://drive.google.com/uc?export=download&id=1sxFmf05YRUHH6osUPyVq6ZUMxfWzpNE9)
 
@@ -82,22 +86,15 @@ Resolução | 720x1080
   <img src="https://github.com/educabox/educabox/blob/main/imagens/11%20-%20IMOVEPRO/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
-# ✅ Guia de Instalação Imagem Oficial Armbian
+# ✅ Guia de instalação da imagem oficial do Armbian
 
-O guia de instalação abaixo é para criação de uma imagem limpa da [Imagem Oficial Armbian] com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [IMOVE PRO].
+O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Imagem Oficial do Armbian]**](https://archive.armbian.com/), com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [**IMOVE PRO**].
 
-Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) do respectivo equipamento.
+**Outras versões** = [Repositório Oficial Armbian](https://archive.armbian.com/)
 
-| S.O | Kernel | Versão | Interface | Download |
-|---------|:------:|:------:|:---------:|:--------:|
-| Armbian | 6.1.63 | 23.11.1| XFCE |[.img](https://drive.google.com/uc?export=download&id=1cZzKVb4iwia0aPONmyD_bFzK2FwtRN-r)|
-| Armbian | 6.1.63 | 23.11.1| XFCE |[Torrent](https://drive.google.com/uc?export=download&id=1c1b4kldMVfyZwS0YkZXywP_6S2TaOpvO)|
+🔴 Caso deseje obter uma instalação pronta e otimizada para esta TV Box, faça o download da [[**Imagem Educabox**]](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) correspondente a este equipamento.
 
-**Outras Versões** = [Repositório Oficial Armbian](https://imola.armbian.com/archive/aml-s9xx-box/archive/)
-
-**DTB** = [meson-gxl-s905w-p281.dtb](https://drive.google.com/uc?export=download&id=1sxFmf05YRUHH6osUPyVq6ZUMxfWzpNE9)
-
-[Como Instalar nossa Imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
+[Como instalar nossa imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
 
@@ -117,41 +114,56 @@ Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o
 [Como gravar uma imagem no balenaEtcher?](https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md)
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_balena.png?raw=true&image_size=auto"/>
- 
-## 3️⃣ Configurar SDCard ou Pendrive para Armbian
 
-1.  Abra a partição legível do pendrive no Windows Explorer ou Finder (Ex: ```BOOT, armbian_boot```)
-2.  Renomeie o arquivo apropriado abaixo para ```u-boot.ext``` na raiz do Pendrive:
-    
-    ~~u-boot-s905 (para s905)~~  
-    ```u-boot-s905x-s912 (para s905x, S905w e s912)``` (Altere esse arquivo) p/ ```u-boot.ext``` <br>
-    ~~u-boot-s905x2-s922 (para s905x2, s905x3 e s922)~~
-    
-3.  Edite o arquivo /extlinux/extlinux.conf em um editor de texto:
-    
-    1.  Comente as linhas com inicio FDT adicionando #
-    2.  Remova o comentário das linhas aml s9xx FDT removendo #
-    3.  Atualize/Adicione a linha FDT para apontar para um arquivo .dtb funcional para o seu dispositivo e salve o arquivo
-    4. IMOVE PRO -> ```/dtb/amlogic/meson-gxl-s905w-p281.dtb``` (*Remova #)
+## 3️⃣ Configurar o SD Card ou pendrive para o Armbian
+
+Obs.: Para esta TV Box, não é necessário editar o arquivo `u-boot` do Armbian. Portanto, esse arquivo não precisa ser modificado. Bastam algumas modificações simples para inicializar o Armbian.
+
+Funciona para os seguintes processadores:
+- S905x (GXL)
+- S905W (GXL)
+- S912 (GXM)
+- S905x2 (G12A)
+- S922X (G12B)
+- S905X3 (SM1)
+- S905X4 (SC2)
+- S905W2 (S4)
+
+Basta copiar os arquivos disponibilizados para a partição de `boot` da imagem do Armbian após gravar a imagem em um disco USB:
+
+1. Abra a partição legível do pendrive no Windows Explorer ou Finder (ex.: ``BOOT, armbian_boot``)
+2. Exclua ou faça backup dos arquivos [aml_autoscript] e [s905_autoscript] existentes na raiz do pendrive.
+3. Baixe a última versão do BootScripts disponibilizada pelo - [[Devmfc - Link]](https://github.com/devmfc/amlogic-bootscripts-Armbian/releases).
+4. Extraia e copie os arquivos **[aml_autoscript, armbianEnv.txt, gxl-fixup.scr, s905_autoscript]** para a raiz do pendrive.
+5. Abra o arquivo ``armbianEnv.txt`` na raiz do pendrive
+6. Edite o arquivo em um editor de texto e substitua o arquivo [.dtb] para versão da sua TV BOX: 
+
+```text
+extraargs=earlycon rootflags=data=writeback rw no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
+bootlogo=false
+verbosity=7
+usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
+console=both
+
+# Arquivo DTB para esta TV Box
+fdtfile=amlogic/meson-gxl-s905w-p281.dtb
+
+# Defina isto como o UUID da partição raiz
+# (o valor pode ser encontrado em /extlinux/extlinux.conf depois de APPEND root=
+# ou usando blkid)
+#rootdev=UUID=00000000-0000-0000-0000-000000000000
+# ou use o rótulo padrão da partição:
+#rootdev=LABEL=armbi_root
+
+# Ative SOMENTE para gxbb (S905) / gxl (S905X/L/W)
+# para criar um cabeçalho U-Boot falso
+soc_fixup=gxl-
 ```
-LABEL Armbian
-LINUX /zImage
-INITRD /uInitrd
 
-# aml s9xxx
-#FDT /dtb/amlogic/meson-gxbb-p200.dtb
-#FDT /dtb/amlogic/meson-gxl-s905x-p212.dtb
-#FDT /dtb/amlogic/meson-gxm-q200.dtb
-#FDT /dtb/amlogic/meson-g12a-x96-max.dtb
-#FDT /dtb/amlogic/meson-g12b-odroid-n2.dtb
-FDT /dtb/amlogic/meson-gxl-s905w-p281.dtb 
-
-APPEND root=LABEL=ROOT_EMMC rootflags=data=writeback rw console=ttyAML0,115200n8 
-console=tty0 no_console_suspend consoleblank=0 fsck.fix=yes fsck.repair=yes net.ifnames=0
-```
-    
-4.  Remova o Pendrive com segurança
-5.  Insira o Pendrive na TV Box
+6. Altere ``rootdev=`` para o UUID do seu pendrive. Para isso, acesse o arquivo no pendrive ```/extlinux/extlinux.conf``` e copie o UUID correto.
+7. Somente se sua caixa possuir um SOC GXBB (S905) ou GXL (S905X/W/L), descomente a linha `soc_fixup=gxl-`. **Para esta TV Box, essa linha deve ser descomentada.**
+8. Remova o pendrive com segurança
+9. Insira o pendrive na TV Box
 
 ## ▶️ Inicializando o Armbian pela primeira vez via pendrive
 
