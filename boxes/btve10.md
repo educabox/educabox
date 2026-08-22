@@ -37,7 +37,7 @@
 | Armbian | 6.1.50 | 23.8.1 | XFCE | [.img](https://k-space.ee.armbian.com/archive/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_jammy_current_6.1.50_xfce_desktop.img.xz)|
 | Armbian | Atual | Atual | XFCE | [.img](https://armbian.com/pt/boards/aml-s9xx-box)|
 
-**DTB** = [meson-g12a-sei510.dtb](https://drive.google.com/uc?export=download&id=1aaxBDKcvh3FGpS1LabSoefU0TTAFl4Mt)
+**DTB** = [meson-g12a-sei510.dtb](https://drive.google.com/uc?export=download&id=1puQVudsje1WE1Ox-EyJY0R24uy65rYLa)
 
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
