@@ -126,7 +126,7 @@ fdtfile=amlogic/meson-gxl-s905w-p281.dtb
 
 # Ative SOMENTE para gxbb (S905) / gxl (S905X/L/W)
 # para criar um cabeçalho U-Boot falso
-#soc_fixup=gxl-
+soc_fixup=gxl-
 ```
 
 6. Altere ``rootdev=`` para o UUID do seu pendrive. Para isso, acesse o arquivo no pendrive ```/extlinux/extlinux.conf``` e copie o UUID correto.
