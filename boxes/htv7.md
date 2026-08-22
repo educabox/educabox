@@ -102,20 +102,21 @@ O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Ima
 [Como instalar nossa imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
+
 ## 1️⃣ Pré-requisitos
 
- 1. Dispositivo USB (Pendrive) - ```Mínimo 8GB```
- 2. Software [balenaEtcher](https://etcher.balena.io/) , [Rufus](https://rufus.ie/pt_BR/) ou [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
- 3. Imagem Oficial S.O Armbian
- 
-## 2️⃣ Gravação Imagem
- 
-1.  Execute balenaEtcher (*Preferência)
-2.  Grave a imagem Armbian no cartão Pendrive USB
-3.  Remova com segurança o Pendrive e insira-o novamente
-4.  Ignore/Feche as caixas de diálogo do Windows/MacOS para formatar o Pendrive inserido
+1. Dispositivo USB (pendrive) - ```Mínimo de 8 GB```
+2. Software [balenaEtcher](https://etcher.balena.io/), [Rufus](https://rufus.ie/pt_BR/) ou [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/)
+3. Imagem oficial do Armbian
 
-[Como  gravar uma Imagem no balenaEtcher?](https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md)
+## 2️⃣ Gravação da imagem
+
+1. Execute o balenaEtcher (preferencialmente)
+2. Grave a imagem do Armbian no pendrive USB
+3. Remova com segurança o pendrive e insira-o novamente
+4. Ignore/feche as caixas de diálogo do Windows/macOS que solicitarem a formatação do pendrive inserido
+
+[Como gravar uma imagem no balenaEtcher?](https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md)
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/gravacao-balenaecther.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_balena.png?raw=true&image_size=auto"/>
  
@@ -174,41 +175,41 @@ fdtfile=amlogic/meson-sm1-sei610.dtb
 
  1. Conecte o Pendrive na `porta USB1 ou USB2`
  2. Conecte o adaptador de energia na TV Box 
- 3. Com um clips acione o botão `reset` até a tela apagar e reiniciar o equipamento.
+ 3. Com um clipe acione o botão `reset` até a tela apagar e reiniciar o equipamento.
  4. O sistema será reinicializado e deverá então começar a inicializar o Armbian a partir do Pendrive
  5. Você deverá ver o terminal Armbian executando scripts de inicialização
  6. Quando solicitado, faça login com nome de `usuário: root` `senha: 1234`
  7. Armbian irá inicializar no ambiente de desktop
  8. Siga para - Instalação Armbian Pendrive para eMMC
 
-## #️⃣ Inicializando no Armbian pela primeira vez via c/ Script
+## #️⃣ Inicializando o Armbian pela primeira vez usando um script
 
-1. Se o dispositivo nunca inicializou a partir do armazenamento externo antes do carregamento do sistema operacional Android padrão
+1. Se o dispositivo nunca inicializou a partir do armazenamento externo antes do carregamento do sistema operacional Android padrão, prossiga conforme as etapas abaixo.
 2. No Android, navegue até o menu de aplicativos > Executar atualização e backup
-3. Selecione Local > Navegue até o Pendrive > aml_autoscript.zip
+3. Selecione Local > Navegue até o pendrive > aml_autoscript.zip
 4. Selecione Atualizar
-5. O sistema será reinicializado duas vezes e deverá então começar a inicializar o Armbian a partir do Pendrive
-6. Você deverá ver o terminal Armbian executando scripts de inicialização
-7. Quando solicitado, faça login com nome de `usuário: root` `senha: 1234`
-8. Armbian irá inicializar no ambiente de desktop
-9. Siga para - Instalação Armbian Pendrive para eMMC
+5. O sistema será reinicializado duas vezes e deverá então começar a inicializar o Armbian a partir do pendrive
+6. Você deverá ver o terminal do Armbian executando scripts de inicialização
+7. Quando solicitado, faça login usando o usuário `root` e a senha `1234`
+8. O Armbian será inicializado no ambiente de desktop
+9. Siga para - Instalação do Armbian do pendrive para o eMMC
 
-## #️⃣ Instalação Armbian Pendrive para eMMC
+## #️⃣ Instalação do Armbian do pendrive para o eMMC
 
- 1. Depois que o ambiente desktop for inicializado abra o terminal de comando `Terminator` 
- 2. No terminal digite: `\root\install-aml.sh` 
- 3. O script fará uma cópia do u-boot original da TV Box e depois a instalação do Armbian 
- 4. Diferente de outras TVs Boxes processadores Amlogic **não tem compatibilidade** com a instalação padrão do Armbian `armbian-install`, **por isso não tente utilizar** o comando padrão do Armbian para instalação em TVs Boxes com processadores Amlogic
- 
- **Obs: Antes de reiniciar novamente o Armbian faça as alterações abaixo, para que a próxima inicialização ocorra pelo armazenamento eMMC.**
+1. Depois que o ambiente desktop for inicializado, abra o terminal `Terminator`
+2. No terminal, digite: `root\install-aml.sh`
+3. O script fará uma cópia do u-boot original da TV Box e depois instalará o Armbian
+4. Diferentemente de outras TV Boxes, os processadores Amlogic **não são compatíveis** com a instalação padrão do Armbian `armbian-install`, **por isso, não tente utilizar** o comando padrão do Armbian para instalação em TV Boxes com processadores Amlogic.
+
+**Obs.: Antes de reiniciar novamente o Armbian, faça as alterações abaixo para que a próxima inicialização ocorra pelo armazenamento eMMC.**
 
 1. Abra o gerenciador de arquivos e acesse a nova partição `BOOT_EMMC` no armazenamento eMMC.
-2. Delete ou faça backup do arquivo `emmc_autoscript`
-3. Copie do Pendrive de instalação o arquivo `s905_autoscript` na raiz da partição `BOOT_EMMC` e renomeie o arquivo para `emmc_autoscript`.
-4. Ainda dentro da partição `BOOT_EMMC` abra o arquivo ``armbianEnv.txt``
-5. Altere ``rootdev=`` para o UUID da sua partição eMMC. Para isso abra o terminal de comando `Terminator` e digite:
+2. Exclua ou faça backup do arquivo `emmc_autoscript`
+3. Copie do pendrive de instalação o arquivo `s905_autoscript` para a raiz da partição `BOOT_EMMC` e renomeie o arquivo para `emmc_autoscript`.
+4. Ainda dentro da partição `BOOT_EMMC`, abra o arquivo ``armbianEnv.txt``
+5. Altere ``rootdev=`` para o UUID da sua partição eMMC. Para isso, abra o terminal `Terminator` e digite:
 
-```
+```text
 $sudo blkid
 
 /dev/mmcblk2p2: LABEL="ROOT_EMMC" UUID="44e4b9db-bb4a-49b6-b275-dee012310c92" BLOCK_SIZE="4096" TYPE="ext4" PARTUUID="a62ce241-02"
@@ -216,11 +217,12 @@ $sudo blkid
 /dev/zram1: LABEL="log2ram" UUID="8fab92bb-a90a-4217-945b-2c5f31e79b66" BLOCK_SIZE="4096" TYPE="ext4"
 /dev/zram0: UUID="da778ae9-a60e-4fb8-943c-aa4fd5cf5efb" TYPE="swap"
 ```
-**Obs: o comando ``blkid`` pode apresentar várias partições. Em geral armazenamentos eMMC e SDCards possuem a nomenclatura ``[mmcblk1, mmclk2]`` e Pendrives e HD's Externos são listados com ``[sda, sdb, ..., sdx]``. Sempre que for atualizar o UUID do seu dispositivo em um arquivo ``extlinux.conf`` ou ``armbianEnv.txt`` verifique qual o dispositivo de armazenamento quer atualizar eMMC ou Pendrive/SDCard.**
+
+**Obs.:** O comando ``blkid`` pode apresentar várias partições. Em geral, os armazenamentos eMMC e SD Cards possuem a nomenclatura ``[mmcblk1, mmclk2]``, enquanto pendrives e HDs externos são listados com ``[sda, sdb, ..., sdx]``. Sempre que for atualizar o UUID do seu dispositivo em um arquivo ``extlinux.conf`` ou ``armbianEnv.txt``, verifique qual dispositivo de armazenamento você deseja atualizar: eMMC ou pendrive/SD Card.
 
 6. Copie o UUID da partição `LABEL="ROOT_EMMC"` e edite o `rootdev=` em ``\BOOT_EMMC\armbianEnv.txt``
-7. Remova o Pendrive com segurança
-8. Reinicie a TV BOX
+7. Remova o pendrive com segurança
+8. Reinicie a TV Box
 ---
 <p align="center">
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian_branco.png?raw=true" alt="Size Limit CLI" width="240">
