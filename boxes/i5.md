@@ -29,8 +29,6 @@
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian.png?raw=true" align="right" alt="" width="120" height="178">
 
-✅ **Versão Recomendada [IN XPLUS] = Kernel 4.4.194 - SV6X5X**
-
 | 📱 S.O | 🔢 Kernel | 📶 Versão | 🖥️ Interface | 🗃️ Memória| 🛜 Wifi | ⬇️ Download |
 |---------|:------:|:------:|:---------:|:--------:|:--------:|:--------:|
 | Educabox | 4.4.194 | 22.02.0| LXDE | NAND/eMMC |SV6X5X|[.img](https://drive.google.com/uc?export=download&id=1W3y5Y2qBDta0VSXqGam_Rt-IYZ90LjjV)|
