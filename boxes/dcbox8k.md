@@ -27,7 +27,7 @@
 📟 GPU | Mali-400 MP
 🛜 Wifi | SV6256P
 🗃️ Memória | 1GB
-💾 Armazenamento | 8GB*
+💾 Armazenamento | 8GB* (NAND)
 🌁 Resolução | 720x1280
 
 **Obs: Alguns modelos desta TV Box possuem memória interna do tipo NAND, neste casa faça instalação com Kernel 4 para placas NAND.**
@@ -35,8 +35,6 @@
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian.png?raw=true" align="right" alt="" width="120" height="178">
-
-✅ **Versão Recomendada [IN XPLUS] = Kernel 4.4.194 - SV6X5X**
 
 | 📱 S.O | 🔢 Kernel | 📶 Versão | 🖥️ Interface | 🗃️ Memória| 🛜 Wifi | ⬇️ Download |
 |---------|:------:|:------:|:---------:|:--------:|:--------:|:--------:|
