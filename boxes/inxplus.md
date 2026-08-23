@@ -142,43 +142,43 @@ O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Ima
 **Obs**: Caso seja necessário antes do passo `1` faça o backup da imagem original.
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/1.jpg?raw=true" alt="Size Limit CLI" width="1360">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/1.jpeg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 2. Selecione seu armazenamento eMMC
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/2.jpg?raw=true" alt="Size Limit CLI" width="1360">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/2.jpeg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 3. Uma tela de sucesso será exibida caso o procedimento seja bem sucedido. Digite `Enter` para retornar a tela anterior
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/3.jpg?raw=true" alt="Size Limit CLI" width="1360">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/3.jpeg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 4. Em seguida selecione a opção `Burn image to flash` para gravar uma imagem no armazenamento interno
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/4.jpg?raw=true" alt="Size Limit CLI" width="1360">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/4.jpeg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 5. Escolha novamente a unidade de armazenamento que foi formatada recentemente
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/5.jpg?raw=true" alt="Size Limit CLI" width="1360">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/5.jpeg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 6. Selecione a imagem Armbian que foi copiada para o SDCard, uma tela da operação e progresso será exibida até que o processo de gravação seja finalizado
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/6.jpg?raw=true" alt="Size Limit CLI" width="1360">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/6.jpeg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 7. Finalizado o processo de gravação, finalize o utilitário com a opção `Shutdown`
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/7.jpg?raw=true" alt="Size Limit CLI" width="1360">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/7.jpeg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 8. Remova o SDCard da TV Box e inicie novamente a Box.
