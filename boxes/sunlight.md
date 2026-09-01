@@ -8,21 +8,21 @@
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/RK3229.png?raw=true"  align="right" alt="" width="120" height="120">
 
-|Sumário | Detalhes|
+📚 Sumário | 📋 Detalhes
 ---------|:--:
-Codename | SUNLIGHT 5G
-Fabricante | SUNLIGHT
-Modelo | SUNLIGHT 5G
-Placa Mãe | R32Q84_V5.0 2020.07.06
-Placa DTB | rk30sdk
-CPU | Rockchip 3228A
-Família | Cortex-A7
-Velocidade | 408 - 1008 MHz
-GPU | Mali-400 MP
-Wifi | SV6256P
-Memória | 1GB
-Armazenamento | 8GB*
-Resolução | 720x1280  
+📦 Codename | SUNLIGHT 5G
+🤖 Fabricante | SUNLIGHT
+🎛️ Modelo | SUNLIGHT 5G
+⚙️ Placa Mãe | R32Q84_V5.0 2020.07.06
+📝 Placa DTB | rk30sdk
+🖲️ CPU | Rockchip 3228A
+⚡️ Família | Cortex-A7
+🧭 Velocidade | 408 - 1008 MHz
+📟 GPU | Mali-400 MP
+🛜 Wifi | SV6256P
+🗃️ Memória | 1GB
+💾 Armazenamento | 8GB*
+🌁 Resolução | 720x1280
 
 **Obs: Alguns modelos desta TV Box possuem memória interna do tipo NAND, neste casa faça instalação com Kernel 4 para placas NAND.**
 
