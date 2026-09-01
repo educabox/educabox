@@ -8,21 +8,21 @@
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/RK3229.png?raw=true" align="right" alt="" width="120" height="120">
 
-|Sumário | Detalhes|
+📚 Sumário | 📋 Detalhes
 ---------|:--:
-Codename | RPC MINI
-Fabricante | RPC
-Modelo | MINI
-Placa Mãe | X96-MINI RH-4 94V-0
-Placa DTB | rk30sdk
-CPU | Rockchip 3228A
-Família | Cortex-A7
-Velocidade | 408 - 1200 MHz
-GPU | Mali-400 MP
-Wifi | SV6051P 
-Memória | 1GB
-Armazenamento | 8GB
-Resolução | 720x1280
+📦 Codename | RPC MINI
+🤖 Fabricante | RPC
+🎛️ Modelo | MINI
+⚙️ Placa Mãe | X96-MINI RH-4 94V-0
+📝 Placa DTB | rk30sdk
+🖲️ CPU | Rockchip 3228A
+⚡️ Família | Cortex-A7
+🧭 Velocidade | 408 - 1200 MHz
+📟 GPU | Mali-400 MP
+🛜 Wifi | SV6051P 
+🗃️ Memória | 1GB
+💾 Armazenamento | 8GB
+🌁 Resolução | 720x1280
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
 
