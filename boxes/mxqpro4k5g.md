@@ -103,7 +103,7 @@
 
 # ✅ <a id="guia"/>Guia de Instalação Imagem Oficial Armbian
 
-O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Imagem Oficial do Armbian]**](https://archive.armbian.com/), com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [**IN XPLUS**].
+O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Imagem Oficial do Armbian]**](https://archive.armbian.com/), com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [**MXQ PRO 4G 5K**].
 
 **Outras versões** = [Repositório Oficial Armbian](https://archive.armbian.com/)
 
