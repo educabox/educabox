@@ -9,40 +9,37 @@
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/RK3229.png?raw=true" align="right" alt="" width="120" height="120">
 
-|Sumário | Detalhes|
+📚 Sumário | 📋 Detalhes
 ---------|:--:
-Codename | RPC 8K
-Fabricante | RPC
-Modelo | S905W
-Placa Mãe | S905_MXQ_5G_BT V1.0 200117
-Placa DTB | rk30sdk
-CPU | Rockchip 3229
-Família | Cortex-A7
-Velocidade | 408 - 1200 MHz
-GPU | Mali-400 MP
-Wifi | SV6051P 
-Memória | 1GB
-Armazenamento | 8GB
-Resolução | 720x1280
+📦 Codename | RPC 8K
+🤖 Fabricante | RPC
+🎛️ Modelo | S905W
+⚙️ Placa Mãe | S905_MXQ_5G_BT V1.0 200117
+📝 Placa DTB | rk30sdk
+🖲️ CPU | Rockchip 3229
+⚡️ Família | Cortex-A7
+🧭 Velocidade | 408 - 1200 MHz
+📟 GPU | Mali-400 MP
+🛜 Wifi | SV6051P 
+🗃️ Memória | 1GB
+💾 Armazenamento | 8GB
+🌁 Resolução | 720x1280
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
 
-Segue alguns S.Os disponíveis para download, apenas o Kernel 4 está ativo as interfaces Wifi (SV6X5X), para os demais kernels o drive está obsoleto. Há também uma versão do Educabox para TVs Boxes que possuem memória NAND.
+<img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian.png?raw=true" align="right" alt="" width="120" height="178">
 
-✅ **Versão Recomendada [RPC 8K] = Kernel 4.4.194 - SV6051**
-
-| S.O | Kernel | Versão | Interface | Memória| Wifi | Download |
+| 📱 S.O | 🔢 Kernel | 📶 Versão | 🖥️ Interface | 🗃️ Memória| 🛜 Wifi | ⬇️ Download |
 |---------|:------:|:------:|:---------:|:--------:|:--------:|:--------:|
-| Educabox | 4.4.194 | 22.02.0| LXDE | eMMC |SV6X5X|[.img](https://drive.google.com/uc?export=download&id=1W3y5Y2qBDta0VSXqGam_Rt-IYZ90LjjV)|
-| Educabox | 4.4.194 | 22.02.0| XFCE | NAND |SV6256|[.img](https://drive.google.com/uc?export=download&id=1VccDfPlLJgg-36uE3iX6VASHksebghIX)|
-| Educabox | 4.4.194 | 22.02.0| XFCE | eMMC |SV6051|[.img](https://drive.google.com/uc?export=download&id=1V5SxqtJUHjaYTUNQTo4uHbCtEnxeeTBL)|
-| Educabox | 4.4.194 | 22.02.0| XFCE | eMMC |SV6256|[.img](https://drive.google.com/uc?export=download&id=1WjmoRcJX92EUoaGK8ey1zZWWBSbYgqN7)|
-| Educabox | 5.15.25 | 22.0.5| XFCE | eMMC |--|[.img](https://drive.google.com/uc?export=download&id=1IpVunwuoMs4WPE2x5P64ATnPWkQWpBRI)|
-| Armbian | 6.1.63 | 23.11.1| XFCE | eMMC |--|[.img](https://drive.google.com/uc?export=download&id=1cZzKVb4iwia0aPONmyD_bFzK2FwtRN-r)|
-| Armbian | 6.1.63 | 23.11.1| XFCE | eMMC |--|[Torrent](https://drive.google.com/uc?export=download&id=1c1b4kldMVfyZwS0YkZXywP_6S2TaOpvO)|
-| Educabox | 6.6.22 | 24.2.5| XFCE | eMMC |--|[.img](https://drive.google.com/uc?export=download&id=1P1tZx27ZXoTC-0VeJA8CnlOhvgHqKkBl)|
+| Educabox | 4.4.194 | 22.02.0| LXDE | NAND/eMMC |SV6X5X|[.img](https://drive.google.com/uc?export=download&id=1W3y5Y2qBDta0VSXqGam_Rt-IYZ90LjjV)|
+| Educabox | 4.4.194 | 22.02.0| XFCE | NAND/eMMC |SV6X5X|[.img](https://drive.google.com/uc?export=download&id=1B3kW1b-bcs1Y9xhs3jY0p_HDW9wrG6oe)|
+| Educabox | 5.15.25 | 22.0.5| XFCE | eMMC |--|[.img](https://drive.google.com/uc?export=download&id=1UI-FLbcvGkdVIo5xL9IPmhoIFhXB3RSL)|
+| Educabox | 6.18.43 | 26.11.0 | XFCE | eMMC |SV6X5X|[.img](https://drive.google.com/uc?export=download&id=1OVVj6qkUGaOWk_lKpRaLeMl7EH6Wi2B-)|
+| Armbian | 4.4.194 | 22.02.0| LXDE | NAND/eMMC |SV6X5X|[.img](https://drive.google.com/uc?export=download&id=1X0qbqyue_lWL6MBxzOF4AM5f91DBCBlq)|
+| Armbian | 5.15.25 | 22.0.5| XFCE | eMMC |--|[.img](https://drive.google.com/uc?export=download&id=1D-yoKA6LAK1SkaH_pjg_kI3TuBta12jF)
+| Armbian | Atual | Atual | XFCE | eMMC |--|[.img](https://armbian.com/pt/boards/rk322x-box)|
 
-**DTB** = [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h)
+**DTB** = [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1E5Dpk_eEFV8zYLjTsp2uUY-7bsoK_cko)
 
 [Conheça nossa Imagem Educabox com LXDE para Rockchip](https://github.com/educabox/educabox/blob/main/instalacao/rk322x-lxde.md)
 
@@ -107,20 +104,13 @@ Segue alguns S.Os disponíveis para download, apenas o Kernel 4 está ativo as i
 
 # ✅ <a id="guia"/>Guia de Instalação Imagem Oficial Armbian
 
-O guia de instalação abaixo é para criação de uma imagem limpa da [Imagem Oficial Armbian] com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [DC BOX 8K].
+O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Imagem Oficial do Armbian]**](https://archive.armbian.com/), com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [**RPC 8K**].
 
-Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) do respectivo equipamento.
+**Outras versões** = [Repositório Oficial Armbian](https://archive.armbian.com/)
 
-| S.O | Kernel | Versão | Interface | Download |
-|---------|:------:|:------:|:---------:|:--------:|
-| Armbian | 6.1.63 | 23.11.1| XFCE |[.img](https://drive.google.com/uc?export=download&id=1cZzKVb4iwia0aPONmyD_bFzK2FwtRN-r)|
-| Armbian | 6.1.63 | 23.11.1| XFCE |[Torrent](https://drive.google.com/uc?export=download&id=1c1b4kldMVfyZwS0YkZXywP_6S2TaOpvO)|
+🔴 Caso deseje obter uma instalação pronta e otimizada para esta TV Box, faça o download da [[**Imagem Educabox**]](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) correspondente a este equipamento.
 
-**Outras Versões** = [Repositório Oficial Armbian](https://imola.armbian.com/archive/rk322x-box/archive/)
-
-**DTB** = [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1oT52o_J2D1r7K-HXiNuS8qw1NQK_nc5h)
-
-[Como Instalar nossa Imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
+[Como instalar nossa imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
   
@@ -146,46 +136,48 @@ Obs: Caso queira gravar uma imagem na unidade de armazenamento interna da TV Box
 
 **Gravar imagem via utilitário Multitool na unidade de armazenamento eMMC:**
 
-1. Uma tela de boas vindas será exibida, com um teclado conectado a TV Box utilize os comandos direcionais (⮃) e botão (`Enter`, `Esc`). Digite `Enter` para avançar para próxima tela e escolha a opção `Erase flash` para formatar a unidade de armazenamento interna
+1. Uma tela de boas vindas será exibida, com um teclado conectado a TV Box utilize os comandos direcionais (⮃) e botão (`Enter`, `Esc`). Digite `Enter` para avançar para próxima tela e escolha a opção `Erase flash` para formatar a unidade de armazenamento interna. 
+
+**Obs**: Caso seja necessário antes do passo `1` faça o backup da imagem original.
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/1.jpg?raw=true" alt="Size Limit CLI" width="1360">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/1.jpeg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 2. Selecione seu armazenamento eMMC
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/2.jpg?raw=true" alt="Size Limit CLI" width="1360">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/2.jpeg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 3. Uma tela de sucesso será exibida caso o procedimento seja bem sucedido. Digite `Enter` para retornar a tela anterior
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/3.jpg?raw=true" alt="Size Limit CLI" width="1360">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/3.jpeg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 4. Em seguida selecione a opção `Burn image to flash` para gravar uma imagem no armazenamento interno
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/4.jpg?raw=true" alt="Size Limit CLI" width="1360">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/4.jpeg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 5. Escolha novamente a unidade de armazenamento que foi formatada recentemente
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/5.jpg?raw=true" alt="Size Limit CLI" width="1360">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/5.jpeg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 6. Selecione a imagem Armbian que foi copiada para o SDCard, uma tela da operação e progresso será exibida até que o processo de gravação seja finalizado
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/6.jpg?raw=true" alt="Size Limit CLI" width="1360">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/6.jpeg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 7. Finalizado o processo de gravação, finalize o utilitário com a opção `Shutdown`
 
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/7.jpg?raw=true" alt="Size Limit CLI" width="1360">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/WW%20-%20MULTITOOL/7.jpeg?raw=true" alt="Size Limit CLI" width="1360">
 </p>
 
 8. Remova o SDCard da TV Box e inicie novamente a Box.
@@ -293,5 +285,5 @@ usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 11. Ligue novamente a TV Box sem o SDCard conectado para que inicialização do Armbian ocorra diretamente da TV Box.
 ---
 <p align="center">
-<img src="https://github.com/educabox/educabox/blob/main/imagens/armbian.png?raw=true" alt="Size Limit CLI" width="738">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian_branco.png?raw=true" alt="Size Limit CLI" width="240">
 </p>
