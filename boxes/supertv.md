@@ -145,9 +145,9 @@ Obs: Após esse procedimento algumas TV Boxes passam a inicializar SDCards e Pen
 
 # ✅ <a id="guia"/>Guia de Instalação Imagem Oficial Armbian
 
-O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Imagem Oficial do Armbian]**](https://archive.armbian.com/), com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [**SUPER TV**].
+O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Imagem Oficial do Armbian]**](https://armbian.com/pt/boards/rk322x-box), com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [**SUPER TV**].
 
-**Outras versões** = [Repositório Oficial Armbian](https://archive.armbian.com/)
+**Outras versões** = [Repositório Oficial Armbian](https://armbian.com/pt/boards/rk322x-box)
 
 🔴 Caso deseje obter uma instalação pronta e otimizada para esta TV Box, faça o download da [[**Imagem Educabox**]](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) correspondente a este equipamento.
 
