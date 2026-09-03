@@ -1,6 +1,3 @@
-
-  
-
 # 📦 TV BOX DC BOX 8K
 
 </p>
