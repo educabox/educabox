@@ -35,8 +35,8 @@
 | Educabox | 4.4.194 | 22.02.0| XFCE | NAND/eMMC |SV6X5X|[.img](https://drive.google.com/uc?export=download&id=1B3kW1b-bcs1Y9xhs3jY0p_HDW9wrG6oe)|
 | Educabox | 5.15.25 | 22.0.5| XFCE | eMMC |--|[.img](https://drive.google.com/uc?export=download&id=1UI-FLbcvGkdVIo5xL9IPmhoIFhXB3RSL)|
 | Educabox | 6.18.43 | 26.11.0 | XFCE | eMMC |SV6X5X|[.img](https://drive.google.com/uc?export=download&id=1OVVj6qkUGaOWk_lKpRaLeMl7EH6Wi2B-)|
-| Armbian | 4.4.194 | 22.02.0| LXDE | NAND/eMMC |SV6X5X|[.img](https://drive.google.com/uc?export=download&id=1X0qbqyue_lWL6MBxzOF4AM5f91DBCBlq)|
-| Armbian | 5.15.25 | 22.0.5| XFCE | eMMC |--|[.img](https://drive.google.com/uc?export=download&id=1D-yoKA6LAK1SkaH_pjg_kI3TuBta12jF)
+| Armbian | 4.4.194 | 22.02.0| XFCE | NAND/eMMC |SV6X5X|[.img](https://drive.google.com/uc?export=download&id=1X0qbqyue_lWL6MBxzOF4AM5f91DBCBlq)|
+| Armbian | 5.15.25 | 22.0.5| XFCE | eMMC |--|[.img](https://drive.google.com/file/d/1D-yoKA6LAK1SkaH_pjg_kI3TuBta12jF/view?usp=drive_link)
 | Armbian | Atual | Atual | XFCE | eMMC |--|[.img](https://armbian.com/pt/boards/rk322x-box)|
 
 **DTB** = [rk322x-box.dtb](https://drive.google.com/uc?export=download&id=1E5Dpk_eEFV8zYLjTsp2uUY-7bsoK_cko)
