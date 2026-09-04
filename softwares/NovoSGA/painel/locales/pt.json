@@ -1,0 +1,29 @@
+{
+    "PainelWeb": {
+        "title": "Painel Web | Novo SGA",
+        "configuration": "Configuração",
+        "fullscreen": "Fullscreen",
+        "sounds": "Som",
+        "URL": "URL",
+        "units": "Unidades",
+        "services": "Serviços",
+        "alert": "Alerta",
+        "playsound": "Testar",
+        "vocalize": "Vocalizar",
+        "active": "Ativo",
+        "zero_left": "Zero a esquerda",
+        "local": "Local de atendimento",
+        "language": "Idioma",
+        "key_sample": "Senha: A001 / Guichê: 1",
+        "close" : "Fechar",
+        "save": "Salvar",
+        "select": "Selecione",
+        "test_priority_normal": "Convencional",
+        "test_local": "Guichê",
+        "Convencional": "Convencional",
+        "error": {
+            "title": "Erro",
+            "invalid_url": "A URL informada não é válida. Favor tentar novamente."
+        }
+    }
+}
