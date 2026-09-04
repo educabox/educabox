@@ -58,12 +58,14 @@
 |-------------|-----------------|:--------:|:-------:|:-----:|------------------|:-----:|:-------------------------------------------------------------------------------:|
 | AUDIOSAT 4K | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ❌ SV6256P       |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/audiosatpro4k.md)   |
 | BTV11       | Amlogic S905X3  | Mali-G31 | 2GB     | 16GB  | ✅ AP6212        |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/btv11.md)           |
+| BTV13       | Amlogic S905X4  | Mali-G31 | 2GB     | 16GB  | ✅ UNISOC UWE562 |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/btv13.md)           |
 | BTVBX       | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ AP6212        |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/btvbx.md)           |
 | BTVE10      | Amlogic S905X2  | Mali-G31 | 2GB     | 8GB   | ✅ RTL8189FTV    |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/btve10.md)          | 
 | DC BOX 8K   | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/dcbox8k.md)         |
 | EXTREMO     | Amlogic S905W   | Mali-450 | 2GB     | 8GB   | ❌ SV6051P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/extremo.md)         |
 | HTV6+       | Amlogic S905W   | Mali-450 | 2GB     | 16GB  | ✅ RTL8723BS     |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/htv6plus.md)        | 
 | HTV7        | Amlogic S905X3  | Mali-G31 | 2GB     | 16GB  | ✅ RTL8822CS     |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/htv7.md)            |
+| HTV8        | Amlogic S905X4  | Mali-G31 | 2GB     | 16GB  | ✅ RTL8822CS     |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/htv8.md)            |
 | I5          | RockChip 3229   | Mali-400 | 2GB     | 8GB   | ✅ RTL8723BS     |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/i5.md)              |
 | ID18        | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ✅ XR819         |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/id18.md)            |
 | IMOVE       | Amlogic S905W   | Mali-450 | 1GB     | 8GB   | ❌ SV6051P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/imove.md)           |
