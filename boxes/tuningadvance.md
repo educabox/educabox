@@ -21,7 +21,7 @@
 ⚡️ Família | Cortex-A53
 🧭 Velocidade | 100 - 1200 MHZ
 📟 GPU | Mali-450 MP
-🛜 Wifi | AP6181 
+🛜 Wifi | SP6330 
 🗃️ Memória | 2GB
 💾 Armazenamento | 16GB
 🌁 Resolução | 1080x1920
@@ -47,7 +47,7 @@
 - ✅ CPU
 - ✅ GPU/HDMI   
 - ✅ USB 2.0
-- ✅ WIFI (AP6181)
+- ✅ WIFI (SP6330)
 - ✅ ETHERNET
 - ✅ BLUETOOTH
 - ✅ AUDIO
@@ -61,31 +61,31 @@
 # 🔧 SOC
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshots/SOC.png?raw=true" alt="Size Limit CLI" width="1280">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshot/SOC.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 📲 Sistema
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshots/SISTEMA.png?raw=true" alt="Size Limit CLI" width="1280">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshot/SISTEMA.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 🖥️ Tela
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshots/TELA.png?raw=true" alt="Size Limit CLI" width="1280">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshot/TELA.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 💾 Memória
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshots/MEMORIA.png?raw=true" alt="Size Limit CLI" width="1280">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshot/MEMORIA.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 📝 Neofetch
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshot/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
 
