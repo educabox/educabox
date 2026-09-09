@@ -18,7 +18,7 @@
 🎛️ Modelo | PULSE
 ⚙️ Placa  Mãe | FDX 2402
 📝 Placa  DTB | sm1_ac213_2g
-🖲️ CPU | Amlogic S905X
+🖲️ CPU | Amlogic S905X3
 ⚡️ Família | Cortex-A55
 🧭 Velocidade | 100 - 1908 MHz
 📟 GPU | Mali-G31  MC1
@@ -40,7 +40,10 @@
 
 Verifique a compatibilidade com um desses DTBs:
 
-**DTB** = [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=1rhUQrd-N78doZSm45vfGdG4xcZfkenx3)
+**DTB** = [meson-sm1-sei610.dtb](https://drive.google.com/uc?export=download&id=1ZgPUuQV74qES5kU_G9zLWQ9eJ10wLGjo)<br> 
+**DTB** = [meson-sm1-sei610-ethfix.dtb](https://drive.google.com/uc?export=download&id=1NFg85c72qD5VoCjJ7RpZ1Hf3i3FbcP3w) - Créditos: [[Almotra]](https://forum.armbian.com/topic/12988-armbian-for-amlogic-s905x3/?do=findComment&comment=108204)<br> 
+**DTB** = [meson-sm1-sei610-qca9377-bt.dtb](https://drive.google.com/uc?export=download&id=1oP1vRATdN6f672hbW44prgmG7x8pP_hL)<br> 
+**DTB** = [meson-sm1-sei610_578.dtb](https://drive.google.com/uc?export=download&id=1mWu1Tjv_iuKL8jKSjvZ_WTfpqjpjcyxI)<br> 
 
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
@@ -151,7 +154,7 @@ usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 console=both
 
 # Arquivo DTB para esta TV Box
-fdtfile=amlogic/meson-gxl-s905x-p212.dtb
+fdtfile=amlogic/meson-sm1-sei610.dtb
 
 # Defina isto como o UUID da partição raiz
 # (o valor pode ser encontrado em /extlinux/extlinux.conf depois de APPEND root=
@@ -162,11 +165,11 @@ fdtfile=amlogic/meson-gxl-s905x-p212.dtb
 
 # Ative SOMENTE para gxbb (S905) / gxl (S905X/L/W)
 # para criar um cabeçalho U-Boot falso
-soc_fixup=gxl-
+#soc_fixup=gxl-
 ```
 
 6. Altere ``rootdev=`` para o UUID do seu pendrive. Para isso, acesse o arquivo no pendrive ```/extlinux/extlinux.conf``` e copie o UUID correto.
-7. Somente se sua caixa possuir um SOC GXBB (S905) ou GXL (S905X/W/L), descomente a linha `soc_fixup=gxl-`. **Para esta TV Box, essa linha deve ser descomentada.**
+7. Somente se sua caixa possuir um SOC GXBB (S905) ou GXL (S905X/W/L), descomente a linha `soc_fixup=gxl-`
 8. Remova o pendrive com segurança
 9. Insira o pendrive na TV Box
 
