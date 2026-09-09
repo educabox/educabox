@@ -48,7 +48,7 @@ Verifique a compatibilidade com um desses DTBs:
  - ✅ CPU
  - ✅ GPU/HDMI   
  - ✅ USB 3.0
- - ✅ WIFI (RTL8822CS)
+ - ✅ WIFI (UWE5621DS)
  - ✅ ETHERNET
  - ✅ BLUETOOTH
  - ✅ AUDIO
