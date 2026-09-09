@@ -9,7 +9,7 @@
 
 # ⚙️ **Hardware**
 
-<img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/S905X.png?raw=true" align="right" alt="" width="120" height="120">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/S905X3.png?raw=true" align="right" alt="" width="120" height="120">
 
 |📚 Sumário | 📋 Detalhes|
 ---------|:--:
