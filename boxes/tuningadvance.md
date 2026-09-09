@@ -1,9 +1,9 @@
 
 
-# 📦 TV BOX BTV BX 
+# 📦 TV BOX TUNING ADVANCE 
 </p>
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNING%20ADVANCE/Screenshot/HARDWARE%20TUNING%20ADVANCE.png?raw=true" alt="Size Limit CLI" width="1500">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshot/HARDWARE%20TUNING%20ADVANCE.png?raw=true" alt="Size Limit CLI" width="1500">
  </p>
 
 # ⚙️ **Hardware**
@@ -55,37 +55,37 @@
 # 📄 Geral
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNING%20ADVANCE/Screenshot/GERAL.png?raw=true" alt="Size Limit CLI" width="1280">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshot/GERAL.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 🔧 SOC
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNING%20ADVANCE/Screenshots/SOC.png?raw=true" alt="Size Limit CLI" width="1280">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshots/SOC.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 📲 Sistema
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNING%20ADVANCE/Screenshots/SISTEMA.png?raw=true" alt="Size Limit CLI" width="1280">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshots/SISTEMA.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 🖥️ Tela
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNING%20ADVANCE/Screenshots/TELA.png?raw=true" alt="Size Limit CLI" width="1280">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshots/TELA.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 💾 Memória
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNING%20ADVANCE/Screenshots/MEMORIA.png?raw=true" alt="Size Limit CLI" width="1280">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshots/MEMORIA.png?raw=true" alt="Size Limit CLI" width="1280">
 </p>
 
 # 📝 Neofetch
 
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNING%20ADVANCE/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/33%20-%20TUNINGADVANCE/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
 
