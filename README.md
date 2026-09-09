@@ -62,6 +62,7 @@
 | BTVBX       | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ AP6212        |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/btvbx.md)           |
 | BTVE10      | Amlogic S905X2  | Mali-G31 | 2GB     | 8GB   | ✅ RTL8189FTV    |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/btve10.md)          | 
 | DC BOX 8K   | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/dcbox8k.md)         |
+| DUOSAT PULSE| Amlogic S905X   | Mali-G31 | 2GB     | 32GB   | ✅ UWE5621DS       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/duosatpulse.md)         |
 | EXTREMO     | Amlogic S905W   | Mali-450 | 2GB     | 8GB   | ❌ SV6051P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/extremo.md)         |
 | HTV6+       | Amlogic S905W   | Mali-450 | 2GB     | 16GB  | ✅ RTL8723BS     |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/htv6plus.md)        | 
 | HTV7        | Amlogic S905X3  | Mali-G31 | 2GB     | 16GB  | ✅ RTL8822CS     |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/htv7.md)            |
