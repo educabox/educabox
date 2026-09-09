@@ -26,12 +26,15 @@
 🌁 Resolução | 1080x1920
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
+<img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian.png?raw=true"  align="right" alt="" width="120" height="178">
 
-| S.O | Kernel | Versão | Interface | Download |
+| 📱 S.O. | 🔢 Kernel | 📶 Versão | 🖥️ Interface | ⬇️ Download |
 |---------|:------:|:------:|:---------:|:--------:|
-| Educabox | 6.1.50 | 23.8.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1OylWmzEJR7dbFAdDsai_5nFSM2TbXtON)|
-| Armbian | 6.1.50 | 23.8.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=16XfAspTprQX2QKNFBrFKEcHLAQbMXLjE)|
-| Armbian | 6.1.50 | 23.8.1| XFCE | [Torrent](https://drive.google.com/uc?export=download&id=10nbA5OmPXiTydt9d8HHTb1Cm_RJv1YWm)|
+| Educabox | 6.1.50 | 23.8.1 | XFCE | [.img](https://drive.google.com/uc?export=download&id=1wKIrC-eo3MBKHRaaKdOrGqzVMo95-Nrs)|
+| Educabox | 6.18.35 | 26.8.0 | XFCE | [.img](https://drive.google.com/uc?export=download&id=19OqWtYmzMLA0df238TVcSRPjkraTR9ct)|
+| Educabox | 6.18.38 | 26.8.0 | XFCE | [.img](https://drive.google.com/uc?export=download&id=1TdwWDQtmJLtLpqEkdjZWG51VgbeDo_Gf)|
+| Armbian | 6.1.50 | 23.8.1 | XFCE | [.img](https://k-space.ee.armbian.com/archive/aml-s9xx-box/archive/Armbian_23.8.1_Aml-s9xx-box_jammy_current_6.1.50_xfce_desktop.img.xz)|
+| Armbian | Atual | Atual | XFCE | [.img](https://armbian.com/pt/boards/aml-s9xx-box)|
 
 **DTB** = [meson-gxl-s905x-p212.dtb](https://drive.google.com/uc?export=download&id=1rhUQrd-N78doZSm45vfGdG4xcZfkenx3)
 
