@@ -78,6 +78,7 @@
 | MXQ PLUS 4K     | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ❌ SV6256P       |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/mxqplus4k.md)       |
 | MY BOX TV       | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ❌ AP6181        |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/mytvbox.md)         |
 | PLAY TV         | Amlogic S905X3  | Mali-G31 | 2GB     | 16GB  | ✅ RTL8189FTV    |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/playtv.md)          |
+| RED PRO 3       | Amlogic S905X4  | Mali-G31 | 2GB     | 16GB  | ✅ RTL8822CS     |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/redpro3.md)         |
 | R69             | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ✅ XR819         |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/r69.md)             |
 | R90 PLUS        | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6051P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/r90plus.md)         |
 | RPC 8K          | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6051P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/rpc8k.md)           |
