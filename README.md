@@ -52,6 +52,8 @@
 
 >Este é o repositório com todas as TVs Boxes que já foram descaracterizadas por nossa equipe. O link de instalação descreve passo-a-passo como instalar uma imagem Armbian Oficial em cada dispositivo! Caso deseje faça a instalação customizada do nosso projeto EducaBox já com todas as ferramentas e scripts para instalação.
 
+<small>
+
 | 📦 TV BOX      | ⚡️ Processador   |  📟 GPU  | 🗃️ Mem  | 💾 HD |      🛜 Wifi     | 🔈 Áudio |  💽 Instalação                                                 |
 |----------------|------------------|:--------:|:-------:|:-----:|------------------|:-----:|:------------------------------------------------------------------:|
 | AUDIOSAT 4K     | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ❌ SV6256P       |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/audiosatpro4k.md)   |
@@ -88,6 +90,8 @@
 | TIGRE 2         | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ RTL8723BS     |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/tigre2.md)          |
 | TUNING ADV      | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ SP6330        |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/tigre2.md)          |
 | UNITV S1        | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ RTW8723DS     |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/unitvs1.md)         |
+
+</small>
 
 ## 💻 <a id="pre-requisito"/>Pré-requisitos
 
