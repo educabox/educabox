@@ -87,7 +87,7 @@
 | SUNLIGHT        | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/sunlight.md)        |
 | SUPER TV        | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ RTL8189FTV    |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/supertv.md)         |
 | TIGRE 2         | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ RTL8723BS     |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/tigre2.md)          |
-| TUNING ADVANCE  | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ SP6330        |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/tigre2.md)          |
+| TUNING ADV      | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ SP6330        |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/tigre2.md)          |
 | UNITV S1        | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ RTW8723DS     |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/unitvs1.md)         |
 
 ## 💻 <a id="pre-requisito"/>Pré-requisitos
