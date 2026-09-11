@@ -52,7 +52,364 @@
 
 >Este é o repositório com todas as TVs Boxes que já foram descaracterizadas por nossa equipe. O link de instalação descreve passo-a-passo como instalar uma imagem Armbian Oficial em cada dispositivo! Caso deseje faça a instalação customizada do nosso projeto EducaBox já com todas as ferramentas e scripts para instalação.
 
-<small>
+<table style="font-size: 12px; border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="text-align: left; padding: 4px 8px;">📦 TV BOX</th>
+      <th style="text-align: left; padding: 4px 8px;">⚡️ Processador</th>
+      <th style="text-align: center; padding: 4px 8px;">📟 GPU</th>
+      <th style="text-align: center; padding: 4px 8px;">🗃️ Mem</th>
+      <th style="text-align: center; padding: 4px 8px;">💾 HD</th>
+      <th style="text-align: left; padding: 4px 8px;">🛜 Wifi</th>
+      <th style="text-align: center; padding: 4px 8px;">🔈 Áudio</th>
+      <th style="text-align: left; padding: 4px 8px;">💽 Instalação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 4px 8px;">AUDIOSAT 4K</td>
+      <td style="padding: 4px 8px;">Allwinner H3</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">❌ SV6256P</td>
+      <td style="text-align: center; padding: 4px 8px;">❌</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/audiosatpro4k.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">BTV11</td>
+      <td style="padding: 4px 8px;">Amlogic S905X3</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-G31</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">16GB</td>
+      <td style="padding: 4px 8px;">✅ AP6212</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/btv11.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">BTV13</td>
+      <td style="padding: 4px 8px;">Amlogic S905X4</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-G31</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">16GB</td>
+      <td style="padding: 4px 8px;">✅ UWE562</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/btv13.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">BTVBX</td>
+      <td style="padding: 4px 8px;">Amlogic S905X</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-450</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">16GB</td>
+      <td style="padding: 4px 8px;">✅ AP6212</td>
+      <td style="text-align: center; padding: 4px 8px;">❌</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/btvbx.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">BTVE10</td>
+      <td style="padding: 4px 8px;">Amlogic S905X2</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-G31</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ RTL8189FTV</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/btve10.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">DC BOX 8K</td>
+      <td style="padding: 4px 8px;">RockChip 3229</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ SV6256P</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/dcbox8k.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">DUOSAT PULSE</td>
+      <td style="padding: 4px 8px;">Amlogic S905X3</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-G31</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">32GB</td>
+      <td style="padding: 4px 8px;">✅ UWE5621DS</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/duosatpulse.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">EXTREMO</td>
+      <td style="padding: 4px 8px;">Amlogic S905W</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-450</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">❌ SV6051P</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/extremo.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">HTV6+</td>
+      <td style="padding: 4px 8px;">Amlogic S905W</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-450</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">16GB</td>
+      <td style="padding: 4px 8px;">✅ RTL8723BS</td>
+      <td style="text-align: center; padding: 4px 8px;">❌</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/htv6plus.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">HTV7</td>
+      <td style="padding: 4px 8px;">Amlogic S905X3</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-G31</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">16GB</td>
+      <td style="padding: 4px 8px;">✅ RTL8822CS</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/htv7.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">HTV8</td>
+      <td style="padding: 4px 8px;">Amlogic S905X4</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-G31</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">16GB</td>
+      <td style="padding: 4px 8px;">✅ RTL8822CS</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/htv8.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">I5</td>
+      <td style="padding: 4px 8px;">RockChip 3229</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ RTL8723BS</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/i5.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">ID18</td>
+      <td style="padding: 4px 8px;">Allwinner H3</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ XR819</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/id18.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">IMOVE</td>
+      <td style="padding: 4px 8px;">Amlogic S905W</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-450</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">❌ SV6051P</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/imove.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">IMOVE PRO</td>
+      <td style="padding: 4px 8px;">Amlogic S905W</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-450</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">❌ SV6051P</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/imovepro.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">IN X PLUS</td>
+      <td style="padding: 4px 8px;">RockChip 3229</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ SV6256P</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/inxplus.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">MX9 4K 5G</td>
+      <td style="padding: 4px 8px;">RockChip 3228A</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">❌ SV6156P</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/mx94k5g.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">MXQ PRO 4K</td>
+      <td style="padding: 4px 8px;">RockChip 3228A</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ SV6256P</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/mxqpro4k5g-cinza.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">MXQ PRO 4K</td>
+      <td style="padding: 4px 8px;">RockChip 3228A</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">❌ ESP8089</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/mxqpro4k5g.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">MXQ PLUS 4K</td>
+      <td style="padding: 4px 8px;">Allwinner H3</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">❌ SV6256P</td>
+      <td style="text-align: center; padding: 4px 8px;">❌</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/mxqplus4k.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">MY BOX TV</td>
+      <td style="padding: 4px 8px;">Amlogic S905X</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-450</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">16GB</td>
+      <td style="padding: 4px 8px;">❌ AP6181</td>
+      <td style="text-align: center; padding: 4px 8px;">❌</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/mytvbox.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">PLAY TV</td>
+      <td style="padding: 4px 8px;">Amlogic S905X3</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-G31</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">16GB</td>
+      <td style="padding: 4px 8px;">✅ RTL8189FTV</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/playtv.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">RED PRO 3</td>
+      <td style="padding: 4px 8px;">Amlogic S905X4</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-G31</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">16GB</td>
+      <td style="padding: 4px 8px;">✅ RTL8822CS</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/redpro3.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">R69</td>
+      <td style="padding: 4px 8px;">Allwinner H3</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ XR819</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/r69.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">R90 PLUS</td>
+      <td style="padding: 4px 8px;">RockChip 3228A</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ SV6051P</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/r90plus.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">RPC 8K</td>
+      <td style="padding: 4px 8px;">RockChip 3228A</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ SV6051P</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/rpc8k.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">RPC MINI</td>
+      <td style="padding: 4px 8px;">RockChip 3228A</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ SV6051P</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/rpcmini.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">RPC PLUS</td>
+      <td style="padding: 4px 8px;">RockChip 3228A</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ SV6256P</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/rpcplus.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">SEM NOME</td>
+      <td style="padding: 4px 8px;">RockChip 3228A</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ SV6051P</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/semnome.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">SUNLIGHT</td>
+      <td style="padding: 4px 8px;">RockChip 3228A</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ SV6256P</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/sunlight.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">SUPER TV</td>
+      <td style="padding: 4px 8px;">RockChip 3229</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ RTL8189FTV</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/supertv.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">TIGRE 2</td>
+      <td style="padding: 4px 8px;">Amlogic S905X</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-450</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">16GB</td>
+      <td style="padding: 4px 8px;">✅ RTL8723BS</td>
+      <td style="text-align: center; padding: 4px 8px;">❌</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/tigre2.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">TUNING ADV</td>
+      <td style="padding: 4px 8px;">Amlogic S905X</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-450</td>
+      <td style="text-align: center; padding: 4px 8px;">2GB</td>
+      <td style="text-align: center; padding: 4px 8px;">16GB</td>
+      <td style="padding: 4px 8px;">✅ SP6330</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/tigre2.md">Link</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px;">UNITV S1</td>
+      <td style="padding: 4px 8px;">RockChip 3229</td>
+      <td style="text-align: center; padding: 4px 8px;">Mali-400</td>
+      <td style="text-align: center; padding: 4px 8px;">1GB</td>
+      <td style="text-align: center; padding: 4px 8px;">8GB</td>
+      <td style="padding: 4px 8px;">✅ RTW8723DS</td>
+      <td style="text-align: center; padding: 4px 8px;">✅</td>
+      <td style="padding: 4px 8px;"><a href="https://github.com/educabox/educabox/blob/main/boxes/unitvs1.md">Link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
 
 | 📦 TV BOX      | ⚡️ Processador   |  📟 GPU  | 🗃️ Mem  | 💾 HD |      🛜 Wifi     | 🔈 Áudio |  💽 Instalação                                                 |
 |----------------|------------------|:--------:|:-------:|:-----:|------------------|:-----:|:------------------------------------------------------------------:|
@@ -90,8 +447,6 @@
 | TIGRE 2         | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ RTL8723BS     |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/tigre2.md)          |
 | TUNING ADV      | Amlogic S905X   | Mali-450 | 2GB     | 16GB  | ✅ SP6330        |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/tigre2.md)          |
 | UNITV S1        | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ RTW8723DS     |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/unitvs1.md)         |
-
-</small>
 
 ## 💻 <a id="pre-requisito"/>Pré-requisitos
 
