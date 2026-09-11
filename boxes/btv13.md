@@ -1,7 +1,7 @@
 # 📦 TV BOX BTV13 
 </p>
 <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/31%20-%20BTV13/Screenshots/HTV8%20HARDWARE.png?raw=true" alt="Size Limit CLI" width="1500">
+  <img src="https://github.com/educabox/educabox/blob/main/imagens/31%20-%20BTV13/Screenshots/BTV13%20HARDWARE.png?raw=true" alt="Size Limit CLI" width="1500">
  </p>
 
 # ⚙️ **Hardware**
