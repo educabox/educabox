@@ -1,0 +1,29 @@
+{
+    "PainelWeb": {
+        "title": "Web Panel | Novo SGA",
+        "configuration": "Configuration",
+        "fullscreen": "Fullscreen",
+        "sounds": "Sounds",
+        "URL": "URL",
+        "units": "Units",
+        "services": "Services",
+        "alert": "Alert",
+        "playsound": "Test audio",
+        "vocalize": "Vocalize",
+        "active": "Active",
+        "zero_left": "Zero to the left",
+        "local": "Attendance place",
+        "language": "Language",
+        "key_sample": "Ticket: A001 / Box: 1",
+        "close" : "Close",
+        "save": "Save",
+        "select": "Select",
+        "test_priority_normal": "Normal",
+        "test_local":"Box",
+        "Convencional": "Normal",
+        "error": {
+            "title": "Error",
+            "invalid_url": "A URL informada não é válida. Favor tentar novamente."
+        }
+    }
+}
