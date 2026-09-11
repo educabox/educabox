@@ -52,44 +52,6 @@
 
 >Este é o repositório com todas as TVs Boxes que já foram descaracterizadas por nossa equipe. O link de instalação descreve passo-a-passo como instalar uma imagem Armbian Oficial em cada dispositivo! Caso deseje faça a instalação customizada do nosso projeto EducaBox já com todas as ferramentas e scripts para instalação.
 
-| 📦 TV BOX | ⚡️ Processador | 📟 GPU | 🗃️ Mem | 💾 HD | 🛜 WiFi | 🔈 Áudio | 💽 Instalação |
-|:----------|:----------------|:------:|:------:|:-----:|:-------:|:--------:|:--------------:|
-| AUDIOSAT 4K | Allwinner H3 | Mali-400 | 1 GB | 8 GB | ❌ SV6256P | ❌ | [Link](https://github.com/educabox/educabox/blob/main/boxes/audiosatpro4k.md) |
-| BTV11 | Amlogic S905X3 | Mali-G31 | 2 GB | 16 GB | ✅ AP6212 | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/btv11.md) |
-| BTV13 | Amlogic S905X4 | Mali-G31 | 2 GB | 16 GB | ✅ UWE562 | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/btv13.md) |
-| BTVBX | Amlogic S905X | Mali-450 | 2 GB | 16 GB | ✅ AP6212 | ❌ | [Link](https://github.com/educabox/educabox/blob/main/boxes/btvbx.md) |
-| BTVE10 | Amlogic S905X2 | Mali-G31 | 2 GB | 8 GB | ✅ RTL8189FTV | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/btve10.md) |
-| DC BOX 8K | RockChip 3229 | Mali-400 | 1 GB | 8 GB | ✅ SV6256P | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/dcbox8k.md) |
-| DUOSAT PULSE | Amlogic S905X3 | Mali-G31 | 2 GB | 32 GB | ✅ UWE5621DS | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/duosatpulse.md) |
-| EXTREMO | Amlogic S905W | Mali-450 | 2 GB | 8 GB | ❌ SV6051P | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/extremo.md) |
-| HTV6+ | Amlogic S905W | Mali-450 | 2 GB | 16 GB | ✅ RTL8723BS | ❌ | [Link](https://github.com/educabox/educabox/blob/main/boxes/htv6plus.md) |
-| HTV7 | Amlogic S905X3 | Mali-G31 | 2 GB | 16 GB | ✅ RTL8822CS | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/htv7.md) |
-| HTV8 | Amlogic S905X4 | Mali-G31 | 2 GB | 16 GB | ✅ RTL8822CS | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/htv8.md) |
-| I5 | RockChip 3229 | Mali-400 | 2 GB | 8 GB | ✅ RTL8723BS | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/i5.md) |
-| ID18 | Allwinner H3 | Mali-400 | 1 GB | 8 GB | ✅ XR819 | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/id18.md) |
-| IMOVE | Amlogic S905W | Mali-450 | 1 GB | 8 GB | ❌ SV6051P | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/imove.md) |
-| IMOVE PRO | Amlogic S905W | Mali-450 | 1 GB | 8 GB | ❌ SV6051P | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/imovepro.md) |
-| IN X PLUS | RockChip 3229 | Mali-400 | 1 GB | 8 GB | ✅ SV6256P | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/inxplus.md) |
-| MX9 4K 5G | RockChip 3228A | Mali-400 | 1 GB | 8 GB | ❌ SV6156P | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/mx94k5g.md) |
-| MXQ PRO 4K | RockChip 3228A | Mali-400 | 1 GB | 8 GB | ✅ SV6256P | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/mxqpro4k5g-cinza.md) |
-| MXQ PRO 4K | RockChip 3228A | Mali-400 | 1 GB | 8 GB | ❌ ESP8089 | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/mxqpro4k5g.md) |
-| MXQ PLUS 4K | Allwinner H3 | Mali-400 | 1 GB | 8 GB | ❌ SV6256P | ❌ | [Link](https://github.com/educabox/educabox/blob/main/boxes/mxqplus4k.md) |
-| MY BOX TV | Amlogic S905X | Mali-450 | 2 GB | 16 GB | ❌ AP6181 | ❌ | [Link](https://github.com/educabox/educabox/blob/main/boxes/mytvbox.md) |
-| PLAY TV | Amlogic S905X3 | Mali-G31 | 2 GB | 16 GB | ✅ RTL8189FTV | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/playtv.md) |
-| RED PRO 3 | Amlogic S905X4 | Mali-G31 | 2 GB | 16 GB | ✅ RTL8822CS | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/redpro3.md) |
-| R69 | Allwinner H3 | Mali-400 | 1 GB | 8 GB | ✅ XR819 | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/r69.md) |
-| R90 PLUS | RockChip 3228A | Mali-400 | 1 GB | 8 GB | ✅ SV6051P | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/r90plus.md) |
-| RPC 8K | RockChip 3228A | Mali-400 | 1 GB | 8 GB | ✅ SV6051P | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/rpc8k.md) |
-| RPC MINI | RockChip 3228A | Mali-400 | 1 GB | 8 GB | ✅ SV6051P | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/rpcmini.md) |
-| RPC PLUS | RockChip 3228A | Mali-400 | 1 GB | 8 GB | ✅ SV6256P | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/rpcplus.md) |
-| SEM NOME | RockChip 3228A | Mali-400 | 1 GB | 8 GB | ✅ SV6051P | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/semnome.md) |
-| SUNLIGHT | RockChip 3228A | Mali-400 | 1 GB | 8 GB | ✅ SV6256P | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/sunlight.md) |
-| SUPER TV | RockChip 3229 | Mali-400 | 1 GB | 8 GB | ✅ RTL8189FTV | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/supertv.md) |
-| TIGRE 2 | Amlogic S905X | Mali-450 | 2 GB | 16 GB | ✅ RTL8723BS | ❌ | [Link](https://github.com/educabox/educabox/blob/main/boxes/tigre2.md) |
-| TUNING ADV | Amlogic S905X | Mali-450 | 2 GB | 16 GB | ✅ SP6330 | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/tigre2.md) |
-| UNITV S1 | RockChip 3229 | Mali-400 | 1 GB | 8 GB | ✅ RTW8723DS | ✅ | [Link](https://github.com/educabox/educabox/blob/main/boxes/unitvs1.md) |
-
-
 | 📦 TV BOX      | ⚡️ Processador   |  📟 GPU  | 🗃️ Mem  | 💾 HD |      🛜 Wifi     | 🔈 Áudio |  💽 Instalação                                                 |
 |----------------|------------------|:--------:|:-------:|:-----:|------------------|:-----:|:------------------------------------------------------------------:|
 | AUDIOSAT 4K     | Allwinner H3    | Mali-400 | 1GB     | 8GB   | ❌ SV6256P       |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/audiosatpro4k.md)   |
