@@ -1,0 +1,289 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#layout-content {
+    height: 100%;
+    width: 100%;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    /* background-image: linear-gradient(to right, transparent, #CCC, transparent); */
+}
+
+.vertical {
+    max-width: 100%;
+    padding: 1rem;
+    color: white;
+    /* border-width: 3px;
+    border-right: 0px;
+    border-style: solid; */
+    /* border-image:
+        radial-gradient(#fff,
+            rgba(0, 0, 0, 0)) 1 100%; */
+}
+
+#layout,
+#layout * {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+#layout {
+    height: 100%;
+    width: 100%;
+}
+
+#separador {
+    height: 75px;
+    /* height: 0vh; */
+}
+
+#relogio-container {
+    padding-top: 0%;
+    left: 15%;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#relogio {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#barra-lateral {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    height: 80.1vh;
+    overflow: hidden;
+    padding-bottom: 0.5%;
+    border-bottom: 2px white solid;
+
+}
+
+#slides-container {
+    position: relative;
+    width: 68.5%;
+    width: 68.5vw;
+    height: 80.1%;
+    height: 80.1vh;
+    z-index: 0;
+    overflow: hidden;
+    margin-top: 0vh;
+}
+
+
+/*
+ * Senha Atual - Ultima senha chamada
+ */
+#mensagem {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+#mensagem span {
+    padding: 10px 29px;
+    display: inline-block;
+}
+
+#senha {
+    font-weight: bold;
+    text-align: center;
+    padding: 5em;
+}
+
+/* local */
+
+#local {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#local-numero {
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*
+ * Ultimas senhas chamadas
+ */
+#historico {
+    height: 15%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#historico .senhas {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    height: 100%;
+}
+
+#historico .senhas div.senha-chamada {
+    text-align: center;
+    display: inline-block;
+}
+
+#historico .senhas div.senha-chamada div.senha {
+    font-weight: bold;
+    text-align: center;
+}
+
+#historico .senhas div.senha-chamada div.local {
+    text-align: center;
+}
+
+
+/* cores - atendimento normal */
+#layout.normal {
+    background-color: #588f60;
+    /* background-image: url("/painel/media/bgif.png"); */
+
+}
+
+#layout.normal #mensagem span {
+    color: #fff;
+}
+
+#layout.normal #senha span {
+    color: #ffcc29;
+    font-size: 10em;
+}
+
+#layout.normal #local span {
+    color: #fff;
+}
+
+#layout.normal #local-numero span {
+    color: #fff;
+}
+
+/*#layout.normal #historico .senhas { background: rgba(0, 0, 0, .4); } */
+#layout.normal #historico .senhas * {
+    color: #fff;
+}
+
+/* cores - atendimento prioritario */
+#layout.prioridade {
+    background-color: #a80303;
+}
+
+#layout.prioridade #senha-container span {
+    color: #fff;
+}
+
+#layout.prioridade #senha span {
+    color: #fff;
+    font-size: 10em;
+}
+
+/*#layout.prioridade #historico .senhas { background-color: #f1f1f1; } */
+#layout.prioridade #historico .senhas * {
+    color: #fff;
+}
+
+/* cores - atendimento prioritario quando no historico */
+#historico .senhas .prioridade * {
+    color: #fff !important;
+
+}
+
+#historico .senhas * {
+    font-size: 48px !important;
+}
+
+/* #historico .senhas * .local * {
+    font-size: 24px !important;
+} */
+
+/* fonts */
+
+#mensagem span {
+    font-size: 3.0em;
+    font-size: 6vmin;
+}
+
+#senha span {
+    font-size: 5.0em;
+    font-size: 14vmin;
+}
+
+#local span {
+    font-size: 4.0em;
+    font-size: 8vmin;
+}
+
+#local-numero span {
+    font-size: 5em;
+
+}
+
+.senha-chamada .senha span {
+    font-size: 4.5em;
+    font-size: 11vmin;
+}
+
+.senha-chamada .local span {
+    font-size: 3.8em;
+    font-size: 5vmin;
+}
+
+/* 800x600 */
+@media only screen and (max-width: 800px) {
+
+    #barra-lateral {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    #historico {
+        display: none;
+    }
+
+    #slides-container {
+        display: none;
+    }
+
+    #senha-container {
+        float: none;
+    }
+
+    #relogio-container {
+        display: none;
+    }
+
+    /* textos */
+
+    #mensagem span {
+        font-size: 10vw;
+    }
+
+    #senha span {
+        font-size: 25vw;
+    }
+
+    #local span {
+        font-size: 10vw;
+    }
+
+    #local-numero span {
+        font-size: 14em;
+    }
+
+}
