@@ -150,7 +150,7 @@ usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
 console=both
 
 # Arquivo DTB para esta TV Box
-fdtfile=amlogic/meson-sm1-sei610.dtb
+fdtfile=amlogic/meson-sc2-ah212.dtb
 
 # Defina isto como o UUID da partição raiz
 # (o valor pode ser encontrado em /extlinux/extlinux.conf depois de APPEND root=
