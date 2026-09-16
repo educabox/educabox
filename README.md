@@ -71,6 +71,7 @@
 | IMOVE           | Amlogic S905W   | Mali-450 | 1GB     | 8GB   | ❌ SV6051P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/imove.md)           |
 | IMOVE PRO       | Amlogic S905W   | Mali-450 | 1GB     | 8GB   | ❌ SV6051P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/imovepro.md)        |
 | IN X PLUS       | RockChip 3229   | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/inxplus.md)         |
+| MEDIAMAX        | Amlogic S905W   | Mali-450 | 2GB     | 16GB  | ✅ RTL8723CS     |❌     | [Link](https://github.com/educabox/educabox/blob/main/boxes/mediamax.md)        | 
 | MX9 4K 5G       | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ❌ SV6156P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/mx94k5g.md)         |
 | MXQ PRO 4K      | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ✅ SV6256P       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/mxqpro4k5g-cinza.md)|
 | MXQ PRO 4K      | RockChip 3228A  | Mali-400 | 1GB     | 8GB   | ❌ ESP8089       |✅     | [Link](https://github.com/educabox/educabox/blob/main/boxes/mxqpro4k5g.md)      |
