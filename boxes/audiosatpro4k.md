@@ -85,25 +85,17 @@
   <img src="https://github.com/educabox/educabox/blob/main/imagens/29%20-%20AUDISATPRO4K/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
-# ✅ Guia de Instalação Imagem Oficial Armbian
+# ✅ Guia de instalação da imagem oficial do Armbian
 
-O guia de instalação abaixo é para criação de uma imagem limpa da [Imagem Oficial Armbian] com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [AUDIOSAT PRO 4H].
+O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Imagem Oficial do Armbian]**](https://archive.armbian.com/), com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [**AUDIOSAT PRO 4K**].
 
-Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) do respectivo equipamento.
+**Outras versões** = [Repositório Oficial Armbian](https://archive.armbian.com/)
 
-| S.O | Kernel | Versão | Interface | Download |
-|---------|:------:|:------:|:---------:|:--------:|
-| Armbian | 6.1.63 | 23.11.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1KAYq2emQpyzw1o-yfJN3nPPqEJ9AwAV7)|
-| Armbian | 6.1.63 | 23.11.1| XFCE | [Torrent](https://drive.google.com/uc?export=download&id=1gQDQTgUdDZD8D732Vo0C9szO7t1ePs32)|
+🔴 Caso deseje obter uma instalação pronta e otimizada para esta TV Box, faça o download da [[**Imagem Educabox**]](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) correspondente a este equipamento.
 
-**Outras Versões** = [Repositório Oficial Armbian](https://imola.armbian.com/archive/sunvell-r69/archive/)
-
-**DTB** = [sun8i-h3-orangepi-pc-plus.dtb](https://drive.google.com/uc?export=download&id=1eokN43prhKItIuqo-GgkiuniLQSbdYS3)
-
-[Como Instalar nossa Imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
+[Como instalar nossa imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
-
 
 ## 1️⃣ Pré-requisitos
 
@@ -131,7 +123,7 @@ Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o
     1.  A imagem Sunvell-R69 já vem configurada para a TV Box, sem a necessidade de editação do u-boot, dtb e demais parâmetros.
     2.  As vezes é necessário atualizar o ``overlay_prefix`` para o processador, placa-mãe, portas USB e UART corretamente. Algumas placas H3 ao inicializar o Armbian não funcionam todas as portas USB, neste caso é necessário fazer a injeção manual via overlays. (ex: ``overlays=cir analog-codec``). Os arquivos para injeção encontram-se em ``/armbian_root/boot/dtb/overlay/``
     3.  Atualize/Adicione a linha ``overlay_prefix`` e  ``overlays`` para apontar para um arquivos .dtbo funcionais para o seu dispositivo e salve o arquivo.
-    Abaixo segue o arquivo ``/armbian_root/boot/armbianEnv.txt`` correto para a TV Box - [MXQ PLUS 4K], estamos utilizando o .dtb similar da [``Orange PC Plus``] e habilitante todas as portas usb:
+    Abaixo segue o arquivo ``/armbian_root/boot/armbianEnv.txt`` correto para a TV Box - [AUDIOSAT PRO 4K], estamos utilizando o .dtb similar da [``Orange PC Plus``] e habilite todas as portas usb:
     
 ```
 verbosity=1
