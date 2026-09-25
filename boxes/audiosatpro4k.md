@@ -9,33 +9,34 @@
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/H3.png?raw=true" align="right" alt="" width="120" height="120">
 
-|Sumário | Detalhes|
+|📚 Sumário | 📋 Detalhes|
 ---------|:--:
-Codename | AUDIOSAT PRO 4K
-Fabricante | Allwinner
-Modelo | AUDIOSAT PRO 4K
-Placa Mãe | Q44_V4.0_20200602
-Placa DTB | dolphin
-CPU | Allwinner H3
-Família | Cortex-A7
-Velocidade | 480 - 1008 MHz
-GPU | Mali-400 MP
-Wifi | SV6256P 
-Memória | 1GB
-Armazenamento | 8GB
-Resolução | 720x1280
+📦 Codename | AUDIOSAT PRO 4K
+🤖 Fabricante | Allwinner
+🎛️ Modelo | AUDIOSAT PRO 4K
+⚙️ Placa Mãe | Q44_V4.0_20200602
+📝 Placa DTB | dolphin
+🖲️ CPU | Allwinner H3
+⚡️ Família | Cortex-A7
+🧭 Velocidade | 480 - 1008 MHz
+📟 GPU | Mali-400 MP
+🛜 Wi-Fi | SV6256P 
+🗃️ Memória | 1GB
+💾 Armazenamento | 8GB
+🌁 Resolução | 720x1280
 
 **Obs: Alguns modelos desta TV Box possuem memória interna do tipo NAND, neste caso a memória interna não será reconhecida para versão Armbian com processador Allwinner H3. Utilize um cartão SDCard como gerenciador de memória externa.**
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
 
-| S.O | Kernel | Versão | Interface | Download |
+| 📱 S.O. | 🔢 Kernel | 📶 Versão | 🖥️ Interface | ⬇️ Download |
 |---------|:------:|:------:|:---------:|:--------:|
-| Educabox | 6.1.63 | 23.11.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1yC5RHQ18KWe0IthDOr0hjjOQwAuOwbXM)|
-| Armbian | 6.1.63 | 23.11.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1KAYq2emQpyzw1o-yfJN3nPPqEJ9AwAV7)|
-| Armbian | 6.1.63 | 23.11.1| XFCE | [Torrent](https://drive.google.com/uc?export=download&id=1gQDQTgUdDZD8D732Vo0C9szO7t1ePs32)|
+| Educabox | 6.1.63 | 23.11.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1vnlP73rnnLGMkovGmFdf_pEls01TFceW)|
+| Educabox | 6.18.49 | 26.11.0| XFCE | [.img](https://drive.google.com/uc?export=download&id=1vnlP73rnnLGMkovGmFdf_pEls01TFceW)|
+| Armbian | 6.1.63 | 23.11.1 | XFCE | [.img](https://drive.google.com/uc?export=download&id=1L-rRjGQyh9tGIvWWadwM669EDuVbpflV)|
+| Armbian | Atual | Atual | XFCE | [.img](https://armbian.com/pt/vendors/allwinner)|
 
-**DTB** = [sun8i-h3-orangepi-pc-plus.dtb](https://drive.google.com/uc?export=download&id=1eokN43prhKItIuqo-GgkiuniLQSbdYS3)
+**DTB** = [sun8i-h3-orangepi-pc-plus.dtb](https://drive.google.com/uc?export=download&id=1XwKRKg9m7dmA0fywg7_UVZfGz23E018b)
 
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
@@ -265,8 +266,8 @@ Obs: verifique aonde está montado seu cartão SDCard e o armazenamento interno,
   <img src="https://github.com/educabox/educabox/blob/main/imagens/RR%20-%20FREQUENCIA%20CPU/7.jpeg?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
-  ---
-   <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/armbian.png?raw=true" alt="Size Limit CLI" width="738">
+---
+<p align="center">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian_branco.png?raw=true" alt="Size Limit CLI" width="240">
 </p>
 
