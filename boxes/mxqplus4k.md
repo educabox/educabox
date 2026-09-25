@@ -9,31 +9,32 @@
 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/00%20-%20PROCESSADORES/H3.png?raw=true" align="right" alt="" width="120" height="120">
 
-|Sumário | Detalhes|
+|📚 Sumário | 📋 Detalhes|
 ---------|:--:
-Codename | MXQ PLUS 4K
-Fabricante | Allwinner
-Modelo | MXQ PLUS
-Placa Mãe | Q44_V4.0_20200602
-Placa DTB | dolphin
-CPU | Allwinner H3
-Família | Cortex-A7
-Velocidade | 480 - 1008 MHz
-GPU | Mali-400 MP
-Wifi | SV6256P 
-Memória | 1GB
-Armazenamento | 8GB
-Resolução | 720x1280
+📦 Codename | MXQ PLUS 4K
+🤖 Fabricante | Allwinner
+🎛️ Modelo | MXQ PLUS
+⚙️ Placa Mãe | Q44_V4.0_20200602
+📝 Placa DTB | dolphin
+🖲️ CPU | Allwinner H3
+⚡️ Família | Cortex-A7
+🧭 Velocidade | 480 - 1008 MHz
+📟 GPU | Mali-400 MP
+🛜 Wi-Fi | SV6256P 
+🗃️ Memória | 1GB
+💾 Armazenamento | 8GB
+🌁 Resolução | 720x1280
 
 # ![My Skills](https://skillicons.dev/icons?i=linux&theme=light) Sistema Operacional
 
-| S.O | Kernel | Versão | Interface | Download |
+| 📱 S.O. | 🔢 Kernel | 📶 Versão | 🖥️ Interface | ⬇️ Download |
 |---------|:------:|:------:|:---------:|:--------:|
-| Educabox | 6.1.63 | 23.11.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1yC5RHQ18KWe0IthDOr0hjjOQwAuOwbXM)|
-| Armbian | 6.1.63 | 23.11.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1KAYq2emQpyzw1o-yfJN3nPPqEJ9AwAV7)|
-| Armbian | 6.1.63 | 23.11.1| XFCE | [Torrent](https://drive.google.com/uc?export=download&id=1gQDQTgUdDZD8D732Vo0C9szO7t1ePs32)|
+| Educabox | 6.1.63 | 23.11.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1vnlP73rnnLGMkovGmFdf_pEls01TFceW)|
+| Educabox | 6.18.49 | 26.11.0| XFCE | [.img](https://drive.google.com/uc?export=download&id=1vnlP73rnnLGMkovGmFdf_pEls01TFceW)|
+| Armbian | 6.1.63 | 23.11.1 | XFCE | [.img](https://drive.google.com/uc?export=download&id=1L-rRjGQyh9tGIvWWadwM669EDuVbpflV)|
+| Armbian | Atual | Atual | XFCE | [.img](https://armbian.com/pt/vendors/allwinner)|
 
-**DTB** = [sun8i-h3-orangepi-pc-plus.dtb](https://drive.google.com/uc?export=download&id=1eokN43prhKItIuqo-GgkiuniLQSbdYS3)
+**DTB** = [sun8i-h3-orangepi-pc-plus.dtb](https://drive.google.com/uc?export=download&id=1XwKRKg9m7dmA0fywg7_UVZfGz23E018b)
 
 # 📌 Serviços Ativos/Inativos 
 <img src="https://github.com/educabox/educabox/blob/main/imagens/logo-educabox.png?raw=true" align="right" alt="" width="120" height="120">
@@ -82,25 +83,17 @@ Resolução | 720x1280
   <img src="https://github.com/educabox/educabox/blob/main/imagens/19%20-%20MXQPLUS4K/Screenshots/NEOFETCH.png?raw=true" alt="Size Limit CLI" width="738">
 </p>
 
-# ✅ Guia de Instalação Imagem Oficial Armbian
+# ✅ Guia de instalação da imagem oficial do Armbian
 
-O guia de instalação abaixo é para criação de uma imagem limpa da [Imagem Oficial Armbian] com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [MXQ PLUS 4K].
+O guia de instalação abaixo é para a criação de uma imagem limpa da [**[Imagem Oficial do Armbian]**](https://archive.armbian.com/), com os parâmetros necessários para que o Armbian seja instalado corretamente na TV Box - [**AUDIOSAT PRO 4K**].
 
-Caso deseje obter uma instalação pronta e otimizada para está TV Box, faça o download da [Imagem Educabox](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) do respectivo equipamento.
+**Outras versões** = [Repositório Oficial Armbian](https://archive.armbian.com/)
 
-| S.O | Kernel | Versão | Interface | Download |
-|---------|:------:|:------:|:---------:|:--------:|
-| Armbian | 6.1.63 | 23.11.1| XFCE | [.img](https://drive.google.com/uc?export=download&id=1KAYq2emQpyzw1o-yfJN3nPPqEJ9AwAV7)|
-| Armbian | 6.1.63 | 23.11.1| XFCE | [Torrent](https://drive.google.com/uc?export=download&id=1gQDQTgUdDZD8D732Vo0C9szO7t1ePs32)|
+🔴 Caso deseje obter uma instalação pronta e otimizada para esta TV Box, faça o download da [[**Imagem Educabox**]](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md) correspondente a este equipamento.
 
-**Outras Versões** = [Repositório Oficial Armbian](https://imola.armbian.com/archive/sunvell-r69/archive/)
-
-**DTB** = [sun8i-h3-orangepi-pc-plus.dtb](https://drive.google.com/uc?export=download&id=1eokN43prhKItIuqo-GgkiuniLQSbdYS3)
-
-[Como Instalar nossa Imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
+[Como instalar nossa imagem Educabox?](https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md)
 
 <a href="https://github.com/educabox/educabox/blob/main/instalacao/instalacao-educabox-live.md"><img src="https://github.com/educabox/educabox/blob/main/imagens/tutorial_educabox.png?raw=true&image_size=auto"/>
-
 
 ## 1️⃣ Pré-requisitos
 
@@ -264,7 +257,7 @@ Obs: verifique aonde está montado seu cartão SDCard e o armazenamento interno,
 </p>
 
   ---
-   <p align="center">
-  <img src="https://github.com/educabox/educabox/blob/main/imagens/armbian.png?raw=true" alt="Size Limit CLI" width="738">
+<p align="center">
+<img src="https://github.com/educabox/educabox/blob/main/imagens/logo_armbian_branco.png?raw=true" alt="Size Limit CLI" width="240">
 </p>
 
